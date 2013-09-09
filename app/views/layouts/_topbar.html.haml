@@ -1,0 +1,17 @@
+#topbar
+  #logo
+    =link_to image_tag('logo.png', :alt => 'На главную'), root_path
+  .right
+    #name_top
+      -if logged_in?
+        %a
+          =Role.find(current_user.current_role).role_name
+          =link_to '#', class: 'dropdown-toggle', data: {toggle:"dropdown"} do
+            =current_user.fio
+            %span.caret
+        %ul.dropdown-menu.pull-right{style: 'background: -moz-linear-gradient(center top , #333333, #111111) repeat scroll 0 0 transparent; right:1px;'}
+          -current_user.roles.each do |role|
+            %li=link_to role.role_name,change_role_user_path(role.id), :method => "post"
+          %li=link_to "Выход",logout_path
+      -else
+        %li=link_to 'Войти',login_path

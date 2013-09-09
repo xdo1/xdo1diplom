@@ -1,0 +1,22 @@
+!!!
+%html
+  %head
+    %meta{charset: "utf-8"}
+    %title Диплом МГИУ
+    =stylesheet_link_tag    "application"
+    =stylesheet_link_tag    "bootstrap_and_overrides"
+    =javascript_include_tag 'application'
+    =csrf_meta_tags
+    %link{ href: '/images/favicon.ico', rel: 'shortcut icon'}
+  %body
+    #wrap
+      =render 'layouts/topbar'
+    #header
+      #site-name
+        МГИУ
+        %br
+        Дипломная работа
+    #content-wrap
+      #utility
+        =render'layouts/leftbar'
+      =yield

@@ -1,0 +1,28 @@
+#nav-secondary
+  -if current_user
+    -if current_user.current_role==1
+      %ul
+        %li
+          =link_to 'Главная страница', root_path
+        %li
+          =link_to 'Список пользователей', users_path
+        %li
+          =link_to 'Новый пользователь', new_user_path
+
+    -if current_user.current_role==2
+      %ul
+        %li
+          =link_to 'Главная страница', root_path
+        %li
+          =link_to 'Редактирование учебных отрезков', root_path
+        %li
+          =link_to 'Редактирование групп', root_path
+
+    -if current_user.current_role==3
+      %ul
+        %li
+          =link_to 'Главная страница', root_path
+        %li
+          =link_to 'Предметы', root_path
+        %li
+          =link_to 'Учебные года', root_path

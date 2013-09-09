@@ -1,0 +1,18 @@
+-@roles=Role.all
+= form_for @user do |f|
+  =error_messages_for @user
+  =f.label :fio
+  =f.text_field :fio
+  =f.label :username
+  =f.text_field :username
+  =f.label :password
+  =f.password_field :password
+  =f.label :password_confirmation
+  =f.password_field :password_confirmation
+  =f.label :roles
+  -@roles.each do |role|
+    =check_box_tag "user[role_ids][]", role.id, @user.roles.include?(role)
+    =role.role_name
+    %br
+  .form-actions
+    =f.submit "Сохранить",class: 'btn btn-primary'
