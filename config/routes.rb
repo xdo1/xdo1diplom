@@ -1,4 +1,10 @@
 Diplom::Application.routes.draw do
+  resources :groups
+
+  resources :sub_faculties
+
+  resources :faculties
+
   resources :main
   resources :users do
     member do

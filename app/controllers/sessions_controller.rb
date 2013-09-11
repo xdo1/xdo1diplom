@@ -8,7 +8,8 @@ class SessionsController < ApplicationController
     if login(params[:username],params[:password])
       redirect_to root_path
     else
-      render :new
+      redirect_to login_path
+
     end
   end
   def destroy
