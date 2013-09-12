@@ -1,42 +1,41 @@
-#content
+%h4
+  Список пользователей
+#search_button
+  =link_to 'Найти пользователя', '#', :class => "btn"
+#search_form
   %h4
-    Список пользователей
-  #search_button
-    =link_to 'Найти пользователя', '#', :class => "btn"
-  #search_form
-    %h4
-      Поиск
-    =search_form_for @search do |f|
-      %label=User.human_attribute_name(:fio)
-      =f.text_field :fio_cont
-      %label=User.human_attribute_name(:username)
-      =f.text_field :username_cont
-      %br
-      =f.submit 'Найти', :class => "btn primary"
-  %br
-  %br
+    Поиск
+  =search_form_for @search do |f|
+    %label=User.human_attribute_name(:fio)
+    =f.text_field :fio_cont
+    %label=User.human_attribute_name(:username)
+    =f.text_field :username_cont
+    %br
+    =f.submit 'Найти', :class => "btn primary"
+%br
+%br
 
-  %table.table.table-bordered.table-hover
-    %thread
-      %tr
-        %th=User.human_attribute_name(:fio)
-        %th=User.human_attribute_name(:username)
-        %th=User.human_attribute_name(:created_at)
-        %th=User.human_attribute_name(:roles)
-        %th=User.human_attribute_name(:edit)
-    %tbody
-    - @users.each do |user|
-      %tr
-        %td=user.fio
-        %td=user.username
-        %td=l(user.created_at,format: :long)
-        %td
-          - user.roles.each do |user_role|
-            =user_role.role_name
-            %br
-        %td
-          =link_to "Редактировать", edit_user_path(user), :class => "btn"
-          =link_to "Удалить", user_path(user), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
+%table.table.table-bordered.table-hover
+  %thread
+    %tr
+      %th=User.human_attribute_name(:fio)
+      %th=User.human_attribute_name(:username)
+      %th=User.human_attribute_name(:created_at)
+      %th=User.human_attribute_name(:roles)
+      %th=User.human_attribute_name(:edit)
+  %tbody
+  - @users.each do |user|
+    %tr
+      %td=user.fio
+      %td=user.username
+      %td=l(user.created_at,format: :long)
+      %td
+        - user.roles.each do |user_role|
+          =user_role.role_name
+          %br
+      %td
+        =link_to "Редактировать", edit_user_path(user), :class => "btn"
+        =link_to "Удалить", user_path(user), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
 
 
 

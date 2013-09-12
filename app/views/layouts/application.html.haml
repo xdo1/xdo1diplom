@@ -19,4 +19,7 @@
     #content-wrap
       #utility
         =render'layouts/leftbar'
-      =yield
+      #content
+        =yield
+        #footer
+          %p © ИВЦ МГИУ, 2008-#{Time.now.year}.

@@ -40,10 +40,10 @@ class UsersController < ApplicationController
   def create
     user_params.permit!
     params[:user][:role_ids] ||= []
-    @user = User.new(user_params)
     if user_params[:role_ids].size > 0
       user_params[:current_role]=user_params[:role_ids].first
     end
+    @user = User.new(user_params)
     respond_to do |format|
       if @user.save
         format.html { redirect_to users_path, notice: 'User was successfully created.' }

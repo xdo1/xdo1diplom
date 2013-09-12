@@ -90,7 +90,7 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     box-shadow: 0 0 8px rgba(82, 169, 236, 0.5);
     -moz-box-shadow: 0 0 8px rgba(82, 169, 236, 0.5);
     -webkit-box-shadow: 0 0 8px rgba(82, 169, 236, 0.5);
-    border-color: rgba(82, 168, 236, 0, 75) !important;
+    border-color: rgba(82, 168, 236, 0) !important;
 }
 
 /* TYPOGRAPHY */
@@ -685,7 +685,7 @@ div.gray_groups {
     padding: 10px 0 30px;
     font-size: 86%;
     color: #999;
-    margin: 0 10px;
+    margin: 0 0px;
 }
 
 #footer p {
@@ -4702,7 +4702,7 @@ div.jHtmlAreaColorPickerMenu div.automatic div { margin: 2px; width: 12px; heigh
 }
 
 .pastel10 {
-    background: rgba(255,1170,213,0.5);
+    background: rgba(255,170,213,0.5);
 }
 
 .pastel_container{
