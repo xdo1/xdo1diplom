@@ -11,11 +11,55 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130910100454) do
+ActiveRecord::Schema.define(version: 20130923091448) do
+
+  create_table "departments", force: true do |t|
+    t.string   "name"
+    t.integer  "faculty_id"
+    t.integer  "numer"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "education_bases", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "education_forms", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "faculties", force: true do |t|
-    t.string   "short_name"
     t.string   "full_name"
+    t.string   "short_name"
+    t.integer  "numer"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "groups", force: true do |t|
+    t.string   "name"
+    t.integer  "faculty_id"
+    t.integer  "department_id"
+    t.integer  "course"
+    t.integer  "term"
+    t.boolean  "payment_format"
+    t.string   "education_form"
+    t.boolean  "gos3"
+    t.integer  "speciality_id"
+    t.integer  "students"
+    t.boolean  "in_weight"
+    t.string   "year"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "qualifications", force: true do |t|
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -32,9 +76,26 @@ ActiveRecord::Schema.define(version: 20130910100454) do
     t.integer "role_id"
   end
 
-  create_table "sub_faculties", force: true do |t|
+  create_table "specialities", force: true do |t|
+    t.integer  "speciality_numer"
+    t.boolean  "gos3"
+    t.string   "qualification"
+    t.string   "direction_name"
+    t.integer  "direction_numer"
+    t.string   "speciality_name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "study_years", force: true do |t|
+    t.string   "years"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "subjects", force: true do |t|
     t.string   "name"
-    t.integer  "number"
+    t.string   "short_name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

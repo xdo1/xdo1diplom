@@ -293,13 +293,32 @@ ru:
         roles: Роли
         created_at: Дата создания
         edit: Редактирование
-      post:
-        body: Текст сообщения
-        user: Автор сообщения
-        topic: Тема сообщения
-      topic:
-        name: Название темы
-        updated_at: Последнее обновление
+      speciality:
+        speciality_name: Название специальности
+        speciality_numer: Номер специальности
+        gos3: ГОС3
+        qualification: Квалификация
+        direction_name: Название направления
+        direction_numer: Номер направления
+        edit: Редактирование
+      department:
+        numer: Номер кафедры
+        name: Название кафедры
+        faculty: Факультет
+        edit: Редактирование
+      subject:
+        name: Название предмета
+        edit: Редактирование
+      faculty:
+        edit: Редактирование
+        short_name: Сокращенное название
+        full_name: Полное название
+        numer: Номер факультета
+        departments: Кафедры
+      study_year:
+        years: Года
+        edit: Редактирование
+
   views:
     pagination:
       first: "&laquo; Первая"

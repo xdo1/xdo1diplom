@@ -1,4 +1,12 @@
 Diplom::Application.routes.draw do
+  resources :specialities
+
+  resources :study_years
+
+  resources :subjects
+
+  resources :departments
+
   resources :groups
 
   resources :sub_faculties
