@@ -1,15 +1,13 @@
 Diplom::Application.routes.draw do
   resources :specialities
 
-  resources :study_years
+  resources :study_years do
+    resources :groups
+  end
 
   resources :subjects
 
   resources :departments
-
-  resources :groups
-
-  resources :sub_faculties
 
   resources :faculties
 
@@ -17,6 +15,7 @@ Diplom::Application.routes.draw do
   resources :users do
     member do
       post 'change_role'
+      post 'change_year'
     end
   end
 

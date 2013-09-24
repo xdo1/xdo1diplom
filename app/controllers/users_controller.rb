@@ -35,6 +35,18 @@ class UsersController < ApplicationController
     end
   end
 
+  def change_year
+    @user=User.find(current_user.id)
+    @year=StudyYear.find(params[:id])
+    if @year
+      @user.current_year=@year.id
+      @user.save
+      redirect_to root_path
+    else
+      redirect_to  root_path
+    end
+  end
+
   # POST /users
   # POST /users.json
   def create

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130923091448) do
+ActiveRecord::Schema.define(version: 20130924092926) do
 
   create_table "departments", force: true do |t|
     t.string   "name"
@@ -53,7 +53,7 @@ ActiveRecord::Schema.define(version: 20130923091448) do
     t.integer  "speciality_id"
     t.integer  "students"
     t.boolean  "in_weight"
-    t.string   "year"
+    t.string   "study_year_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -108,6 +108,7 @@ ActiveRecord::Schema.define(version: 20130923091448) do
     t.integer  "current_role"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "current_year"
   end
 
 end

@@ -16,7 +16,7 @@
         %li
           =link_to 'Редактирование учебных отрезков', root_path
         %li
-          =link_to 'Редактирование групп', root_path
+          =link_to 'Редактирование групп', study_year_groups_path(current_user.current_year)
 
     -if current_user.current_role==3
       %ul

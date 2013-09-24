@@ -1,6 +1,10 @@
 #topbar
   #logo
     =link_to image_tag('logo.png', :alt => 'На главную'), root_path
+  .left
+    %a{"data-toggle" => "modal", :href => "#fancybox"} Сменить учебный год
+    #fancybox.modal.hide.fade.in{:style => "display: none; top:40%; margin-left: -200px; width:400px;"}
+      =render 'layouts/change_year'
   .right
     #name_top
       -if logged_in?

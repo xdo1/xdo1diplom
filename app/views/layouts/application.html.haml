@@ -15,7 +15,8 @@
       #site-name
         МГИУ
         %br
-        Дипломная работа
+        Учебный год
+        =StudyYear.find(current_user.current_year).years
     #content-wrap
       #utility
         =render'layouts/leftbar'

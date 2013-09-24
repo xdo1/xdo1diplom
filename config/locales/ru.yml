@@ -318,6 +318,20 @@ ru:
       study_year:
         years: Года
         edit: Редактирование
+      group:
+        name: Название
+        faculty: Факультет
+        department: Кафедра
+        coursе: Курс
+        term: Семестр
+        payment_format: Форма оплаты
+        education_form: Форма обучения
+        gos3: ГОС3
+        speciality: Специальность
+        students: Количество студентов
+        in_weight: В нагрузке?
+        edit: Редактирование
+
 
   views:
     pagination:
