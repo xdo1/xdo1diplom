@@ -1,0 +1,22 @@
+%h4
+  Список специальностей
+
+=link_to 'Добавить специальность', new_speciality_path, :class => "btn"
+%br
+%br
+
+%table.table.table-bordered.table-hover
+  %thread
+    %tr
+      %th=Speciality.human_attribute_name(:speciality_name)
+      %th=Speciality.human_attribute_name(:speciality_numer)
+      %th=Speciality.human_attribute_name(:edit)
+  %tbody
+  - @specialities.each do |speciality|
+    %tr
+      %td=speciality.speciality_name
+      %td=speciality.speciality_numer
+      %td
+        =link_to "Просмотреть", speciality_path(speciality), :class => "btn btn-success"
+        =link_to "Редактировать", edit_speciality_path(speciality), :class => "btn"
+        =link_to "Удалить", speciality_path(speciality), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}

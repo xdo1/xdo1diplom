@@ -1,0 +1,7 @@
+= form_for @study_year do |f|
+  =error_messages_for @study_year
+  =f.label :years
+  =f.text_field :years
+  .form-actions
+    =f.submit "Сохранить",class: 'btn btn-primary'
+    =link_to 'Назад', study_years_path, :class => 'btn'

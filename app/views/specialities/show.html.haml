@@ -1,0 +1,35 @@
+%h4
+  Просмотр специальности
+
+%table.table.table-bordered.table-hover
+  %thread
+  %tr
+    %td=Speciality.human_attribute_name(:speciality_name)
+    %td=@speciality.speciality_name
+  %tr
+    %td=Speciality.human_attribute_name(:speciality_numer)
+    %td=@speciality.speciality_numer
+  %tr
+    %td=Speciality.human_attribute_name(:direction_name)
+    %td=@speciality.direction_name
+  %tr
+    %td=Speciality.human_attribute_name(:direction_numer)
+    %td=@speciality.direction_numer
+  %tr
+    %td=Speciality.human_attribute_name(:qualification)
+    %td=@speciality.qualification
+  %tr
+    %td=Speciality.human_attribute_name(:gos3)
+    %td
+      -if @speciality.gos3
+        Да
+      -else
+        Нет
+
+
+
+=link_to "Редактировать", edit_speciality_path(@speciality), :class => "btn"
+=link_to "Удалить", speciality_path(@speciality), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
+=link_to "Назад", specialities_path, :class => "btn"
+%br
+%br

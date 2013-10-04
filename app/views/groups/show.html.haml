@@ -1,0 +1,59 @@
+%h4
+  Просмотр группы
+
+%table.table.table-bordered.table-hover
+  %thread
+  %tr
+    %td=Group.human_attribute_name(:name)
+    %td=@group.name
+  %tr
+    %td=Group.human_attribute_name(:faculty)
+    %td=@group.faculty.short_name
+  %tr
+    %td=Group.human_attribute_name(:department)
+    %td=@group.department.name
+  %tr
+    %td=Group.human_attribute_name(:course)
+    %td=@group.course
+  %tr
+    %td=Group.human_attribute_name(:term)
+    %td=@group.term
+  %tr
+    %td=Group.human_attribute_name(:payment_format)
+    %td
+      -if @group.payment_format
+        Бюджет
+      -else
+        Комерция
+  %tr
+    %td=Group.human_attribute_name(:education_form)
+    %td=@group.education_form
+  %tr
+    %td=Group.human_attribute_name(:gos3)
+    %td
+      -if @group.gos3
+        Да
+      -else
+        Нет
+  %tr
+    %td=Group.human_attribute_name(:speciality)
+    %td=@group.speciality.speciality_name
+  %tr
+    %td=Group.human_attribute_name(:students)
+    %td=@group.students
+  %tr
+    %td=Group.human_attribute_name(:in_weight)
+    %td
+      -if @group.in_weight
+        Да
+      -else
+        Нет
+
+
+
+
+=link_to "Редактировать", edit_study_year_group_path(current_user.current_year,@group), :class => "btn"
+=link_to "Удалить", study_year_group_path(current_user.current_year,@group), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
+=link_to "Назад", study_year_groups_path(current_user.current_year), :class => "btn"
+%br
+%br

@@ -1,0 +1,7 @@
+%button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button", :style => "padding: 0px 5px;"} ×
+%h4{:style => "text-align: center"} Выберите года
+#nav-secondary{:style => "text-align: center"}
+  %ul
+    -StudyYear.all.order('years DESC').each do |year|
+      %li
+        =link_to year.years, change_year_user_path(year.id), :method => "post"

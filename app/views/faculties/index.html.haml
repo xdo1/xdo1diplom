@@ -1,0 +1,29 @@
+%h4
+  Список факультетов
+
+=link_to 'Добавить факультет', new_faculty_path, :class => "btn"
+%br
+%br
+
+%table.table.table-bordered.table-hover
+  %thread
+    %tr
+      %th=Faculty.human_attribute_name(:full_name)
+      %th=Faculty.human_attribute_name(:short_name)
+      %th=Faculty.human_attribute_name(:numer)
+      %th=Faculty.human_attribute_name(:departments)
+      %th=Faculty.human_attribute_name(:edit)
+  %tbody
+  - @faculties.each do |faculty|
+    %tr
+      %td=faculty.full_name
+      %td=faculty.short_name
+      %td=faculty.numer
+      %td
+        -faculty.departments.each do |department|
+          =department.name
+          %br
+
+      %td
+        =link_to "Редактировать", edit_faculty_path(faculty), :class => "btn"
+        =link_to "Удалить", faculty_path(faculty), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}

@@ -1,0 +1,19 @@
+%h4
+  Учебные года
+
+=link_to 'Добавить годa', new_study_year_path, :class => "btn"
+%br
+%br
+
+%table.table.table-bordered.table-hover
+  %thread
+    %tr
+      %th=StudyYear.human_attribute_name(:years)
+      %th=StudyYear.human_attribute_name(:edit)
+  %tbody
+  - @study_years.each do |study_year|
+    %tr
+      %td=study_year.years
+      %td
+        =link_to "Редактировать", edit_study_year_path(study_year), :class => "btn"
+        =link_to "Удалить", study_year_path(study_year), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}

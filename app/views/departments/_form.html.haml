@@ -1,0 +1,11 @@
+= form_for @department do |f|
+  =error_messages_for @department
+  =f.label :name
+  =f.text_field :name
+  =f.label :numer
+  =f.text_field :numer
+  =f.label :faculty
+  =f.select :faculty_id, Faculty.all.collect {|p| [p.short_name, p.id] }
+  .form-actions
+    =f.submit "Сохранить",class: 'btn btn-primary'
+    =link_to 'Назад', departments_path, :class => 'btn'

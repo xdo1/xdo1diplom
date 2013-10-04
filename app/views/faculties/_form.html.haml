@@ -1,0 +1,11 @@
+= form_for @faculty do |f|
+  =error_messages_for @faculty
+  =f.label :full_name
+  =f.text_field :full_name
+  =f.label :short_name
+  =f.text_field :short_name
+  =f.label :numer
+  =f.text_field :numer
+  .form-actions
+    =f.submit "Сохранить",class: 'btn btn-primary'
+    =link_to 'Назад', faculties_path, :class => 'btn'

@@ -1,0 +1,17 @@
+= form_for @speciality do |f|
+  =error_messages_for @speciality
+  =f.label :speciality_name
+  =f.text_field :speciality_name
+  =f.label :speciality_numer
+  =f.text_field :speciality_numer
+  =f.label :direction_name
+  =f.text_field :direction_name
+  =f.label :direction_numer
+  =f.text_field :direction_numer
+  =f.label :gos3
+  =f.select :gos3, [['Да', true], ['Нет', false]]
+  =f.label :qualification
+  =f.select :qualification, Qualification.all.collect {|p| [p.name, { 'data-id' => p.name}] }
+  .form-actions
+    =f.submit "Сохранить",class: 'btn btn-primary'
+    =link_to 'Назад', specialities_path, :class => 'btn'

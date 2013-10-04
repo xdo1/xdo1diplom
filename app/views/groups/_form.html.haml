@@ -1,0 +1,45 @@
+= form_for [@year,(@group||=Post.new)] do |f|
+  =error_messages_for @group
+  =f.label :name
+  =f.text_field :name
+  =f.label :faculty
+  =f.select :faculty_id, Faculty.all.collect {|p| [p.short_name, p.id, { 'data-id' => p.id}] }, {include_blank: 'None'}
+  =f.label :department
+  =f.select :department_id, Department.all.collect {|p| [p.name, p.id, { 'data-id' => p.faculty.id}] }, {include_blank: 'None'}, :disabled => 'disabled'
+  =f.label :course
+  =f.text_field :course
+  =f.label :term
+  =f.text_field :term
+  =f.label :payment_format
+  =f.select :payment_format, [['Бюджет', true], ['Комерция', false]]
+  =f.label :education_form
+  =f.select :education_form, EducationForm.all.collect {|p| [p.name] }
+  =f.label :gos3
+  =f.select :gos3, [['Да', true], ['Нет', false]]
+  =f.label :speciality
+  =f.select :speciality_id, Speciality.all.collect {|p| [p.speciality_name, p.id] }
+  =f.label :in_weight
+  =f.select :in_weight, [['Да', true], ['Нет', false]]
+  =f.label :students
+  =f.text_field :students
+  .form-actions
+    =f.submit "Сохранить",class: 'btn btn-primary'
+    =link_to 'Назад', study_year_groups_path, :class => 'btn'
+
+:javascript
+  $(document).ready(function() {
+    $("#group_faculty_id").on("change", function() {
+      $("#group_department_id").attr("disabled", false);
+      var id  = $(this).find("option:selected").attr("data-id");
+      if(!id) {
+        $("#group_department_id").attr("disabled", "disabled");
+      }
+      $.each($("#group_department_id").find("option"), function(key, value) {
+        if($(value).attr("data-id") != id)  {
+          $(value).hide();
+        } else {
+          $(value).show();
+        }
+      });
+    });
+  });
