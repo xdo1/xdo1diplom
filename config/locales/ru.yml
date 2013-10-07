@@ -321,8 +321,10 @@ ru:
       group:
         name: Название
         faculty: Факультет
+        faculty_id: Факультет
         department: Кафедра
-        coursе: Курс
+        department_id: Кафедра
+        course: Курс
         term: Семестр
         payment_format: Форма оплаты
         education_form: Форма обучения

@@ -1,212 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6620a400-c899-4826-84bf-b757a3a8e15e" name="Default" comment="Added files">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-22522844270ca2d96f9926552ae76c99.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-2e9b394fc9ff6c2ad5dfff632bb68587.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-94813a60f37d8ca46d1aab1f099b0dc5.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-9ac422008bd3534183511edd41e5f8a1.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bg-0d3eea4fe06b122a547508c5105f20fc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bg-833f238a974e3299502374885e605708.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap-551e4b191b768b9a0aab22704084f907.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap-7b845acccc2771106b52ecc3228dbdcb.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-affix-d6110803189872b165bf9cd2c080dc6e.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-alert-624ee86fe6af3f8dc878ee527973dc35.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-button-bfad711094c8d005bbb9a464acbda23a.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-carousel-5bc313fc4f06f8f5a9cfb9d1c11123aa.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-collapse-8f370ef16b35be040377c23bb06aab42.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-dropdown-1ec7a05d6e3d414a4e43f280d673e797.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter-bootstrap-static/bootstrap-e502e7074cf7d883fc0dc5c0669a3d9b.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-modal-e55834e327fd18519242de9baf90c603.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-popover-18cf3a2843538d251019b4844f16b6f0.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-scrollspy-42efe00f610c616ae7d1477d5f059901.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-tab-0280ff91627151458aa41ebba3c97171.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-tooltip-e1594dc6bad7f88f7392eb62df198bad.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-transition-f7ef935f961afc23cf75a7ff03872859.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-typeahead-caabae7ed6a9527f48c56108badeec5e.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap_and_overrides-0e4bd5ae4917361a70ed03bb66912ef7.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap_ujs-b8bd1697af68f10a9194cf22be06f965.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/coffee-script-dcd1d992ca105cf6698431135995c681.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/faculties-58c7c0e35a67f189e19b8c485930e614.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/faculties-5fa627b0e683cca9b500d2c8abc7ae90.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/favicon_login-61dd7efecf6469ca7897d095c85df2f7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/favicon_login-8819489268be8e7a964931dd5ecd5e51.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter-bootstrap-static/fontawesome-8a0032afcd6a6b7465fe22b0b4a82e9e.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-0c21817ea1936b34152cd8667063693e.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-1ec5a4da0b1ef880613bcf2fb3e5ff1a.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-25877ca4650e619f7d439ec92de89168.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-4b41e760477c9c4487c6303ac857f934.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-bc77757adb296eaca07cc1fb8f651418.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-d27b443462279070c06479858548ceb9.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-4e5b89324f1ac987ddf6835ef51f5fe9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-c806376f05e4ccabe2c5315a8e95667c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-white-2fa53df59ca25ee50f59f971c0c9175d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-white-62b67d9edee3db90d18833087f848d6e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/groups-58c7c0e35a67f189e19b8c485930e614.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/groups-5fa627b0e683cca9b500d2c8abc7ae90.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-4d8e82bd91693d91fa6149abeb0c3d58.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery.min-0c3711a57b0dcc3ca2d08dfe68f386b7.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery_ujs-4442318a632ef5685d41ddb4bbc00130.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/login-bf1b3e8d02efffb83a832ef7aca6c739.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logo-a7ad9b3f43144b414765652dcdffa26e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logo-cb1f33cc8769f8c5131708990aa383df.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/scaffolds-eea4dc8b0174489dee00c527066fdc61.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter-bootstrap-static/sprites-a5de2df69229ba60d2c8a16e91c3966a.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/sub_faculties-58c7c0e35a67f189e19b8c485930e614.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/sub_faculties-5fa627b0e683cca9b500d2c8abc7ae90.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/user-58c7c0e35a67f189e19b8c485930e614.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/user-5fa627b0e683cca9b500d2c8abc7ae90.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/users-58c7c0e35a67f189e19b8c485930e614.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/users-5fa627b0e683cca9b500d2c8abc7ae90.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130923082906_add_education_form.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130923083450_add_subject.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130923083555_add_qualification.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130923083646_add_education_base.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130923083932_create_groups.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130923084457_create_faculties.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130923084623_create_departments.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130923090035_create_subjects.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130923091320_create_study_years.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130923091448_create_specialities.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130924071518_add_current_year_to_user.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130924092926_rename_years_column.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_change_year.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/departments/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/faculties/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/groups/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/specialities/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/study_years/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/subjects/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-22522844270ca2d96f9926552ae76c99.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-2e9b394fc9ff6c2ad5dfff632bb68587.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-94813a60f37d8ca46d1aab1f099b0dc5.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-9ac422008bd3534183511edd41e5f8a1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap-551e4b191b768b9a0aab22704084f907.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap-7b845acccc2771106b52ecc3228dbdcb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-affix-d6110803189872b165bf9cd2c080dc6e.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-alert-624ee86fe6af3f8dc878ee527973dc35.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-button-bfad711094c8d005bbb9a464acbda23a.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-carousel-5bc313fc4f06f8f5a9cfb9d1c11123aa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-collapse-8f370ef16b35be040377c23bb06aab42.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-dropdown-1ec7a05d6e3d414a4e43f280d673e797.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter-bootstrap-static/bootstrap-e502e7074cf7d883fc0dc5c0669a3d9b.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-modal-e55834e327fd18519242de9baf90c603.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-popover-18cf3a2843538d251019b4844f16b6f0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-scrollspy-42efe00f610c616ae7d1477d5f059901.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-tab-0280ff91627151458aa41ebba3c97171.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-tooltip-e1594dc6bad7f88f7392eb62df198bad.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-transition-f7ef935f961afc23cf75a7ff03872859.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/bootstrap-typeahead-caabae7ed6a9527f48c56108badeec5e.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap_and_overrides-0e4bd5ae4917361a70ed03bb66912ef7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap_ujs-b8bd1697af68f10a9194cf22be06f965.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/coffee-script-dcd1d992ca105cf6698431135995c681.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/department.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/department_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/departments.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/departments.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/departments.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/departments_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/departments_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/departments_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helpers/departments_helper_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/departments/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/faculties/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/groups/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/specialities/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/study_years/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/subjects/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/education_form.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/faculties-58c7c0e35a67f189e19b8c485930e614.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/faculties-5fa627b0e683cca9b500d2c8abc7ae90.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/faculties.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/faculties.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/faculties.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/faculties_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/faculties_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/faculties_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helpers/faculties_helper_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/faculty.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/faculty_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter-bootstrap-static/fontawesome-8a0032afcd6a6b7465fe22b0b4a82e9e.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-1f1112c65851fbd607626e9ca758d1ee.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-57bf98de995c161f5ba6d1593c404b0e.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/group.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/group_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/groups-58c7c0e35a67f189e19b8c485930e614.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/groups-5fa627b0e683cca9b500d2c8abc7ae90.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/groups.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/groups.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/groups.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/groups_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/groups_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/groups_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helpers/groups_helper_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/departments/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/faculties/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/groups/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/specialities/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/study_years/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/subjects/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-4d8e82bd91693d91fa6149abeb0c3d58.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery.min-0c3711a57b0dcc3ca2d08dfe68f386b7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery_ujs-4442318a632ef5685d41ddb4bbc00130.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/login-bf1b3e8d02efffb83a832ef7aca6c739.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/manifest-7b5c3d4612c3d1ae35a9676af0a603a7.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/departments/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/faculties/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/groups/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/specialities/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/study_years/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/subjects/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/qualification.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/qualification_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/qualifications.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/scaffolds-eea4dc8b0174489dee00c527066fdc61.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/groups/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/specialities/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/specialities.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/specialities.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/specialities.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/specialities_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/specialities_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/specialities_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helpers/specialities_helper_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/speciality.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/speciality_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter-bootstrap-static/sprites-a5de2df69229ba60d2c8a16e91c3966a.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/study_year.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/study_year_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/study_years.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/study_years.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/study_years.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/study_years_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/study_years_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/study_years_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helpers/study_years_helper_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/sub_faculties-58c7c0e35a67f189e19b8c485930e614.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/sub_faculties-5fa627b0e683cca9b500d2c8abc7ae90.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/sub_faculties.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/sub_faculties.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/sub_faculties_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helpers/sub_faculties_helper_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/sub_faculty_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/subject.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/subject_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/subjects.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/subjects.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/subjects.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/subjects_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/subjects_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/subjects_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helpers/subjects_helper_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/user-58c7c0e35a67f189e19b8c485930e614.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/user-5fa627b0e683cca9b500d2c8abc7ae90.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/users-58c7c0e35a67f189e19b8c485930e614.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/users-5fa627b0e683cca9b500d2c8abc7ae90.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/work.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+    <list default="true" id="6620a400-c899-4826-84bf-b757a3a8e15e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Diplom.iml" afterPath="$PROJECT_DIR$/.idea/Diplom.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/group.rb" afterPath="$PROJECT_DIR$/app/models/group.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/ru.yml" afterPath="$PROJECT_DIR$/config/locales/ru.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -215,7 +17,7 @@
     <file path="/Gemfile" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378720347416" ignored="false" />
     <file path="/20130904212530_sorcery_core.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378333847885" ignored="false" />
     <file path="/users_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380015683598" ignored="false" />
-    <file path="/user.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378478537631" ignored="false" />
+    <file path="/user.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381132757883" ignored="false" />
     <file path="/role.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378335086787" ignored="false" />
     <file path="/20130905112010_change_users_roles.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378380110118" ignored="false" />
     <file path="/routes.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380010601168" ignored="false" />
@@ -235,7 +37,7 @@
     <file path="/edit.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380014149226" ignored="false" />
     <file path="/_leftbar.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380007270660" ignored="false" />
     <file path="/application.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378729011318" ignored="false" />
-    <file path="/ru.yml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380018931436" ignored="false" />
+    <file path="/ru.yml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381133596102" ignored="false" />
     <file path="/20130910095636_create_faculties.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378807061404" ignored="false" />
     <file path="/20130910100454_create_sub_faculties.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378807588408" ignored="false" />
     <file path="/20130910100733_create_groups.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378807753409" ignored="false" />
@@ -246,7 +48,7 @@
     <file path="/20130923083932_create_groups.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379925604128" ignored="false" />
     <file path="/20130923084457_create_faculties.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379925962647" ignored="false" />
     <file path="/20130923084623_create_departments.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379926052300" ignored="false" />
-    <file path="/group.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380014635536" ignored="false" />
+    <file path="/group.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381133338486" ignored="false" />
     <file path="/faculty.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379926179846" ignored="false" />
     <file path="/department.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379929801997" ignored="false" />
     <file path="/20130923083450_edit_subject.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379926762686" ignored="false" />
@@ -269,7 +71,7 @@
     <file path="/_change_year.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380018537805" ignored="false" />
     <file path="/education_form.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380014864360" ignored="false" />
     <file path="/20130924092926_rename_years_column.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380015039046" ignored="false" />
-    <file path="/Dummy.txt" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380876310276" ignored="false" />
+    <file path="/Dummy.txt" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381132260182" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,28 +96,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/groups/index.html.haml">
+      <file leaf-file-name="edit.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/groups/edit.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/specialities/show.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="26" selection-start="0" selection-end="963" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/groups/show.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="5" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -324,25 +108,43 @@
       <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/groups/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="67" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0">
+            <state line="8" column="18" selection-start="442" selection-end="448" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_change_year.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_change_year.html.haml">
+      <file leaf-file-name="group.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/group.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="107" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
+            <state line="18" column="77" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ru.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ru.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="332" column="28" selection-start="9156" selection-end="9156" vertical-scroll-proportion="1.1792295">
+            <state line="326" column="14" selection-start="8961" selection-end="8961" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="13" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="16" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -357,28 +159,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/index.html.haml">
+      <file leaf-file-name="data.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/data.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="662" column="114" selection-start="10434" selection-end="10434" vertical-scroll-proportion="1.3656958">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="33" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
+            <state line="25" column="17" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="speciality.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/speciality.rb">
+      <file leaf-file-name="result.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.0/lib/active_record/result.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="48" column="0" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -402,12 +204,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/groups/edit.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/groups/new.html.haml" />
-        <option value="$PROJECT_DIR$/app/models/study_year.rb" />
         <option value="$PROJECT_DIR$/app/models/education_form.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130924092926_rename_years_column.rb" />
-        <option value="$PROJECT_DIR$/app/models/group.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/_topbar.html.haml" />
@@ -415,9 +213,13 @@
         <option value="$PROJECT_DIR$/app/controllers/groups_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/groups/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/groups/show.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/groups/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/_change_year.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/groups/_form.html.haml" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/models/group.rb" />
         <option value="$PROJECT_DIR$/config/locales/ru.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.0/lib/active_record/result.rb" />
       </list>
     </option>
   </component>
@@ -469,7 +271,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -498,7 +300,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groups" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,17 +392,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="" serverId="4e7aa88c-51a3-42de-9976-00b49621c46d">
     <servers>
@@ -793,6 +668,11 @@
       <created>1378329693421</created>
       <updated>1378329693421</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added files">
+      <created>1380876463505</created>
+      <updated>1380876463505</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -819,20 +699,21 @@
     <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25207296" sideWeight="0.67083335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24488668" sideWeight="0.67083335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -913,61 +794,78 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_leftbar.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="33" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/bundle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+    <entry file="file://$PROJECT_DIR$/bin/rails">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="36" selection-start="617" selection-end="617" vertical-scroll-proportion="0.41208792" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/groups/new.html.haml">
+    <entry file="file://$PROJECT_DIR$/bin/rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.25">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_change_year.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="107" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/groups/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="9" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-33.958332">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_topbar.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="274" selection-end="274" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/specialities/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="29" selection-start="508" selection-end="508" vertical-scroll-proportion="0.31318682">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/groups_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="44" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/groups/edit.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/groups/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0">
+        <state line="4" column="16" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/specialities/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/models/group.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="26" selection-start="0" selection-end="963" vertical-scroll-proportion="0.0">
+        <state line="18" column="77" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/groups/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="442" selection-end="448" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="326" column="14" selection-start="8961" selection-end="8961" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="13" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -979,44 +877,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/speciality.rb">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="25" column="17" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.0/lib/active_record/result.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="33" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
+        <state line="48" column="0" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/groups/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/db/data.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/groups/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="67" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_change_year.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="107" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="332" column="28" selection-start="9156" selection-end="9156" vertical-scroll-proportion="1.1792295">
+        <state line="662" column="114" selection-start="10434" selection-end="10434" vertical-scroll-proportion="1.3656958">
           <folding />
         </state>
       </provider>
