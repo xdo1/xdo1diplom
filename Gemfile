@@ -25,6 +25,7 @@ gem 'therubyracer', platforms: :ruby
 gem 'jquery-rails'
 gem 'less-rails'
 gem 'twitter-bootstrap-rails'
+#https://github.com/ludicast/yaml_db/issues/54
 gem 'yaml_db'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
