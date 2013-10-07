@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6620a400-c899-4826-84bf-b757a3a8e15e" name="Default" comment="Search added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/error.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/departments_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/departments_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/faculties_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/faculties_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/groups_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/groups_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/specialities_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/specialities_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/study_years_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/study_years_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/subjects_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/subjects_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+    <list default="true" id="6620a400-c899-4826-84bf-b757a3a8e15e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/data.yml" afterPath="$PROJECT_DIR$/db/data.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Diplom.iws" />
@@ -72,7 +64,7 @@
     <file path="/_change_year.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380018537805" ignored="false" />
     <file path="/education_form.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380014864360" ignored="false" />
     <file path="/20130924092926_rename_years_column.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380015039046" ignored="false" />
-    <file path="/Dummy.txt" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381150644670" ignored="false" />
+    <file path="/Dummy.txt" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381151807627" ignored="false" />
     <file path="/error.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381151516107" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,10 +99,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="32" selection-start="622" selection-end="647" vertical-scroll-proportion="0.0">
+            <state line="35" column="32" selection-start="829" selection-end="829" vertical-scroll-proportion="0.879397">
               <folding />
             </state>
           </provider>
@@ -161,10 +153,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="95" selection-start="410" selection-end="410" vertical-scroll-proportion="0.40201005">
+            <state line="29" column="65" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -769,7 +761,11 @@
       <created>1381150609557</created>
       <updated>1381150609557</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Before filters">
+      <created>1381151809997</created>
+      <updated>1381151809997</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -858,7 +854,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Before filters" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -875,6 +871,7 @@
     <MESSAGE value="Added files" />
     <MESSAGE value="Validations" />
     <MESSAGE value="Search added" />
+    <MESSAGE value="Before filters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -956,13 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="622" selection-end="647" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/departments_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="41" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
@@ -1000,7 +990,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="95" selection-start="410" selection-end="410" vertical-scroll-proportion="0.40201005">
+        <state line="29" column="65" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="32" selection-start="829" selection-end="829" vertical-scroll-proportion="0.879397">
           <folding />
         </state>
       </provider>
