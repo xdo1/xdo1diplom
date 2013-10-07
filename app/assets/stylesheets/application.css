@@ -31,7 +31,6 @@ body {
 }
 
 #content a:hover:not(.button), #content a:active:not(.button), #news_ticker a {
-    color: #dd4b39;
 }
 
 #search_form{
