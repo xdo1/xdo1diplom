@@ -5,7 +5,8 @@ class GroupsController < ApplicationController
   # GET /groups.json
   def index
     @year=StudyYear.find(params[:study_year_id])
-    @groups = @year.groups.includes(:faculty).includes(:department).all
+    @search = @year.groups.includes(:faculty).includes(:department).search(params[:q])
+    @groups=@search.result(:distinct => true)
   end
 
   # GET /groups/1

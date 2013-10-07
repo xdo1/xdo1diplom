@@ -1,4 +1,4 @@
-= form_for [@year,(@group||=Post.new)] do |f|
+= form_for [@year,@group] do |f|
   =error_messages_for @group
   =f.label :name
   =f.text_field :name

@@ -1,6 +1,16 @@
 %h4
   Список специальностей
 
+=search_form_for @search do |f|
+  %label Найти специальность
+  =f.search_field :speciality_name_cont, :placeholder => "По названию..."
+  %br
+  =f.search_field :speciality_numer_eq, :placeholder => "По номеру..."
+  %br
+  =f.submit 'Найти', :class => "btn primary"
+%br
+
+
 =link_to 'Добавить специальность', new_speciality_path, :class => "btn"
 %br
 %br
@@ -18,5 +28,5 @@
       %td=speciality.speciality_numer
       %td
         =link_to "Просмотреть", speciality_path(speciality), :class => "btn btn-success"
-        =link_to "Редактировать", edit_speciality_path(speciality), :class => "btn"
+        =link_to "Редактировать", edit_speciality_path(speciality), :class => "btn primary"
         =link_to "Удалить", speciality_path(speciality), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}

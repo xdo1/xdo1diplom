@@ -4,7 +4,8 @@ class DepartmentsController < ApplicationController
   # GET /departments
   # GET /departments.json
   def index
-    @departments = Department.includes(:faculty).all
+    @search = Department.includes(:faculty).search(params[:q])
+    @departments=@search.result(:distinct => true)
   end
 
   # GET /departments/1

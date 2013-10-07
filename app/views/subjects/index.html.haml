@@ -1,6 +1,13 @@
 %h4
   Список предметов
 
+=search_form_for @search do |f|
+  %label Найти предмет
+  =f.text_field :name_or_short_name_cont, :placeholder => "Поиск..."
+  %br
+  =f.submit 'Найти', :class => "btn primary"
+%br
+
 =link_to 'Добавить предмет', new_subject_path, :class => "btn"
 %br
 %br

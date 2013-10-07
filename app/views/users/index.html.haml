@@ -1,18 +1,11 @@
 %h4
   Список пользователей
-#search_button
-  =link_to 'Найти пользователя', '#', :class => "btn"
-#search_form
-  %h4
-    Поиск
-  =search_form_for @search do |f|
-    %label=User.human_attribute_name(:fio)
-    =f.text_field :fio_cont
-    %label=User.human_attribute_name(:username)
-    =f.text_field :username_cont
-    %br
-    =f.submit 'Найти', :class => "btn primary"
-%br
+
+=search_form_for @search do |f|
+  %label Найти пользователя
+  =f.text_field :username_or_fio_cont, :placeholder => "Поиск..."
+  %br
+  =f.submit 'Найти', :class => "btn primary"
 %br
 
 %table.table.table-bordered.table-hover
@@ -36,25 +29,3 @@
       %td
         =link_to "Редактировать", edit_user_path(user), :class => "btn"
         =link_to "Удалить", user_path(user), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
-
-
-
-:javascript
-  var flag = new Boolean(true);
-  $('#search_button a').click(function() {
-    if (flag) {
-        flag = false;
-        showit.call(this);
-    } else {
-        flag = true;
-        flag2 = true;
-        hideit.call(this);
-    }
-    return false;
-  });
-  function showit(){
-    $('#search_form').slideDown();
-  };
-  function hideit(){
-    $('#search_form').slideUp();
-  };

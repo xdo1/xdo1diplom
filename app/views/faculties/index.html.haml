@@ -1,6 +1,16 @@
 %h4
   Список факультетов
 
+=search_form_for @search do |f|
+  %label Найти факультет
+  =f.search_field :short_name_or_full_name_cont, :placeholder => "По названию..."
+  %br
+  =f.search_field :numer_eq, :placeholder => "По номеру..."
+  %br
+  =f.submit 'Найти', :class => "btn primary"
+%br
+
+
 =link_to 'Добавить факультет', new_faculty_path, :class => "btn"
 %br
 %br

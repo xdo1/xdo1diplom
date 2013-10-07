@@ -4,7 +4,8 @@ class SubjectsController < ApplicationController
   # GET /subjects
   # GET /subjects.json
   def index
-    @subjects = Subject.all
+    @search = Subject.search(params[:q])
+    @subjects=@search.result(:distinct => true)
   end
 
   # GET /subjects/1
