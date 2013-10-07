@@ -1,5 +1,6 @@
 class SpecialitiesController < ApplicationController
   before_action :set_speciality, only: [:show, :edit, :update, :destroy]
+  before_filter :for_dictionaries_operator
 
   # GET /specialities
   # GET /specialities.json

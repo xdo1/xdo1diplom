@@ -13,6 +13,21 @@ class ApplicationController < ActionController::Base
       redirect_to login_path
     end
   end
+  def for_admin
+    unless logged_in? && current_user.current_role==1
+      error_message
+    end
+  end
+  def for_segments_operator
+    unless logged_in? && current_user.current_role==2
+      error_message
+    end
+  end
+  def for_dictionaries_operator
+    unless logged_in? && current_user.current_role==3
+      error_message
+    end
+  end
   def error_message(msg='Доступ запрещен')
     @msg=msg
     render 'layouts/error'

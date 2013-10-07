@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
   before_filter :not_authenticated
+  before_filter :for_admin, :except => [:change_role, :change_year]
 
   # GET /users
   # GET /users.json

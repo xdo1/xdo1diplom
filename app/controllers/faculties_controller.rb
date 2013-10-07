@@ -1,5 +1,6 @@
 class FacultiesController < ApplicationController
   before_action :set_faculty, only: [:show, :edit, :update, :destroy]
+  before_filter :for_dictionaries_operator
 
   # GET /faculties
   # GET /faculties.json

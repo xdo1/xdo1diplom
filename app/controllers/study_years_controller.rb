@@ -1,5 +1,6 @@
 class StudyYearsController < ApplicationController
   before_action :set_study_year, only: [:show, :edit, :update, :destroy]
+  before_filter :for_dictionaries_operator
 
   # GET /study_years
   # GET /study_years.json

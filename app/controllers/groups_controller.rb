@@ -1,5 +1,6 @@
 class GroupsController < ApplicationController
   before_action :set_group, only: [:show, :edit, :update, :destroy]
+  before_filter :for_segments_operator
 
   # GET /groups
   # GET /groups.json
