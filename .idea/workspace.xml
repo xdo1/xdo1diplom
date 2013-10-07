@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6620a400-c899-4826-84bf-b757a3a8e15e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/subjects/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/subjects/_form.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/department.rb" afterPath="$PROJECT_DIR$/app/models/department.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/education_form.rb" afterPath="$PROJECT_DIR$/app/models/education_form.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/faculty.rb" afterPath="$PROJECT_DIR$/app/models/faculty.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/subjects/index.html.haml" afterPath="$PROJECT_DIR$/app/views/subjects/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/qualification.rb" afterPath="$PROJECT_DIR$/app/models/qualification.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/ru.yml" afterPath="$PROJECT_DIR$/config/locales/ru.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/speciality.rb" afterPath="$PROJECT_DIR$/app/models/speciality.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/study_year.rb" afterPath="$PROJECT_DIR$/app/models/study_year.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/subject.rb" afterPath="$PROJECT_DIR$/app/models/subject.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Diplom.iws" />
@@ -25,12 +34,12 @@
     <file path="/20130905175650_add_pass_to_user.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378403848341" ignored="false" />
     <file path="/login.css" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378465143657" ignored="false" />
     <file path="$PROJECT_DIR$/test/controllers/users_controller_test.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378468618664" ignored="false" />
-    <file path="/index.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380016882553" ignored="false" />
-    <file path="/_form.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380017236777" ignored="false" />
+    <file path="/index.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381136438959" ignored="false" />
+    <file path="/_form.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381136406990" ignored="false" />
     <file path="/edit.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380014149226" ignored="false" />
     <file path="/_leftbar.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380007270660" ignored="false" />
     <file path="/application.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378729011318" ignored="false" />
-    <file path="/ru.yml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381133596102" ignored="false" />
+    <file path="/ru.yml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381136488416" ignored="false" />
     <file path="/20130910095636_create_faculties.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378807061404" ignored="false" />
     <file path="/20130910100454_create_sub_faculties.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378807588408" ignored="false" />
     <file path="/20130910100733_create_groups.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378807753409" ignored="false" />
@@ -42,13 +51,13 @@
     <file path="/20130923084457_create_faculties.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379925962647" ignored="false" />
     <file path="/20130923084623_create_departments.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379926052300" ignored="false" />
     <file path="/group.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381133338486" ignored="false" />
-    <file path="/faculty.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379926179846" ignored="false" />
-    <file path="/department.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379929801997" ignored="false" />
+    <file path="/faculty.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381135687253" ignored="false" />
+    <file path="/department.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381135516989" ignored="false" />
     <file path="/20130923083450_edit_subject.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379926762686" ignored="false" />
     <file path="/20130923090035_create_subjects.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379926862101" ignored="false" />
     <file path="/20130923091320_create_study_years.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379927621545" ignored="false" />
     <file path="/20130923091448_create_specialities.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379927838030" ignored="false" />
-    <file path="/speciality.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379927876008" ignored="false" />
+    <file path="/speciality.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381136025612" ignored="false" />
     <file path="/subjects_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379928667973" ignored="false" />
     <file path="/faculties_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379941339633" ignored="false" />
     <file path="/departments_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379938593055" ignored="false" />
@@ -58,13 +67,13 @@
     <file path="/study_years_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379938349505" ignored="false" />
     <file path="/groups_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380016748579" ignored="false" />
     <file path="/index.html.erb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380007051681" ignored="false" />
-    <file path="/study_year.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380014656492" ignored="false" />
+    <file path="/study_year.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381136317368" ignored="false" />
     <file path="/20130924071518_add_current_year_to_user.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380006962214" ignored="false" />
     <file path="/_change_year,html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380013186362" ignored="false" />
     <file path="/_change_year.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380018537805" ignored="false" />
     <file path="/education_form.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380014864360" ignored="false" />
     <file path="/20130924092926_rename_years_column.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380015039046" ignored="false" />
-    <file path="/Dummy.txt" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381135369944" ignored="false" />
+    <file path="/Dummy.txt" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381135409903" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,73 +98,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="edit.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/groups/edit.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/groups/_form.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="442" selection-end="448" vertical-scroll-proportion="-5.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="group.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/group.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="77" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ru.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ru.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="326" column="14" selection-start="8961" selection-end="8961" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="59" selection-start="968" selection-end="968" vertical-scroll-proportion="0.8737864">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="16" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="21" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="17" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
+            <state line="310" column="36" selection-start="8554" selection-end="8554" vertical-scroll-proportion="0.5873786">
               <folding />
             </state>
           </provider>
@@ -179,22 +125,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20130924092926_rename_years_column.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_topbar.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/specialities/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/groups_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/groups/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/groups/show.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_change_year.html.haml" />
         <option value="$PROJECT_DIR$/app/views/groups/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/group.rb" />
-        <option value="$PROJECT_DIR$/config/locales/ru.yml" />
         <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.0/lib/active_record/result.rb" />
         <option value="$PROJECT_DIR$/db/data.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/department.rb" />
+        <option value="$PROJECT_DIR$/app/models/education_form.rb" />
+        <option value="$PROJECT_DIR$/app/models/faculty.rb" />
+        <option value="$PROJECT_DIR$/app/models/qualification.rb" />
+        <option value="$PROJECT_DIR$/app/models/speciality.rb" />
+        <option value="$PROJECT_DIR$/app/models/study_year.rb" />
+        <option value="$PROJECT_DIR$/app/models/subject.rb" />
+        <option value="$PROJECT_DIR$/app/views/subjects/_form.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/subjects/index.html.haml" />
+        <option value="$PROJECT_DIR$/config/locales/ru.yml" />
       </list>
     </option>
   </component>
@@ -303,6 +249,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="locales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -329,7 +293,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="groups" />
+              <option name="myItemId" value="subjects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -663,7 +627,15 @@
       <created>1381135371341</created>
       <updated>1381135371341</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added files">
+      <created>1381135378157</created>
+      <updated>1381135378157</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added files">
+      <created>1381135411884</created>
+      <updated>1381135411884</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -688,10 +660,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -785,57 +757,86 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/group.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="33" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="131" selection-end="205" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/bundle">
+    <entry file="file://$PROJECT_DIR$/app/models/education_form.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/rails">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_change_year.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="107" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/groups/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="9" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-33.958332">
+        <state line="3" column="126" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/groups/edit.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/models/role.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/qualification.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+        <state line="3" column="95" selection-start="120" selection-end="120" vertical-scroll-proportion="0.07281554">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/group.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/speciality.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="77" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
+        <state line="2" column="28" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/study_year.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="18" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/department.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="112" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/faculty.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="79" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="61" selection-start="2390" selection-end="2390" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/subject.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="22" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/groups/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/subjects/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="249" selection-end="249" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
@@ -847,44 +848,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/subjects/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="24" selection-start="394" selection-end="394" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="16" selection-start="112" selection-end="112" vertical-scroll-proportion="0.06423983">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="326" column="14" selection-start="8961" selection-end="8961" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="17" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.0/lib/active_record/result.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/data.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="19" selection-start="2448" selection-end="2449" vertical-scroll-proportion="0.6357504">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="21" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="59" selection-start="968" selection-end="968" vertical-scroll-proportion="0.8737864">
+        <state line="310" column="36" selection-start="8554" selection-end="8554" vertical-scroll-proportion="0.5873786">
           <folding />
         </state>
       </provider>

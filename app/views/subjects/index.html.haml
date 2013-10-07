@@ -9,11 +9,13 @@
   %thread
     %tr
       %th=Subject.human_attribute_name(:name)
+      %th=Subject.human_attribute_name(:short_name)
       %th=Subject.human_attribute_name(:edit)
   %tbody
   - @subjects.each do |subject|
     %tr
       %td=subject.name
+      %td=subject.short_name
       %td
         =link_to "Редактировать", edit_subject_path(subject), :class => "btn"
         =link_to "Удалить", subject_path(subject), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}

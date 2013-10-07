@@ -2,6 +2,8 @@
   =error_messages_for @subject
   =f.label :name
   =f.text_field :name
+  =f.label :short_name
+  =f.text_field :short_name
   .form-actions
     =f.submit "Сохранить",class: 'btn btn-primary'
     =link_to 'Назад', subjects_path, :class => 'btn'
