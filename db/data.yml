@@ -1,0 +1,662 @@
+
+---
+roles_users:
+  columns:
+  - id
+  - user_id
+  - role_id
+  records: 
+- !ruby/object:ActiveRecord::Result
+  columns:
+  - id
+  - user_id
+  - role_id
+  rows:
+  - - 7
+    - 5
+    - 3
+  - - 13
+    - 8
+    - 1
+  - - 14
+    - 9
+    - 1
+  - - 15
+    - 10
+    - 2
+  - - 17
+    - 12
+    - 2
+  - - 19
+    - 14
+    - 2
+  - - 20
+    - 15
+    - 3
+  - - 24
+    - 5
+    - 1
+  - - 33
+    - 6
+    - 3
+  - - 36
+    - 5
+    - 2
+  - - 61
+    - 28
+    - 2
+  - - 62
+    - 28
+    - 3
+  hash_rows:
+  - - 7
+    - 5
+    - 3
+  - - 13
+    - 8
+    - 1
+  - - 14
+    - 9
+    - 1
+  - - 15
+    - 10
+    - 2
+  - - 17
+    - 12
+    - 2
+  - - 19
+    - 14
+    - 2
+  - - 20
+    - 15
+    - 3
+  - - 24
+    - 5
+    - 1
+  - - 33
+    - 6
+    - 3
+  - - 36
+    - 5
+    - 2
+  - - 61
+    - 28
+    - 2
+  - - 62
+    - 28
+    - 3
+  column_types: {}
+
+---
+roles:
+  columns:
+  - id
+  - role_name
+  - role_number
+  - created_at
+  - updated_at
+  records: 
+- !ruby/object:ActiveRecord::Result
+  columns:
+  - id
+  - role_name
+  - role_number
+  - created_at
+  - updated_at
+  rows:
+  - - 1
+    - Администратор
+    - 2
+    - '2013-09-05 11:19:01.722153'
+    - '2013-09-05 11:19:01.722153'
+  - - 2
+    - Оператор отрезков
+    - 1
+    - '2013-09-06 11:40:56.014047'
+    - '2013-09-06 11:40:56.014047'
+  - - 3
+    - Оператор справочной информации
+    - 0
+    - '2013-09-06 11:41:30.485823'
+    - '2013-09-06 11:41:30.485823'
+  hash_rows:
+  - - 1
+    - Администратор
+    - 2
+    - '2013-09-05 11:19:01.722153'
+    - '2013-09-05 11:19:01.722153'
+  - - 2
+    - Оператор отрезков
+    - 1
+    - '2013-09-06 11:40:56.014047'
+    - '2013-09-06 11:40:56.014047'
+  - - 3
+    - Оператор справочной информации
+    - 0
+    - '2013-09-06 11:41:30.485823'
+    - '2013-09-06 11:41:30.485823'
+  column_types: {}
+
+---
+users:
+  columns:
+  - id
+  - username
+  - fio
+  - crypted_password
+  - salt
+  - current_role
+  - created_at
+  - updated_at
+  - current_year
+  records: 
+- !ruby/object:ActiveRecord::Result
+  columns:
+  - id
+  - username
+  - fio
+  - crypted_password
+  - salt
+  - current_role
+  - created_at
+  - updated_at
+  - current_year
+  rows:
+  - - 5
+    - admin
+    - Хливнюк Дмитрий Олегович
+    - $2a$10$PU3J/qZVp64X.tD/Vbc1.uEvDhdQbYL2Dov269CJGQ3c4GirWlAQK
+    - LMM567qkTa1ZKM26G3V5
+    - 3
+    - '2013-09-05 17:59:18.340294'
+    - '2013-10-07 08:15:25.187682'
+    - '2'
+  - - 6
+    - xdo1
+    - Я
+    - $2a$10$6huvVRyHI.B.wzSFfLknKO4TqzV5UpbqcHHdpTrtMjJ9NTCFXkjZi
+    - yEtMovD9kLydk9h2pEBz
+    - 3
+    - '2013-09-06 14:25:16.334391'
+    - '2013-09-09 16:26:42.896161'
+    - 
+  - - 28
+    - '11'
+    - '11'
+    - $2a$10$N3bxtjNBXYjTzteFadPEL.dH9CsUKnmGA8v6MUDHjxlmLCwVMHfLW
+    - 8g57ESxTmpCfsPpTxDDq
+    - 2
+    - '2013-09-12 10:45:48.376999'
+    - '2013-09-12 10:45:48.376999'
+    - 
+  hash_rows:
+  - - 5
+    - admin
+    - Хливнюк Дмитрий Олегович
+    - $2a$10$PU3J/qZVp64X.tD/Vbc1.uEvDhdQbYL2Dov269CJGQ3c4GirWlAQK
+    - LMM567qkTa1ZKM26G3V5
+    - 3
+    - '2013-09-05 17:59:18.340294'
+    - '2013-10-07 08:15:25.187682'
+    - '2'
+  - - 6
+    - xdo1
+    - Я
+    - $2a$10$6huvVRyHI.B.wzSFfLknKO4TqzV5UpbqcHHdpTrtMjJ9NTCFXkjZi
+    - yEtMovD9kLydk9h2pEBz
+    - 3
+    - '2013-09-06 14:25:16.334391'
+    - '2013-09-09 16:26:42.896161'
+    - 
+  - - 28
+    - '11'
+    - '11'
+    - $2a$10$N3bxtjNBXYjTzteFadPEL.dH9CsUKnmGA8v6MUDHjxlmLCwVMHfLW
+    - 8g57ESxTmpCfsPpTxDDq
+    - 2
+    - '2013-09-12 10:45:48.376999'
+    - '2013-09-12 10:45:48.376999'
+    - 
+  column_types: {}
+
+---
+education_forms:
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  records: 
+- !ruby/object:ActiveRecord::Result
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  rows:
+  - - 1
+    - Дневная
+    - '2013-09-24 10:24:16.324338'
+    - '2013-09-24 10:24:16.324338'
+  - - 2
+    - Заочная
+    - '2013-09-24 10:24:29.833778'
+    - '2013-09-24 10:24:40.601795'
+  hash_rows:
+  - - 1
+    - Дневная
+    - '2013-09-24 10:24:16.324338'
+    - '2013-09-24 10:24:16.324338'
+  - - 2
+    - Заочная
+    - '2013-09-24 10:24:29.833778'
+    - '2013-09-24 10:24:40.601795'
+  column_types: {}
+
+---
+qualifications:
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  records: 
+- !ruby/object:ActiveRecord::Result
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  rows:
+  - - 1
+    - Квалификация1
+    - '2013-09-23 10:11:14.133995'
+    - '2013-09-23 10:11:14.133995'
+  hash_rows:
+  - - 1
+    - Квалификация1
+    - '2013-09-23 10:11:14.133995'
+    - '2013-09-23 10:11:14.133995'
+  column_types: {}
+
+---
+faculties:
+  columns:
+  - id
+  - full_name
+  - short_name
+  - numer
+  - created_at
+  - updated_at
+  records: 
+- !ruby/object:ActiveRecord::Result
+  columns:
+  - id
+  - full_name
+  - short_name
+  - numer
+  - created_at
+  - updated_at
+  rows:
+  - - 1
+    - Факультет Прикладной Математики и Технической Физики
+    - ПМиТФ
+    - 111
+    - '2013-09-23 08:51:07.278469'
+    - '2013-09-23 12:20:37.846001'
+  - - 2
+    - Лалалала Факультет
+    - ЛФ
+    - 1421
+    - '2013-09-23 12:15:29.882653'
+    - '2013-10-07 08:23:55.155052'
+  hash_rows:
+  - - 1
+    - Факультет Прикладной Математики и Технической Физики
+    - ПМиТФ
+    - 111
+    - '2013-09-23 08:51:07.278469'
+    - '2013-09-23 12:20:37.846001'
+  - - 2
+    - Лалалала Факультет
+    - ЛФ
+    - 1421
+    - '2013-09-23 12:15:29.882653'
+    - '2013-10-07 08:23:55.155052'
+  column_types: {}
+
+---
+departments:
+  columns:
+  - id
+  - name
+  - faculty_id
+  - numer
+  - created_at
+  - updated_at
+  records: 
+- !ruby/object:ActiveRecord::Result
+  columns:
+  - id
+  - name
+  - faculty_id
+  - numer
+  - created_at
+  - updated_at
+  rows:
+  - - 1
+    - Информационных cистем и технологий
+    - 1
+    - 36
+    - '2013-09-23 08:53:05.931502'
+    - '2013-09-23 13:09:14.970282'
+  - - 8
+    - Высшей математики
+    - 1
+    - 1488
+    - '2013-09-23 12:19:27.948521'
+    - '2013-09-23 13:09:34.046251'
+  - - 9
+    - Шкиря
+    - 2
+    - 1234
+    - '2013-09-23 13:10:06.502804'
+    - '2013-09-23 13:10:06.502804'
+  hash_rows:
+  - - 1
+    - Информационных cистем и технологий
+    - 1
+    - 36
+    - '2013-09-23 08:53:05.931502'
+    - '2013-09-23 13:09:14.970282'
+  - - 8
+    - Высшей математики
+    - 1
+    - 1488
+    - '2013-09-23 12:19:27.948521'
+    - '2013-09-23 13:09:34.046251'
+  - - 9
+    - Шкиря
+    - 2
+    - 1234
+    - '2013-09-23 13:10:06.502804'
+    - '2013-09-23 13:10:06.502804'
+  column_types: {}
+
+---
+subjects:
+  columns:
+  - id
+  - name
+  - short_name
+  - created_at
+  - updated_at
+  records: 
+- !ruby/object:ActiveRecord::Result
+  columns:
+  - id
+  - name
+  - short_name
+  - created_at
+  - updated_at
+  rows:
+  - - 1
+    - Проектирование корпоративных информационных систем
+    - 
+    - '2013-09-23 09:30:39.601358'
+    - '2013-09-23 09:30:39.601358'
+  hash_rows:
+  - - 1
+    - Проектирование корпоративных информационных систем
+    - 
+    - '2013-09-23 09:30:39.601358'
+    - '2013-09-23 09:30:39.601358'
+  column_types: {}
+
+---
+study_years:
+  columns:
+  - id
+  - years
+  - created_at
+  - updated_at
+  records: 
+- !ruby/object:ActiveRecord::Result
+  columns:
+  - id
+  - years
+  - created_at
+  - updated_at
+  rows:
+  - - 1
+    - 2011-2012
+    - '2013-09-23 12:29:42.201737'
+    - '2013-09-24 07:01:52.846660'
+  - - 2
+    - 2012-2013
+    - '2013-09-23 12:29:54.785188'
+    - '2013-09-24 07:02:05.580997'
+  - - 4
+    - 2013-2014
+    - '2013-09-24 09:00:59.430712'
+    - '2013-09-24 09:00:59.430712'
+  hash_rows:
+  - - 1
+    - 2011-2012
+    - '2013-09-23 12:29:42.201737'
+    - '2013-09-24 07:01:52.846660'
+  - - 2
+    - 2012-2013
+    - '2013-09-23 12:29:54.785188'
+    - '2013-09-24 07:02:05.580997'
+  - - 4
+    - 2013-2014
+    - '2013-09-24 09:00:59.430712'
+    - '2013-09-24 09:00:59.430712'
+  column_types: {}
+
+---
+specialities:
+  columns:
+  - id
+  - speciality_numer
+  - gos3
+  - qualification
+  - direction_name
+  - direction_numer
+  - speciality_name
+  - created_at
+  - updated_at
+  records: 
+- !ruby/object:ActiveRecord::Result
+  columns:
+  - id
+  - speciality_numer
+  - gos3
+  - qualification
+  - direction_name
+  - direction_numer
+  - speciality_name
+  - created_at
+  - updated_at
+  rows:
+  - - 2
+    - 10400
+    - t
+    - Квалификация1
+    - Lol
+    - 123
+    - Прикладная математика и информатика
+    - '2013-09-23 11:46:27.689318'
+    - '2013-09-23 12:07:37.744862'
+  hash_rows:
+  - - 2
+    - 10400
+    - true
+    - Квалификация1
+    - Lol
+    - 123
+    - Прикладная математика и информатика
+    - '2013-09-23 11:46:27.689318'
+    - '2013-09-23 12:07:37.744862'
+  column_types: {}
+
+---
+groups:
+  columns:
+  - id
+  - name
+  - faculty_id
+  - department_id
+  - course
+  - term
+  - payment_format
+  - education_form
+  - gos3
+  - speciality_id
+  - students
+  - in_weight
+  - study_year_id
+  - created_at
+  - updated_at
+  records: 
+- !ruby/object:ActiveRecord::Result
+  columns:
+  - id
+  - name
+  - faculty_id
+  - department_id
+  - course
+  - term
+  - payment_format
+  - education_form
+  - gos3
+  - speciality_id
+  - students
+  - in_weight
+  - study_year_id
+  - created_at
+  - updated_at
+  rows:
+  - - 7
+    - Группа 7362
+    - 1
+    - 1
+    - 5
+    - 7
+    - f
+    - Дневная
+    - f
+    - 2
+    - 11
+    - t
+    - '4'
+    - '2013-09-24 09:45:55.333853'
+    - '2013-10-07 07:42:14.666891'
+  - - 8
+    - Группа 6362
+    - 1
+    - 1
+    - 3
+    - 6
+    - f
+    - Дневная
+    - t
+    - 2
+    - 13
+    - t
+    - '2'
+    - '2013-09-24 09:50:57.028866'
+    - '2013-09-24 10:25:54.579140'
+  - - 9
+    - '12'
+    - 1
+    - 1
+    - 4
+    - 7
+    - t
+    - 
+    - t
+    - 2
+    - 
+    - t
+    - '2'
+    - '2013-09-24 10:12:26.643424'
+    - '2013-09-24 10:12:26.643424'
+  - - 10
+    - '7372'
+    - 1
+    - 1
+    - 3
+    - 6
+    - t
+    - Дневная
+    - t
+    - 2
+    - 12
+    - t
+    - '2'
+    - '2013-10-07 08:14:40.798996'
+    - '2013-10-07 08:14:40.798996'
+  hash_rows:
+  - - 7
+    - Группа 7362
+    - 1
+    - 1
+    - 5
+    - 7
+    - false
+    - Дневная
+    - false
+    - 2
+    - 11
+    - true
+    - '4'
+    - '2013-09-24 09:45:55.333853'
+    - '2013-10-07 07:42:14.666891'
+  - - 8
+    - Группа 6362
+    - 1
+    - 1
+    - 3
+    - 6
+    - false
+    - Дневная
+    - true
+    - 2
+    - 13
+    - true
+    - '2'
+    - '2013-09-24 09:50:57.028866'
+    - '2013-09-24 10:25:54.579140'
+  - - 9
+    - '12'
+    - 1
+    - 1
+    - 4
+    - 7
+    - true
+    - 
+    - true
+    - 2
+    - 
+    - true
+    - '2'
+    - '2013-09-24 10:12:26.643424'
+    - '2013-09-24 10:12:26.643424'
+  - - 10
+    - '7372'
+    - 1
+    - 1
+    - 3
+    - 6
+    - true
+    - Дневная
+    - true
+    - 2
+    - 12
+    - true
+    - '2'
+    - '2013-10-07 08:14:40.798996'
+    - '2013-10-07 08:14:40.798996'
+  column_types: {}
