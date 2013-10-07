@@ -11,6 +11,23 @@ input {
     font-size: 12px;
     font-weight: normal;
 }
+
+div.mistake {
+    background-image: url("warning.png");
+    background-position: 10px 5px;
+    background-repeat: no-repeat;
+    color: #DD0000;
+    font-size: 9px;
+    font-weight: bold;
+}
+div.messagebox {
+    font-size: 12px;
+    min-height: 34px;
+    padding: 5px 5px 5px 55px;
+    text-align: center;
+    vertical-align: middle;
+    width: 70%;
+}
 input.button {
     font-size: 10px;
 }

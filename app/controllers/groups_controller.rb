@@ -1,5 +1,6 @@
 class GroupsController < ApplicationController
   before_action :set_group, only: [:show, :edit, :update, :destroy]
+  before_filter :not_authenticated
   before_filter :for_segments_operator
 
   # GET /groups
@@ -34,7 +35,7 @@ class GroupsController < ApplicationController
 
     respond_to do |format|
       if @group.save
-        format.html { redirect_to study_year_groups_path, notice: 'Group was successfully created.' }
+        format.html { redirect_to study_year_groups_path, notice: 'Группа успешно создана.' }
         format.json { render action: 'show', status: :created, location: @group }
       else
         format.html { render action: 'new' }
@@ -49,7 +50,7 @@ class GroupsController < ApplicationController
     group_params.permit!
     respond_to do |format|
       if @group.update(group_params)
-        format.html { redirect_to study_year_groups_path, notice: 'Group was successfully updated.' }
+        format.html { redirect_to study_year_groups_path, notice: 'Информация о группе успешно изменена.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

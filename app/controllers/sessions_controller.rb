@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
     if login(params[:username],params[:password])
       redirect_to root_path
     else
-      redirect_to login_path
+      redirect_to login_path, notice: 'Неверное имя пользователя или пароль.'
 
     end
   end

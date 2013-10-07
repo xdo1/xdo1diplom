@@ -1,5 +1,6 @@
 class FacultiesController < ApplicationController
   before_action :set_faculty, only: [:show, :edit, :update, :destroy]
+  before_filter :not_authenticated
   before_filter :for_dictionaries_operator
 
   # GET /faculties
@@ -31,7 +32,7 @@ class FacultiesController < ApplicationController
 
     respond_to do |format|
       if @faculty.save
-        format.html { redirect_to faculties_path, notice: 'Faculty was successfully created.' }
+        format.html { redirect_to faculties_path, notice: 'Факультет успешно создан.' }
         format.json { render action: 'show', status: :created, location: @faculty }
       else
         format.html { render action: 'new' }
@@ -46,7 +47,7 @@ class FacultiesController < ApplicationController
     faculty_params.permit!
     respond_to do |format|
       if @faculty.update(faculty_params)
-        format.html { redirect_to faculties_path, notice: 'Faculty was successfully updated.' }
+        format.html { redirect_to faculties_path, notice: 'Информация о факультете успешно изменена.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

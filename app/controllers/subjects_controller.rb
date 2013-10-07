@@ -1,5 +1,6 @@
 class SubjectsController < ApplicationController
   before_action :set_subject, only: [:show, :edit, :update, :destroy]
+  before_filter :not_authenticated
   before_filter :for_dictionaries_operator
 
   # GET /subjects
@@ -31,7 +32,7 @@ class SubjectsController < ApplicationController
 
     respond_to do |format|
       if @subject.save
-        format.html { redirect_to subjects_path, notice: 'Subject was successfully created.' }
+        format.html { redirect_to subjects_path, notice: 'Предмет успешно создан.' }
         format.json { render action: 'show', status: :created, location: @subject }
       else
         format.html { render action: 'new' }
@@ -46,7 +47,7 @@ class SubjectsController < ApplicationController
     subject_params.permit!
     respond_to do |format|
       if @subject.update(subject_params)
-        format.html { redirect_to subjects_path, notice: 'Subject was successfully updated.' }
+        format.html { redirect_to subjects_path, notice: 'Информация о предмете успешно изменена.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

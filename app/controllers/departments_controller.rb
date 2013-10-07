@@ -1,5 +1,6 @@
 class DepartmentsController < ApplicationController
   before_action :set_department, only: [:show, :edit, :update, :destroy]
+  before_filter :not_authenticated
   before_filter :for_dictionaries_operator
 
   # GET /departments
@@ -31,7 +32,7 @@ class DepartmentsController < ApplicationController
 
     respond_to do |format|
       if @department.save
-        format.html { redirect_to departments_path, notice: 'Department was successfully created.' }
+        format.html { redirect_to departments_path, notice: 'Кафедра успешно создана.' }
         format.json { render action: 'show', status: :created, location: @department }
       else
         format.html { render action: 'new' }
@@ -46,7 +47,7 @@ class DepartmentsController < ApplicationController
     department_params.permit!
     respond_to do |format|
       if @department.update(department_params)
-        format.html { redirect_to departments_path, notice: 'Department was successfully updated.' }
+        format.html { redirect_to departments_path, notice: 'Информация о кафедре успешно изменена.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

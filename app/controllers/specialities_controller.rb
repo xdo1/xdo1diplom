@@ -1,5 +1,6 @@
 class SpecialitiesController < ApplicationController
   before_action :set_speciality, only: [:show, :edit, :update, :destroy]
+  before_filter :not_authenticated
   before_filter :for_dictionaries_operator
 
   # GET /specialities
@@ -31,7 +32,7 @@ class SpecialitiesController < ApplicationController
 
     respond_to do |format|
       if @speciality.save
-        format.html { redirect_to specialities_path, notice: 'Speciality was successfully created.' }
+        format.html { redirect_to specialities_path, notice: 'Специальность успешно создана.' }
         format.json { render action: 'show', status: :created, location: @speciality }
       else
         format.html { render action: 'new' }
@@ -46,7 +47,7 @@ class SpecialitiesController < ApplicationController
     speciality_params.permit!
     respond_to do |format|
       if @speciality.update(speciality_params)
-        format.html { redirect_to specialities_path, notice: 'Speciality was successfully updated.' }
+        format.html { redirect_to specialities_path, notice: 'Информация о специальности успешно изменена .' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

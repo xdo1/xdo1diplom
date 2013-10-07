@@ -10,7 +10,7 @@ class ApplicationController < ActionController::Base
   end
   def not_authenticated
     unless logged_in?
-      redirect_to login_path
+      redirect_to login_path, notice: 'Необходима авторизация.'
     end
   end
   def for_admin
@@ -28,7 +28,7 @@ class ApplicationController < ActionController::Base
       error_message
     end
   end
-  def error_message(msg='Доступ запрещен')
+  def error_message(msg='Доступ запрещен.')
     @msg=msg
     render 'layouts/error'
   end

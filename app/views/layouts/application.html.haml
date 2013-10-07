@@ -21,6 +21,7 @@
       #utility
         =render'layouts/leftbar'
       #content
+        .row=render 'layouts/flash_messages'
         =yield
         #footer
           %p © ИВЦ МГИУ, 2008-#{Time.now.year}.

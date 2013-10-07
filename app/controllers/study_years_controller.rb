@@ -1,5 +1,6 @@
 class StudyYearsController < ApplicationController
   before_action :set_study_year, only: [:show, :edit, :update, :destroy]
+  before_filter :not_authenticated
   before_filter :for_dictionaries_operator
 
   # GET /study_years
@@ -30,7 +31,7 @@ class StudyYearsController < ApplicationController
 
     respond_to do |format|
       if @study_year.save
-        format.html { redirect_to study_years_path, notice: 'Study year was successfully created.' }
+        format.html { redirect_to study_years_path, notice: 'Учебный год успешно создан.' }
         format.json { render action: 'show', status: :created, location: @study_year }
       else
         format.html { render action: 'new' }
@@ -42,10 +43,10 @@ class StudyYearsController < ApplicationController
   # PATCH/PUT /study_years/1
   # PATCH/PUT /study_years/1.json
   def update
-    study_year.permit!
+    study_year_params.permit!
     respond_to do |format|
       if @study_year.update(study_year_params)
-        format.html { redirect_to study_years_path, notice: 'Study year was successfully updated.' }
+        format.html { redirect_to study_years_path, notice: 'Учебный год успешно изменен.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

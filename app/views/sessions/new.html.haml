@@ -18,6 +18,8 @@
           %td{:id => "login-form-container"}
             %table{:id => "form-layout"}
               %tbody
+                -flash.each do |key,val|
+                  .messagebox.mistake=val
                 =form_tag signin_path do
                   %tr
                     #username-label-container
