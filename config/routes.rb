@@ -1,4 +1,6 @@
 Diplom::Application.routes.draw do
+  resources :plans
+
   resources :specialities
 
   resources :study_years do

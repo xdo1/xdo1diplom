@@ -1,3 +1,4 @@
+-@plans=Plan.includes(:study_years).where('study_years.id == ?', current_user.current_year)
 = form_for [@year,@group] do |f|
   =error_messages_for @group
   =f.label :name
@@ -22,6 +23,11 @@
   =f.select :in_weight, [['Да', true], ['Нет', false]]
   =f.label :students
   =f.text_field :students
+  =f.label :plans
+  -@plans.each do |plan|
+    =check_box_tag "grop[plan_ids][]", plan.id, @group.plans.include?(plan)
+    =plan.numer
+    %br
   .form-actions
     =f.submit "Сохранить",class: 'btn btn-primary'
     =link_to 'Назад', study_year_groups_path, :class => 'btn'

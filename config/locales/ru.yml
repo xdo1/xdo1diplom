@@ -332,8 +332,20 @@ ru:
         gos3: ГОС3
         speciality: Специальность
         students: Количество студентов
+        plans: Планы
         in_weight: В нагрузке?
         edit: Редактирование
+      plan:
+        numer: Номер
+        specialities: Специальности
+        education_form: Форма обучения
+        education_base: База обучения
+        filial: Является филиалом?
+        profile: Профиль
+        profile_name: Название профиля
+        study_years: Учебные года
+        edit: Редактирование
+
 
 
   views:
