@@ -1,0 +1,25 @@
+-@study_years=StudyYear.all
+= form_for @plan do |f|
+  =error_messages_for @plan
+  =f.label :numer
+  =f.text_field :numer
+  =f.label :education_form
+  =f.select :education_form, EducationForm.all.collect {|p| [p.name, { 'data-id' => p.name}] }
+  =f.label :education_base
+  =f.select :education_base, EducationBase.all.collect {|p| [p.name, { 'data-id' => p.name}] }
+  =f.label :profile
+  =f.text_field :profile_id
+  =f.label :profile_name
+  =f.text_field :profile_name
+  =f.label :specialities
+  =f.select :speciality_id, Speciality.all.collect {|p| [p.speciality_name, p.id] }
+  =f.label :filial
+  =f.select :filial, [['Да', true], ['Нет', false]]
+  =f.label :study_years
+  -@study_years.each do |study_year|
+    =check_box_tag "plan[study_year_ids][]", study_year.id, @plan.study_years.include?(study_year)
+    =study_year.years
+    %br
+  .form-actions
+    =f.submit "Сохранить",class: 'btn btn-primary'
+    =link_to 'Назад', plans_path, :class => 'btn'

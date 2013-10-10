@@ -1,0 +1,43 @@
+%h4
+  Список планов
+
+=search_form_for @search do |f|
+  %label Найти специальность
+  =f.search_field :numer_eq, :placeholder => "По номеру..."
+  %br
+  =f.submit 'Найти', :class => "btn primary"
+%br
+
+
+=link_to 'Добавить план', new_plan_path, :class => "btn"
+%br
+%br
+
+%table.table.table-bordered.table-hover
+  %thread
+    %tr
+      %th=Plan.human_attribute_name(:numer)
+      %th=Plan.human_attribute_name(:education_form)
+      %th=Plan.human_attribute_name(:education_base)
+      %th=Plan.human_attribute_name(:specialities)
+      %th=Plan.human_attribute_name(:profile)
+      %th=Plan.human_attribute_name(:profile_name)
+      %th=Plan.human_attribute_name(:study_years)
+      %th=Plan.human_attribute_name(:edit)
+  %tbody
+  - @plans.each do |plan|
+    %tr
+      %td=plan.numer
+      %td=plan.education_form
+      %td=plan.education_base
+      %td=plan.speciality.speciality_name
+      %td=plan.profile_id
+      %td=plan.profile_name
+
+      %td
+        - plan.study_years.each do |study_year|
+          =study_year.years
+          %br
+      %td
+        =link_to "Редактировать", edit_plan_path(plan), :class => "btn primary"
+        =link_to "Удалить", plan_path(plan), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
