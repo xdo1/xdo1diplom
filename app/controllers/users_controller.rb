@@ -32,19 +32,19 @@ class UsersController < ApplicationController
       @user.save
       redirect_to root_path
     else
-      redirect_to logout_path
+      logout
+      redirect_to login_path, notice: 'Невозможно применить данную роль. Обратитесь к администратору.'
     end
   end
 
   def change_year
     @user=User.find(current_user.id)
     @year=StudyYear.find(params[:id])
-    if @year
-      @user.current_year=@year.id
-      @user.save
+    @user.current_year=@year.id
+    if @user.save
       redirect_to root_path
     else
-      redirect_to  root_path
+      redirect_to root_path, notice: 'При смене года произошла ошибка. Обратитесь к администратору.'
     end
   end
 
@@ -56,6 +56,7 @@ class UsersController < ApplicationController
     if user_params[:role_ids].size > 0
       user_params[:current_role]=user_params[:role_ids].first
     end
+    user_params[:current_year]=StudyYear.last.id
     @user = User.new(user_params)
     respond_to do |format|
       if @user.save
