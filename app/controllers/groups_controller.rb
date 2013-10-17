@@ -7,7 +7,7 @@ class GroupsController < ApplicationController
   # GET /groups.json
   def index
     @year=StudyYear.find(params[:study_year_id])
-    @search = @year.groups.includes(:faculty).includes(:department).search(params[:q])
+    @search = @year.groups.includes(:faculty).includes(:department).includes(:plans).search(params[:q])
     @groups=@search.result(:distinct => true)
   end
 
@@ -30,6 +30,7 @@ class GroupsController < ApplicationController
   # POST /groups.json
   def create
     group_params.permit!
+    params[:group][:plan_ids] ||= []
     @year=StudyYear.find(params[:study_year_id])
     @group = @year.groups.new(group_params)
 
@@ -48,6 +49,7 @@ class GroupsController < ApplicationController
   # PATCH/PUT /groups/1.json
   def update
     group_params.permit!
+    params[:group][:plan_ids] ||= []
     respond_to do |format|
       if @group.update(group_params)
         format.html { redirect_to study_year_groups_path, notice: 'Информация о группе успешно изменена.' }

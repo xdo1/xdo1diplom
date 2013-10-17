@@ -25,7 +25,7 @@
   =f.text_field :students
   =f.label :plans
   -@plans.each do |plan|
-    =check_box_tag "grop[plan_ids][]", plan.id, @group.plans.include?(plan)
+    =check_box_tag "group[plan_ids][]", plan.id, @group.plans.include?(plan)
     =plan.numer
     %br
   .form-actions
