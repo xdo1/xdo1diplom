@@ -42,6 +42,13 @@
     %td=Group.human_attribute_name(:students)
     %td=@group.students
   %tr
+    %td=Group.human_attribute_name(:plans)
+    %td
+      -@group.plans.each do |plan|
+        =plan.numer
+        %br
+
+  %tr
     %td=Group.human_attribute_name(:in_weight)
     %td
       -if @group.in_weight
