@@ -1,4 +1,3 @@
--@plans=Plan.includes(:study_years).where('study_years.id == ?', current_user.current_year)
 = form_for [@year,@group] do |f|
   =error_messages_for @group
   =f.label :name
@@ -18,12 +17,13 @@
   =f.label :gos3
   =f.select :gos3, [['Да', true], ['Нет', false]]
   =f.label :speciality
-  =f.select :speciality_id, Speciality.all.collect {|p| [p.speciality_name, p.id] }
+  =f.select :speciality_id, Speciality.all.collect {|p| [p.speciality_name, p.id] }, data:{confirm:"Вы уверены?"}, @speciality => :value
   =f.label :in_weight
   =f.select :in_weight, [['Да', true], ['Нет', false]]
   =f.label :students
   =f.text_field :students
   =f.label :plans
+  -@plans=Plan.includes(:study_years).where('study_years.id == ?', current_user.current_year).where('speciality_id == ?', @group.speciality_id)
   -@plans.each do |plan|
     =check_box_tag "group[plan_ids][]", plan.id, @group.plans.include?(plan)
     =plan.numer
@@ -47,5 +47,18 @@
           $(value).show();
         }
       });
+    });
+  });
+
+  $(document).ready(function() {
+  var before_change=$("#group_speciality_id").val();
+    $("#group_speciality_id").change(function() {
+      if (confirm("При смене специальности будут сброшены все учебные планы. Вы уверены?")){
+        $('input:checkbox[id=group_plan_ids_]').attr('checked',false)
+        $(".edit_group").submit();
+      }
+      else{
+       $(this).val(before_change);
+      }
     });
   });

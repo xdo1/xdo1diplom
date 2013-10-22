@@ -337,11 +337,12 @@ ru:
         edit: Редактирование
       plan:
         numer: Номер
-        specialities: Специальности
+        speciality: Специальность
         education_form: Форма обучения
         education_base: База обучения
         filial: Является филиалом?
         profile: Профиль
+        profile_id: Номер профиля
         profile_name: Название профиля
         study_years: Учебные года
         edit: Редактирование

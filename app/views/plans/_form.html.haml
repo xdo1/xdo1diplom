@@ -7,11 +7,11 @@
   =f.select :education_form, EducationForm.all.collect {|p| [p.name, { 'data-id' => p.name}] }
   =f.label :education_base
   =f.select :education_base, EducationBase.all.collect {|p| [p.name, { 'data-id' => p.name}] }
-  =f.label :profile
+  =f.label :profile_id
   =f.text_field :profile_id
   =f.label :profile_name
   =f.text_field :profile_name
-  =f.label :specialities
+  =f.label :speciality
   =f.select :speciality_id, Speciality.all.collect {|p| [p.speciality_name, p.id] }
   =f.label :filial
   =f.select :filial, [['Да', true], ['Нет', false]]

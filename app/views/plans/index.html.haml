@@ -19,8 +19,7 @@
       %th=Plan.human_attribute_name(:numer)
       %th=Plan.human_attribute_name(:education_form)
       %th=Plan.human_attribute_name(:education_base)
-      %th=Plan.human_attribute_name(:specialities)
-      %th=Plan.human_attribute_name(:profile)
+      %th=Plan.human_attribute_name(:speciality)
       %th=Plan.human_attribute_name(:profile_name)
       %th=Plan.human_attribute_name(:study_years)
       %th=Plan.human_attribute_name(:edit)
@@ -31,7 +30,6 @@
       %td=plan.education_form
       %td=plan.education_base
       %td=plan.speciality.speciality_name
-      %td=plan.profile_id
       %td=plan.profile_name
 
       %td
@@ -39,5 +37,6 @@
           =study_year.years
           %br
       %td
+        =link_to "Просмотреть", plan_path(plan), :class => "btn btn-success"
         =link_to "Редактировать", edit_plan_path(plan), :class => "btn primary"
         =link_to "Удалить", plan_path(plan), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
