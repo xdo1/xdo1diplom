@@ -1,13 +1,19 @@
 class PlansController < ApplicationController
   before_action :set_plan, only: [:show, :edit, :update, :destroy]
   before_filter :not_authenticated
-  before_filter :for_dictionaries_operator
+  before_filter :for_dictionaries_operator, :except => [:get_plan_list]
+  before_filter :for_segments_operator, :only => [:get_plan_list]
 
   # GET /plans
   # GET /plans.json
   def index
     @search = Plan.includes(:study_years).includes(:speciality).search(params[:q])
     @plans=@search.result(:distinct => true)
+  end
+
+  def get_plan_list
+    q="%#{params[:q]}%"
+    render json: Plan.where("numer like ?", q).all.to_json(only: [:numer, :id])
   end
 
   # GET /plans/1

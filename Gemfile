@@ -24,7 +24,7 @@ gem 'therubyracer', platforms: :ruby
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 gem 'less-rails'
-gem 'twitter-bootstrap-rails'
+gem 'anjlab-bootstrap-rails', '= 2.3', :require => 'bootstrap-rails'
 #https://github.com/ludicast/yaml_db/issues/54
 gem 'yaml_db'
 

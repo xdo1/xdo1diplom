@@ -30,7 +30,6 @@ class GroupsController < ApplicationController
   # POST /groups.json
   def create
     group_params.permit!
-    params[:group][:plan_ids] ||= []
     @year=StudyYear.find(params[:study_year_id])
     @group = @year.groups.new(group_params)
 
@@ -49,10 +48,9 @@ class GroupsController < ApplicationController
   # PATCH/PUT /groups/1.json
   def update
     group_params.permit!
-    params[:group][:plan_ids] ||= []
     respond_to do |format|
       if @group.update(group_params)
-        format.html { redirect_to edit_study_year_group_path(current_user.current_year,@group), notice: 'Информация о группе успешно изменена.' }
+        format.html { redirect_to study_year_groups_path, notice: 'Информация о группе успешно изменена.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

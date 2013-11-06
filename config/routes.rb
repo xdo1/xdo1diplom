@@ -1,5 +1,9 @@
 Diplom::Application.routes.draw do
-  resources :plans
+  resources :plans  do
+    collection do
+      get 'get_plan_list'
+    end
+  end
 
   resources :specialities
 

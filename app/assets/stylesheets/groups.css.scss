@@ -1,3 +1,17 @@
 // Place all the styles related to the Groups controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#content ul, #content ol {
+  margin: 0 0 0 0px;
+}
+ul.token-input-list-bootstrap {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  cursor: text;
+  height: auto !important;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: auto;
+}

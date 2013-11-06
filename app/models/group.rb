@@ -16,4 +16,11 @@ class Group < ActiveRecord::Base
   validates :speciality_id, :presence => true
   validates :in_weight, :presence => true
   validates :students, :presence => true, numericality: { only_integer: true, greater_than_or_equal_to: 0, less_than_or_equal_to: 100 }
+
+  attr_reader :plan_tokens
+
+  def plan_tokens=(ids)
+    self.plan_ids=ids.split(',')
+  end
+
 end
