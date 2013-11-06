@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6620a400-c899-4826-84bf-b757a3a8e15e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/login.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Diplom.iml" afterPath="$PROJECT_DIR$/.idea/Diplom.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/groups/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/groups/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/group.rb" afterPath="$PROJECT_DIR$/app/models/group.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/groups.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/groups.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/groups.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/groups.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/groups_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/groups_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/plans_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/plans_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_topbar.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/_topbar.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Diplom.iws" />
@@ -79,7 +65,7 @@
     <file path="/_change_year.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380018537805" ignored="false" />
     <file path="/education_form.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380014864360" ignored="false" />
     <file path="/20130924092926_rename_years_column.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380015039046" ignored="false" />
-    <file path="/Dummy.txt" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1383727059082" ignored="false" />
+    <file path="/Dummy.txt" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1383730210031" ignored="false" />
     <file path="/error.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381151516107" ignored="false" />
     <file path="/_flash_messages.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381152933372" ignored="false" />
     <file path="/20131010120559_create_plans.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381408834833" ignored="false" />
@@ -113,10 +99,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/plans/show.html.haml">
+      <file leaf-file-name="scaffolds.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="80" selection-start="800" selection-end="800" vertical-scroll-proportion="0.6770099">
+            <state line="6" column="16" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_topbar.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_topbar.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="58" selection-start="928" selection-end="928" vertical-scroll-proportion="0.42313117">
               <folding />
             </state>
           </provider>
@@ -141,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/locales/ru.yml" />
         <option value="$PROJECT_DIR$/app/views/plans/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/plans/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/plans/show.html.haml" />
@@ -154,9 +148,10 @@
         <option value="$PROJECT_DIR$/db/migrate/20131106091519_change_numer_in_plans.rb" />
         <option value="$PROJECT_DIR$/app/controllers/groups_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/groups.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/groups.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_topbar.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
       </list>
     </option>
   </component>
@@ -965,7 +960,11 @@
       <created>1382470468072</created>
       <updated>1382470468072</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Tokeninput added">
+      <created>1383730218056</created>
+      <updated>1383730218056</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -992,6 +991,7 @@
     <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.209375" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1006,7 +1006,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1054,7 +1053,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tokeninput added" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1077,6 +1076,7 @@
     <MESSAGE value="1223" />
     <MESSAGE value="Plans added" />
     <MESSAGE value="Some changes" />
+    <MESSAGE value="Tokeninput added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1100,29 +1100,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/specialities/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="31" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="68" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="700" selection-end="700" vertical-scroll-proportion="0.33707866">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/plans/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="21" selection-start="825" selection-end="830" vertical-scroll-proportion="0.4360465">
@@ -1133,13 +1110,6 @@
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="74" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="101" selection-end="101" vertical-scroll-proportion="0.042134833">
           <folding />
         </state>
       </provider>
@@ -1210,9 +1180,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/plans/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="80" selection-start="800" selection-end="800" vertical-scroll-proportion="0.6770099">
+        <state line="35" column="26" selection-start="835" selection-end="835" vertical-scroll-proportion="0.7404795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_change_year.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="129" selection-start="360" selection-end="360" vertical-scroll-proportion="0.12693936">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="16" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_topbar.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="58" selection-start="928" selection-end="928" vertical-scroll-proportion="0.42313117">
           <folding />
         </state>
       </provider>
