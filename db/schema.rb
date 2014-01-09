@@ -11,12 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131106091519) do
+ActiveRecord::Schema.define(version: 20140109102729) do
 
   create_table "departments", force: true do |t|
     t.string   "name"
     t.integer  "faculty_id"
-    t.integer  "numer"
+    t.string   "numer"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(version: 20131106091519) do
   create_table "faculties", force: true do |t|
     t.string   "full_name"
     t.string   "short_name"
-    t.integer  "numer"
+    t.string   "numer"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -106,11 +106,11 @@ ActiveRecord::Schema.define(version: 20131106091519) do
   end
 
   create_table "specialities", force: true do |t|
-    t.integer  "speciality_numer"
+    t.string   "speciality_numer"
     t.boolean  "gos3"
     t.string   "qualification"
     t.string   "direction_name"
-    t.integer  "direction_numer"
+    t.string   "direction_numer"
     t.string   "speciality_name"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -131,13 +131,15 @@ ActiveRecord::Schema.define(version: 20131106091519) do
 
   create_table "users", force: true do |t|
     t.string   "username",         null: false
-    t.string   "fio"
+    t.string   "first_name"
+    t.string   "second_name"
+    t.string   "last_name"
     t.string   "crypted_password"
     t.string   "salt"
     t.integer  "current_role"
+    t.string   "current_year"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "current_year"
   end
 
 end

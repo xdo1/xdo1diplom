@@ -46,16 +46,15 @@
     });
   });
 
-  //$(document).ready(function() {
-  //var before_change=$("#group_speciality_id").val();
-  //  $("#group_speciality_id").change(function() {
-  //    if (confirm("При смене специальности будут сброшены все учебные планы. Вы уверены?")){
-  //      $('input:checkbox[id=group_plan_ids_]').attr('checked',false)
-  //      $(".edit_group").submit();
-  //    }
-  //    else{
-  //     $(this).val(before_change);
-  //    }
-  //  });
-  //});
-  //
+  $(document).ready(function() {
+  var before_change=$("#group_speciality_id").val();
+    $("#group_speciality_id").change(function() {
+      if (confirm("При смене специальности будут сброшены все учебные планы. Вы уверены?")){
+        $('input:checkbox[id=group_plan_ids_]').attr('checked',false)
+        $(".edit_group").submit();
+      }
+      else{
+       $(this).val(before_change);
+      }
+    });
+  });

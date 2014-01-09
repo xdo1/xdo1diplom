@@ -3,7 +3,7 @@
 
 =search_form_for @search do |f|
   %label Найти пользователя
-  =f.text_field :username_or_fio_cont, :placeholder => "Поиск..."
+  =f.text_field :username_cont, :placeholder => "Поиск..."
   %br
   =f.submit 'Найти', :class => "btn primary"
 %br
@@ -19,7 +19,10 @@
   %tbody
   - @users.each do |user|
     %tr
-      %td=user.fio
+      %td
+        =user.first_name
+        =user.second_name
+        =user.last_name
       %td=user.username
       %td=l(user.created_at,format: :long)
       %td

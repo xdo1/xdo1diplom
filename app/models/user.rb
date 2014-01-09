@@ -2,7 +2,9 @@ class User < ActiveRecord::Base
   authenticates_with_sorcery!
   has_and_belongs_to_many :roles
 
-  validates :fio, :presence => true
+  validates :first_name, :presence => true
+  validates :second_name, :presence => true
+  validates :last_name, :presence => true
   validates :username, :presence => true
   validates :password, presence: true, length:{minimum:5}, confirmation: true, if: proc{|user| user.new_record? || user.password.present?}
   validate :has_roles?

@@ -1,3 +1,6 @@
 class Qualification < ActiveRecord::Base
-  validates :name, :presence => true, length: { minimum: 2, maximum: 200 }
+  belongs_to :speciality
+  has_one :education_base
+  has_one :education_form
+  validates :name, :presence => true, length: { minimum: 2, maximum: 1000 }
 end

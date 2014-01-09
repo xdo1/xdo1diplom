@@ -1,8 +1,7 @@
-class AddQualification < ActiveRecord::Migration
+class AddQualifications < ActiveRecord::Migration
   def change
     create_table :qualifications do |t|
-      t.string :name
-
+      t.string   :name
       t.timestamps
     end
   end

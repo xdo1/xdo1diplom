@@ -1,8 +1,12 @@
 -@roles=Role.all
 = form_for @user do |f|
   =error_messages_for @user
-  =f.label :fio
-  =f.text_field :fio
+  =f.label :first_name
+  =f.text_field :first_name
+  =f.label :second_name
+  =f.text_field :second_name
+  =f.label :last_name
+  =f.text_field :last_name
   =f.label :username
   =f.text_field :username
   =f.label :password
