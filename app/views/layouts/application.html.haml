@@ -2,7 +2,7 @@
 %html
   %head
     %meta{charset: "utf-8"}
-    %title Диплом МГИУ
+    %title Информационная сисема «Учебные отрезки»
     =stylesheet_link_tag    "application"
     =stylesheet_link_tag    "bootstrap_and_overrides"
     =javascript_include_tag 'application'
@@ -13,7 +13,7 @@
       =render 'layouts/topbar'
     #header
       #site-name
-        МГИУ
+        Информационная сисема «Учебные отрезки»
         %br
         Учебный год
         =StudyYear.find(current_user.current_year).years
@@ -24,4 +24,4 @@
         .row=render 'layouts/flash_messages'
         =yield
         #footer
-          %p © ИВЦ МГИУ, 2008-#{Time.now.year}.
+          %p © ИВЦ МГИУ, 2013-#{Time.now.year}.
