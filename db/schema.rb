@@ -68,6 +68,7 @@ ActiveRecord::Schema.define(version: 20140109102729) do
 
   create_table "plans", force: true do |t|
     t.string   "numer"
+    t.string   "plan_name"
     t.string   "education_form"
     t.string   "education_base"
     t.string   "profile_id"

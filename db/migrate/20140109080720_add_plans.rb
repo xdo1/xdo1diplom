@@ -2,6 +2,7 @@ class AddPlans < ActiveRecord::Migration
   def change
     create_table :plans do |t|
       t.string   :numer
+      t.string   :plan_name
       t.string   :education_form
       t.string   :education_base
       t.string   :profile_id

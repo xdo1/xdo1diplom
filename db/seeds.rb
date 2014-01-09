@@ -5,16 +5,16 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
 Role.create(role_name: "Администратор", role_number: 2)
 Role.create(role_name: "Оператор отрезков", role_number: 1)
 Role.create(role_name: "Оператор справочной информации", role_number: 0)
 year = StudyYear.create(years: "#{1.year.ago.year}/#{Time.now.year}")
 StudyYear.create(years: "#{2.year.ago.year}/#{1.year.ago.year}")
 StudyYear.create(years: "#{3.year.ago.year}/#{2.year.ago.year}")
-user = User.new(username: "admin", password: "11111", password_confirmation: "11111", current_role: 1, first_name: "test", second_name: "test", last_name: "test")
-user.current_year = year.id
-user.save!(:validate => false)
+User.create!(username: "admin", password: "11111", password_confirmation: "11111", current_role: 1, first_name: "test", second_name: "test", last_name: "test", roles: Role.all, current_year: year.id)
 puts "ROLES AND USERS SUCCESSFULLY CREATED"
+
 bases_file=File.new('files/base_utf.txt')
 while name=bases_file.gets
   name=name.split('|').last.to_s
@@ -25,6 +25,7 @@ while name=bases_file.gets
     end
   end
 end
+
 qualifications_file=File.new('files/kvalif_utf.txt')
 while name=qualifications_file.gets
   name=name.split('|').last.to_s
@@ -35,6 +36,7 @@ while name=qualifications_file.gets
     end
   end
 end
+
 specialities_file=File.new('files/spec_utf.txt')
 while spec=specialities_file.gets
   unless spec.start_with?('--') or spec.start_with?(' idspec')
@@ -62,3 +64,12 @@ while name=subjects_file.gets
   end
 end
 
+plans_file=File.new('files/plans_utf.txt')
+while plan=plans_file.gets
+  unless plan.start_with?('(') or plan.start_with?('--') or plan.start_with?('     ') or plan.start_with?(' idtp')
+    tp_id=plan.split('|')[0].to_i
+    plan_name=plan.split('|')[3].to_s.strip
+    Plan.create!(plan_name: plan_name, tp_id: tp_id)
+    puts "CREATED PLAN #{plan_name} "
+  end
+end
