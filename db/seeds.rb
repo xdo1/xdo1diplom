@@ -15,6 +15,11 @@ StudyYear.create(years: "#{3.year.ago.year}/#{2.year.ago.year}")
 User.create!(username: "admin", password: "11111", password_confirmation: "11111", current_role: 1, first_name: "test", second_name: "test", last_name: "test", roles: Role.all, current_year: year.id)
 puts "ROLES AND USERS SUCCESSFULLY CREATED"
 
+EducationForm.create!(name: 'Очная')
+EducationForm.create!(name: 'Заочная')
+EducationForm.create!(name: 'Очно-заочная')
+puts "EDUCATION FORMS SUCCESSFULLY CREATED"
+
 bases_file=File.new('files/base_utf.txt')
 while name=bases_file.gets
   name=name.split('|').last.to_s
@@ -66,7 +71,7 @@ end
 
 plans_file=File.new('files/plans_utf.txt')
 while plan=plans_file.gets
-  unless plan.start_with?('(') or plan.start_with?('--') or plan.start_with?('     ') or plan.start_with?(' idtp')
+  unless plan.start_with?('(') or plan.start_with?('--') or plan.start_with?('     ') or plan.start_with?(' idtp') or plan.split('|')[3].to_s.strip.start_with?('Бухгалтерский учет, анализ и аудит в коммерческих организациях')
     tp_id=plan.split('|')[0].to_i
     plan_name=plan.split('|')[3].to_s.strip
     Plan.create!(plan_name: plan_name, tp_id: tp_id)

@@ -3,9 +3,7 @@
 
 =search_form_for @search do |f|
   %label Найти специальность
-  =f.search_field :speciality_name_cont, :placeholder => "По названию..."
-  %br
-  =f.search_field :speciality_numer_eq, :placeholder => "По номеру..."
+  =f.search_field :speciality_name_or_speciality_numer_cont, :placeholder => "Поиск..."
   %br
   =f.submit 'Найти', :class => "btn primary"
 %br

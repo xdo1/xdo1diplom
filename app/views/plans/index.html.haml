@@ -3,7 +3,7 @@
 
 =search_form_for @search do |f|
   %label Найти специальность
-  =f.search_field :numer_eq, :placeholder => "По номеру..."
+  =f.search_field :plan_name_or_numer_cont, :placeholder => "Поиск..."
   %br
   =f.submit 'Найти', :class => "btn primary"
 %br
@@ -16,27 +16,24 @@
 %table.table.table-bordered.table-hover
   %thread
     %tr
+      %th=Plan.human_attribute_name(:name)
       %th=Plan.human_attribute_name(:numer)
-      %th=Plan.human_attribute_name(:education_form)
-      %th=Plan.human_attribute_name(:education_base)
       %th=Plan.human_attribute_name(:speciality)
-      %th=Plan.human_attribute_name(:profile_name)
       %th=Plan.human_attribute_name(:study_years)
       %th=Plan.human_attribute_name(:edit)
   %tbody
   - @plans.each do |plan|
     %tr
+      %td=plan.plan_name
       %td=plan.numer
-      %td=plan.education_form
-      %td=plan.education_base
-      %td=plan.speciality.speciality_name
-      %td=plan.profile_name
-
+      %td
+      -if plan.speciality
+        =plan.speciality.speciality_name
       %td
         - plan.study_years.each do |study_year|
           =study_year.years
           %br
       %td
-        =link_to "Просмотреть", plan_path(plan), :class => "btn btn-success"
-        =link_to "Редактировать", edit_plan_path(plan), :class => "btn primary"
-        =link_to "Удалить", plan_path(plan), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
+        =link_to "Просмотреть", plan_path(plan), :class => "btn btn-mini btn-success"
+        =link_to "Редактировать", edit_plan_path(plan), :class => "btn btn-mini primary"
+        =link_to "Удалить", plan_path(plan), :class => "btn btn-mini btn-danger", data:{method: :delete, confirm:"Вы уверены?"}

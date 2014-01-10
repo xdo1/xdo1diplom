@@ -14,7 +14,9 @@
     %td=@plan.education_base
   %tr
     %td=Plan.human_attribute_name(:speciality)
-    %td=@plan.speciality.speciality_name
+    %td
+    -if @plan.speciality
+      =@plan.speciality.speciality_name
   %tr
     %td=Plan.human_attribute_name(:profile_name)
     %td=@plan.profile_name

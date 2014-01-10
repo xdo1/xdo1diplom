@@ -283,6 +283,9 @@ ru:
     attributes:
       user:
         username: Имя пользователя
+        first_name: Имя
+        second_name: Фамилия
+        last_name: Отчество
         password: Пароль
         password_confirmation: Подтверждение пароля
         salt: Служебная отметка

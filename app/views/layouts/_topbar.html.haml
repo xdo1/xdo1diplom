@@ -12,6 +12,8 @@
           =Role.find(current_user.current_role).role_name
           =link_to '#', class: 'dropdown-toggle', data: {toggle:"dropdown"} do
             =current_user.first_name
+            =current_user.second_name
+            =current_user.last_name
             %span.caret
         %ul.dropdown-menu.pull-right{style: 'background: -moz-linear-gradient(center top , #333333, #111111) repeat scroll 0 0 transparent; right:1px;'}
           -current_user.roles.each do |role|

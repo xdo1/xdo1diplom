@@ -24,5 +24,6 @@
       %td=subject.name
       %td=subject.short_name
       %td
-        =link_to "Редактировать", edit_subject_path(subject), :class => "btn"
-        =link_to "Удалить", subject_path(subject), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
+        =link_to "Редактировать", edit_subject_path(subject), :class => "btn btn-mini"
+        %br
+        =link_to "Удалить", subject_path(subject), :class => "btn btn-mini btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
