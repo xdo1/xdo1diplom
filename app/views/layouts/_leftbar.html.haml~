@@ -1,0 +1,36 @@
+#nav-secondary
+  -if current_user
+    -if current_user.current_role==1
+      %ul
+        %li
+          =link_to 'Главная страница', root_path
+        %li
+          =link_to 'Список пользователей', users_path
+        %li
+          =link_to 'Новый пользователь', new_user_path
+
+    -if current_user.current_role==2
+      %ul
+        %li
+          =link_to 'Главная страница', root_path
+        %li
+          =link_to 'Редактирование учебных отрезков', root_path
+        %li
+          =link_to 'Редактирование групп', study_year_groups_path(current_user.current_year)
+
+    -if current_user.current_role==3
+      %ul
+        %li
+          =link_to 'Главная страница', root_path
+        %li
+          =link_to 'Предметы', subjects_path
+        %li
+          =link_to 'Учебные года', study_years_path
+        %li
+          =link_to 'Кафедры', departments_path
+        %li
+          =link_to 'Факультеты', faculties_path
+        %li
+          =link_to 'Специальности', specialities_path
+        %li
+          =link_to 'Студенты', root_path

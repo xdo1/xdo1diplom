@@ -27,8 +27,9 @@
       %td=plan.plan_name
       %td=plan.numer
       %td
-      -if plan.speciality
-        =plan.speciality.speciality_name
+        -if plan.speciality
+          =plan.speciality.speciality_name
+          =plan.speciality.direction_name
       %td
         - plan.study_years.each do |study_year|
           =study_year.years

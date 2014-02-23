@@ -6,6 +6,30 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+
+plans_file_xml = File.new('files/give_me_plans.xml')
+plans = Nokogiri::XML(plans_file_xml)
+plans.css('object').each do |plan|
+  speciality = Speciality.find_by_direction_numer(plan.css('dcode').inner_text)
+  unless speciality
+    speciality =  Speciality.create(
+        :direction_numer => plan.css('dcode').inner_text,
+        :direction_name => plan.css('dname').inner_text
+    )
+    puts "CREATED DIRECRION #{plan.css('dname').inner_text} "
+  end
+
+  Plan.create(
+      :plan_name => plan.css('profile').inner_text,
+      :profile_name => plan.css('profile').inner_text.split(':').last,
+      :education_form => plan.css('study-type-name').inner_text,
+      :speciality_id => speciality.id,
+      :education_base => plan.css('basis').inner_text
+  )
+  puts "CREATED PLAN #{plan.css('profile').inner_text} "
+end
+
+
 Role.create(role_name: "Администратор", role_number: 2)
 Role.create(role_name: "Оператор отрезков", role_number: 1)
 Role.create(role_name: "Оператор справочной информации", role_number: 0)
@@ -78,3 +102,4 @@ while plan=plans_file.gets
     puts "CREATED PLAN #{plan_name} "
   end
 end
+
