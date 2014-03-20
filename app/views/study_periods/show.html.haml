@@ -23,8 +23,8 @@
         =subject.name
         %br
 
-=link_to "Редактировать", edit_study_period_path(@study_period), :class => "btn"
-=link_to "Удалить", study_period_path(@study_period), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
-=link_to "Назад", study_periods_path, :class => "btn"
+=link_to "Редактировать", edit_study_year_study_period_path(current_user.current_year,@study_period), :class => "btn"
+=link_to "Удалить", study_year_study_period_path(current_user.current_year,@study_period), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
+=link_to "Назад", study_year_study_periods_path(current_user.current_year), :class => "btn"
 %br
 %br

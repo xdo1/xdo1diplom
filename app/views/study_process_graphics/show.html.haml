@@ -1,0 +1,47 @@
+%h4
+  Просмотр графика учебного процесса
+
+%table.table.table-bordered.table-hover
+  %thread
+  %tr
+    %td=StudyProcessGraphic.human_attribute_name(:name)
+    %td=@study_process_graphic.name
+  %tr
+    %td=StudyProcessGraphic.human_attribute_name(:weeks_in_semester)
+    %td=@study_process_graphic.weeks_in_semester
+  %tr
+    %td=StudyProcessGraphic.human_attribute_name(:semester_dates)
+    %td="C #{@study_process_graphic.semester_beginning}    По #{@study_process_graphic.semester_end}"
+  %tr
+    %td=StudyProcessGraphic.human_attribute_name(:zach_session_dates)
+    %td="C #{@study_process_graphic.zach_session_beginning}    По #{@study_process_graphic.zach_session_end}"
+  %tr
+    %td=StudyProcessGraphic.human_attribute_name(:exam_session_dates)
+    %td="C #{@study_process_graphic.exam_session_beginning}    По #{@study_process_graphic.exam_session_end}"
+  %tr
+    %td=StudyProcessGraphic.human_attribute_name(:vacation_dates)
+    %td="C #{@study_process_graphic.vacation_beginning}    По #{@study_process_graphic.vacation_end}"
+  %tr
+    %td=StudyProcessGraphic.human_attribute_name(:exam_session_dates)
+    %td="C #{@study_process_graphic.exam_session_beginning}    По #{@study_process_graphic.exam_session_end}"
+  %tr
+    %td=StudyProcessGraphic.human_attribute_name(:gos_exam_dates)
+    %td="C #{@study_process_graphic.gos_exam_beginning}    По #{@study_process_graphic.gos_exam_end}"
+  %tr
+    %td=StudyProcessGraphic.human_attribute_name(:vkr_dates)
+    %td="C #{@study_process_graphic.vkr_beginning}    По #{@study_process_graphic.vkr_end}"
+  %tr
+    %td=StudyProcessGraphic.human_attribute_name(:vkr_type)
+    %td=@study_process_graphic.vkr_type
+  %tr
+    %td=StudyProcessGraphic.human_attribute_name(:qualification)
+    %td
+      -if @study_process_graphic.qualification
+        =@study_process_graphic.qualification.name
+
+
+=link_to "Редактировать", edit_study_year_study_process_graphic_path(current_user.current_year,@study_process_graphic), :class => "btn"
+=link_to "Удалить", study_year_study_process_graphic_path(current_user.current_year,@study_process_graphic), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
+=link_to "Назад", study_year_study_process_graphics_path(current_user.current_year), :class => "btn"
+%br
+%br

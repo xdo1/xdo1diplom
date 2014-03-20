@@ -1,0 +1,36 @@
+%h4
+  Список учебных отрезков
+
+=search_form_for [@year,@search] do |f|
+  %label Найти учебный отрезок
+  =f.search_field :name_cont, :placeholder => "Поиск..."
+  %br
+  =f.submit 'Найти', :class => "btn primary"
+%br
+
+=link_to 'Добавить учебный отрезок', new_study_year_study_period_path(current_user.current_year), :class => "btn"
+%br
+%br
+
+%table.table.table-bordered.table-hover
+  %thread
+    %tr
+      %th=StudyPeriod.human_attribute_name(:name)
+      %th=StudyPeriod.human_attribute_name(:group)
+      %th=StudyPeriod.human_attribute_name(:gup)
+      %th=StudyPeriod.human_attribute_name(:edit)
+  %tbody
+  - @study_periods.each do |study_period|
+    %tr
+      %td=study_period.name
+      %td
+        -if study_period.group
+          =study_period.group.name
+      %td
+        -if study_period.study_process_graphic
+          =study_period.study_process_graphic.name
+      %td
+        =link_to "Просмотреть", study_year_study_period_path(current_user.current_year, study_period), :class => "btn btn-success"
+        =link_to "Редактировать", edit_study_year_study_period_path(current_user.current_year, study_period), :class => "btn"
+        =link_to "Удалить", study_year_study_period_path(current_user.current_year, study_period), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
+

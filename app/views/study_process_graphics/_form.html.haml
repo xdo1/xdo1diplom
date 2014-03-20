@@ -1,0 +1,90 @@
+= form_for [@year,@study_process_graphic] do |f|
+  =error_messages_for @study_process_graphic
+  =f.label :name
+  =f.text_field :name
+
+  =f.label :weeks_in_semester
+  =f.text_field :weeks_in_semester
+
+  =f.label :semester_dates
+  С
+  =f.date_field :semester_beginning
+  По
+  =f.date_field :semester_end
+
+  =f.label :zach_session_dates
+  С
+  =f.date_field :zach_session_beginning
+  По
+  =f.date_field :zach_session_end
+
+  =f.label :exam_session_dates
+  С
+  =f.date_field :exam_session_beginning
+  По
+  =f.date_field :exam_session_end
+
+  =f.label :vacation_dates
+  С
+  =f.date_field :vacation_beginning
+  По
+  =f.date_field :vacation_end
+
+  =f.label :gos_exam_dates
+  С
+  =f.date_field :gos_exam_beginning
+  По
+  =f.date_field :gos_exam_end
+
+  =f.label :vkr_dates
+  С
+  =f.date_field :vkr_beginning
+  По
+  =f.date_field :vkr_end
+
+  =f.label :vkr_type
+  =f.select :vkr_type, [['квалификационная'], ['дипломная'], ['аттестационная']]
+
+  =f.label :qualification
+  =f.select :qualification_id, Qualification.all.collect {|p| [p.name, p.id] }, {include_blank: 'None'}
+  .form-actions
+    =f.submit "Сохранить",class: 'btn btn-primary'
+    =link_to 'Назад', study_year_study_process_graphics_path(current_user.current_year), :class => 'btn'
+
+:javascript
+  $('#study_process_graphic_semester_beginning').datepicker({
+  format: 'yyyy-mm-dd'
+  })
+  $('#study_process_graphic_semester_end').datepicker({
+  format: 'yyyy-mm-dd'
+  })
+  $('#study_process_graphic_zach_session_beginning').datepicker({
+  format: 'yyyy-mm-dd'
+  })
+  $('#study_process_graphic_zach_session_end').datepicker({
+  format: 'yyyy-mm-dd'
+  })
+  $('#study_process_graphic_exam_session_beginning').datepicker({
+  format: 'yyyy-mm-dd'
+  })
+  $('#study_process_graphic_exam_session_end').datepicker({
+  format: 'yyyy-mm-dd'
+  })
+  $('#study_process_graphic_vacation_beginning').datepicker({
+  format: 'yyyy-mm-dd'
+  })
+  $('#study_process_graphic_vacation_end').datepicker({
+  format: 'yyyy-mm-dd'
+  })
+  $('#study_process_graphic_gos_exam_beginning').datepicker({
+  format: 'yyyy-mm-dd'
+  })
+  $('#study_process_graphic_gos_exam_end').datepicker({
+  format: 'yyyy-mm-dd'
+  })
+  $('#study_process_graphic_vkr_beginning').datepicker({
+  format: 'yyyy-mm-dd'
+  })
+  $('#study_process_graphic_vkr_end').datepicker({
+  format: 'yyyy-mm-dd'
+  })

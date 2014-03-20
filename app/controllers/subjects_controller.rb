@@ -1,13 +1,18 @@
 class SubjectsController < ApplicationController
   before_action :set_subject, only: [:show, :edit, :update, :destroy]
   before_filter :not_authenticated
-  before_filter :for_dictionaries_operator
+  before_filter :for_dictionaries_operator, :except => [:get_subject_list]
 
   # GET /subjects
   # GET /subjects.json
   def index
     @search = Subject.search(params[:q])
     @subjects=@search.result(:distinct => true)
+  end
+
+  def get_subject_list
+    q="%#{params[:q]}%"
+    render json: Subject.where("name like ?", q).all.to_json(only: [:name, :id])
   end
 
   # GET /subjects/1

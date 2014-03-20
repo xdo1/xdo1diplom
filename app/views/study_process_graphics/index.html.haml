@@ -1,0 +1,40 @@
+%h4
+  Список графиков учебных процессов
+
+=search_form_for [@year,@search] do |f|
+  %label Найти график
+  =f.search_field :name_cont, :placeholder => "Поиск..."
+  %br
+  =f.submit 'Найти', :class => "btn primary"
+%br
+
+=link_to 'Добавить график учебных процессов', new_study_year_study_process_graphic_path(current_user.current_year), :class => "btn"
+%br
+%br
+
+%table.table.table-bordered.table-hover
+  %thread
+    %tr
+      %th=StudyProcessGraphic.human_attribute_name(:name)
+      %th=StudyProcessGraphic.human_attribute_name(:semester_beginning)
+      %th=StudyProcessGraphic.human_attribute_name(:semester_end)
+      %th=StudyProcessGraphic.human_attribute_name(:qualification)
+      %th=StudyProcessGraphic.human_attribute_name(:weeks_in_semester)
+      %th=StudyProcessGraphic.human_attribute_name(:vkr_type)
+      %th=StudyProcessGraphic.human_attribute_name(:edit)
+  %tbody
+  - @study_process_graphics.each do |study_process_graphic|
+    %tr
+      %td=study_process_graphic.name
+      %td=study_process_graphic.semester_beginning
+      %td=study_process_graphic.semester_end
+      %td
+        -if study_process_graphic.qualification
+          =study_process_graphic.qualification.name
+      %td=study_process_graphic.weeks_in_semester
+      %td=study_process_graphic.vkr_type
+      %td
+        =link_to "Просмотреть", study_year_study_process_graphic_path(current_user.current_year, study_process_graphic), :class => "btn btn-success"
+        =link_to "Редактировать", edit_study_year_study_process_graphic_path(current_user.current_year, study_process_graphic), :class => "btn"
+        =link_to "Удалить", study_year_study_process_graphic_path(current_user.current_year, study_process_graphic), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
+

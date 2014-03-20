@@ -12,7 +12,7 @@ $ ->
       hintText: "Начните ввод для поиска"
       noResultsText: "Ничего не найдено"
       searchingText: "Поиск"
-      propertyToSearch: "numer"
+      propertyToSearch: "name"
     if $(this).attr('data-limit')!=undefined
       attributes['tokenLimit']=$(this).attr('data-limit')
     $(this).tokenInput url, attributes

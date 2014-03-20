@@ -679,8 +679,12 @@ $.TokenList = function (input, url_or_data, settings) {
 
             $.each(results, function(index, value) {
                 var this_li = settings.resultsFormatter(value);
-                
-                this_li = find_value_and_highlight_term(this_li ,value[settings.propertyToSearch], query);            
+
+                var temp = settings.propertyToSearch.split(' ');
+                $.each(temp, function(key, token){
+                    this_li = find_value_and_highlight_term(this_li ,value[token], query);
+
+                });
                 
                 this_li = $(this_li).appendTo(dropdown_ul);
                 

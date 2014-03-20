@@ -13,7 +13,7 @@ class PlansController < ApplicationController
 
   def get_plan_list
     q="%#{params[:q]}%"
-    render json: Plan.where("numer like ?", q).all.to_json(only: [:numer, :id])
+    render json: Plan.where("numer like ?", q).select('id, numer as name').all.to_json(only: [:name, :id])
   end
 
   # GET /plans/1

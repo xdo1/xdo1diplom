@@ -1,4 +1,6 @@
 Diplom::Application.routes.draw do
+  resources :practices
+
   resources :plans  do
     collection do
       get 'get_plan_list'
@@ -9,9 +11,15 @@ Diplom::Application.routes.draw do
 
   resources :study_years do
     resources :groups
+    resources :study_process_graphics
+    resources :study_periods
   end
 
-  resources :subjects
+  resources :subjects do
+    collection do
+      get 'get_subject_list'
+    end
+  end
 
   resources :departments
 

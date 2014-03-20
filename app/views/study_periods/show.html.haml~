@@ -1,0 +1,44 @@
+%h4
+  Просмотр специальности
+
+%table.table.table-bordered.table-hover
+  %thread
+  %tr
+    %td=Plan.human_attribute_name(:numer)
+    %td=@plan.numer
+  %tr
+    %td=Plan.human_attribute_name(:education_form)
+    %td=@plan.education_form
+  %tr
+    %td=Plan.human_attribute_name(:education_base)
+    %td=@plan.education_base
+  %tr
+    %td=Plan.human_attribute_name(:speciality)
+    %td
+    -if @plan.speciality
+      =@plan.speciality.speciality_name
+  %tr
+    %td=Plan.human_attribute_name(:profile_name)
+    %td=@plan.profile_name
+  %tr
+    %td=Plan.human_attribute_name(:profile_id)
+    %td=@plan.profile_id
+  %tr
+    %td=Plan.human_attribute_name(:study_years)
+    %td
+      - @plan.study_years.each do |study_year|
+        =study_year.years
+        %br
+  %tr
+    %td=Plan.human_attribute_name(:filial)
+    %td
+      -if @plan.filial
+        Да
+      -else
+        Нет
+
+=link_to "Редактировать", edit_plan_path(@plan), :class => "btn"
+=link_to "Удалить", plan_path(@plan), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
+=link_to "Назад", plans_path, :class => "btn"
+%br
+%br

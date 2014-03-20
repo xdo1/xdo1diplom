@@ -14,9 +14,12 @@
         %li
           =link_to 'Главная страница', root_path
         %li
-          =link_to 'Редактирование учебных отрезков', root_path
+          =link_to 'Редактирование учебных отрезков', study_year_study_periods_path(current_user.current_year)
+        %li
+          =link_to 'Редактирование графиков учебных процессов', study_year_study_process_graphics_path(current_user.current_year)
         %li
           =link_to 'Редактирование групп', study_year_groups_path(current_user.current_year)
+
 
     -if current_user.current_role==3
       %ul

@@ -349,7 +349,28 @@ ru:
         profile_name: Название профиля
         study_years: Учебные года
         edit: Редактирование
-
+      study_process_graphic:
+        qualification: Квалификация
+        name: Название
+        vkr_type: Тип ВКР
+        weeks_in_semester: Недель в семестре
+        semester_beginning: Начало семестра
+        semester_end: Конец семестра
+        semester_dates: Даты начала и конца семестра
+        zach_session_dates: Даты начала и конца зачетной сессии
+        exam_session_dates: Даты начала и конца экзаменационной сессии
+        vacation_dates: Даты начала и конца каникул
+        gos_exam_dates: Даты начала и конца гос. экзаменов
+        vkr_dates: Даты начала и конца ВКР
+        edit: Редактирование
+      study_period:
+        name: Название
+        group: Группа
+        study_process_graphic: График учебного процесса
+        study_process_graphic_id: График учебного процесса
+        gup: График учебного процесса
+        subjects: Предметы
+        edit: Редактирование
 
 
   views:

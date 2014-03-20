@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140109102729) do
+ActiveRecord::Schema.define(version: 20140320112423) do
 
   create_table "departments", force: true do |t|
     t.string   "name"
@@ -88,6 +88,17 @@ ActiveRecord::Schema.define(version: 20140109102729) do
     t.datetime "updated_at"
   end
 
+  create_table "practices", force: true do |t|
+    t.date     "beginning"
+    t.date     "end"
+    t.string   "name"
+    t.string   "reporting"
+    t.integer  "weeks"
+    t.integer  "ze_for_gos3"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "qualifications", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
@@ -117,6 +128,44 @@ ActiveRecord::Schema.define(version: 20140109102729) do
     t.datetime "updated_at"
   end
 
+  create_table "study_periods", force: true do |t|
+    t.integer  "group_id"
+    t.integer  "study_process_graphic_id"
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "study_year_id"
+  end
+
+  create_table "study_periods_subjects", force: true do |t|
+    t.integer  "study_period_id"
+    t.integer  "subject_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "study_process_graphics", force: true do |t|
+    t.date     "semester_beginning"
+    t.date     "semester_end"
+    t.date     "zach_session_beginning"
+    t.date     "zach_session_end"
+    t.date     "exam_session_beginning"
+    t.date     "exam_session_end"
+    t.date     "vacation_beginning"
+    t.date     "vacation_end"
+    t.date     "gos_exam_beginning"
+    t.date     "gos_exam_end"
+    t.date     "vkr_beginning"
+    t.date     "vkr_end"
+    t.string   "vkr_type"
+    t.string   "name"
+    t.integer  "qualification_id"
+    t.integer  "weeks_in_semester",      default: 0
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "study_year_id"
+  end
+
   create_table "study_years", force: true do |t|
     t.string   "years"
     t.datetime "created_at"
@@ -128,6 +177,7 @@ ActiveRecord::Schema.define(version: 20140109102729) do
     t.string   "short_name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "practice_id"
   end
 
   create_table "users", force: true do |t|
