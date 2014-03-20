@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6620a400-c899-4826-84bf-b757a3a8e15e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_leftbar.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/_leftbar.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/group.rb" afterPath="$PROJECT_DIR$/app/models/group.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/groups.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/groups.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/jquery.tokeninput.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery.tokeninput.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/plans_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/plans_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/ru.yml" afterPath="$PROJECT_DIR$/config/locales/ru.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/plans/show.html.haml" afterPath="$PROJECT_DIR$/app/views/plans/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/study_year.rb" afterPath="$PROJECT_DIR$/app/models/study_year.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/subject.rb" afterPath="$PROJECT_DIR$/app/models/subject.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/subjects_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/subjects_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/study_period.rb" afterPath="$PROJECT_DIR$/app/models/study_period.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/study_process_graphic.rb" afterPath="$PROJECT_DIR$/app/models/study_process_graphic.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Diplom.iws" />
@@ -108,7 +96,7 @@
     <file path="/20140319082550_create_study_periods.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395217805391" ignored="false" />
     <file path="/20140319082935_create_study_process_graphics.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395218548527" ignored="false" />
     <file path="/20140319084217_create_practices.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395218646635" ignored="false" />
-    <file path="/study_period.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395320658071" ignored="false" />
+    <file path="/study_period.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395324942536" ignored="false" />
     <file path="/20140319084636_add_period_id_to_subject.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395218848366" ignored="false" />
     <file path="/study_process_graphic.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395320713238" ignored="false" />
     <file path="/subject.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395219002870" ignored="false" />
@@ -191,16 +179,7 @@
       <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="27" selection-start="4663" selection-end="4663" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="study_period.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/study_period.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+            <state line="147" column="0" selection-start="4072" selection-end="4607" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -209,34 +188,16 @@
       <file leaf-file-name="study_periods_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/study_periods_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="36" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.0">
+            <state line="41" column="42" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/study_process_graphics/_form.html.haml">
+      <file leaf-file-name="study_process_graphic.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/study_process_graphic.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="128" selection-start="532" selection-end="532" vertical-scroll-proportion="-8.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/study_process_graphics/show.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="43" selection-start="1399" selection-end="1399" vertical-scroll-proportion="-18.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ru.yml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="372" column="28" selection-start="10581" selection-end="10581" vertical-scroll-proportion="0.85870755">
+            <state line="21" column="87" selection-start="912" selection-end="912" vertical-scroll-proportion="0.3372591">
               <folding />
             </state>
           </provider>
@@ -270,13 +231,13 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/study_process_graphics/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/models/study_process_graphic.rb" />
-        <option value="$PROJECT_DIR$/app/models/study_period.rb" />
         <option value="$PROJECT_DIR$/app/controllers/study_periods_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/study_process_graphics_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/study_process_graphics/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/study_process_graphics/show.html.haml" />
         <option value="$PROJECT_DIR$/config/locales/ru.yml" />
+        <option value="$PROJECT_DIR$/app/models/study_period.rb" />
+        <option value="$PROJECT_DIR$/app/models/study_process_graphic.rb" />
       </list>
     </option>
   </component>
@@ -1153,22 +1114,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/groups/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="499" selection-end="594" vertical-scroll-proportion="0.20247468">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.8937569">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/study_process_graphics/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="61" selection-start="810" selection-end="810" vertical-scroll-proportion="-13.75">
@@ -1197,30 +1142,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/study_process_graphic.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.065717414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="27" selection-start="4663" selection-end="4663" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/study_process_graphics_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="4" selection-start="257" selection-end="279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/study_periods/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="637" selection-end="637" vertical-scroll-proportion="-7.5">
           <folding />
         </state>
       </provider>
@@ -1232,37 +1156,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/study_period.rb">
+    <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/study_periods_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="36" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.0">
+        <state line="331" column="64" selection-start="9107" selection-end="9107" vertical-scroll-proportion="0.18510406">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/study_process_graphics/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="43" selection-start="1399" selection-end="1399" vertical-scroll-proportion="-18.125">
+        <state line="29" column="43" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.48931384">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/study_process_graphics/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="128" selection-start="532" selection-end="532" vertical-scroll-proportion="-8.125">
+        <state line="28" column="161" selection-start="599" selection-end="599" vertical-scroll-proportion="-0.12087912">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
+    <entry file="file://$PROJECT_DIR$/app/models/speciality.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="372" column="28" selection-start="10581" selection-end="10581" vertical-scroll-proportion="0.85870755">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/study_periods/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="637" selection-end="637" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/study_period.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="93" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="0" selection-start="4072" selection-end="4607" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/study_periods_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="42" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/subject.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="132" selection-start="235" selection-end="235" vertical-scroll-proportion="0.08029979">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/study_process_graphic.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="87" selection-start="912" selection-end="912" vertical-scroll-proportion="0.3372591">
           <folding />
         </state>
       </provider>

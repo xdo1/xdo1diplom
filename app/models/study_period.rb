@@ -5,6 +5,10 @@ class StudyPeriod < ActiveRecord::Base
   has_many :subjects
   has_and_belongs_to_many :subjects
 
+  validates :name, length: { maximum: 300 }
+  validates :group_id, :presence => true
+  validates :study_process_graphic_id, :presence => true
+
   attr_reader :subject_tokens
 
 
