@@ -3,8 +3,9 @@ class Group < ActiveRecord::Base
   belongs_to :department
   belongs_to :faculty
   belongs_to :speciality
-  has_many :study_periods
-  has_one :education_form
+  has_one :study_period
+  has_one :study_process_graphic
+  #has_one :education_form
   has_and_belongs_to_many :plans
 
   validates :name, :presence => true, length: { minimum: 2, maximum: 200 }

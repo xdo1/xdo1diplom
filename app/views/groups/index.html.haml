@@ -26,6 +26,10 @@
       %td=group.faculty.short_name
       %td=group.department.name
       %td
+        -if group.study_period
+          =link_to "Добавить дисциплины",  edit_study_year_study_period_path(current_user.current_year, group.study_period), :class => "btn btn-primary"
+        -else
+          =link_to "Создать график учебного процесса",  study_year_study_process_graphics_new_with_group_path(current_user.current_year, group.id), :class => "btn btn-primary"
         =link_to "Просмотреть", study_year_group_path(current_user.current_year, group), :class => "btn btn-success"
         =link_to "Редактировать", edit_study_year_group_path(current_user.current_year, group), :class => "btn"
         =link_to "Удалить", study_year_group_path(current_user.current_year,group), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}

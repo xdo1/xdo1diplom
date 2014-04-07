@@ -16,24 +16,28 @@
 %table.table.table-bordered.table-hover
   %thread
     %tr
-      %th=Plan.human_attribute_name(:name)
-      %th=Plan.human_attribute_name(:numer)
-      %th=Plan.human_attribute_name(:speciality)
-      %th=Plan.human_attribute_name(:study_years)
+      %th=Plan.human_attribute_name(:speciality_numer)
+      %th=Plan.human_attribute_name(:direcrion_numer)
+      %th=Plan.human_attribute_name(:speciality_name)
+      %th=Plan.human_attribute_name(:direcrion_name)
+      %th=Plan.human_attribute_name(:plan_name)
       %th=Plan.human_attribute_name(:edit)
   %tbody
   - @plans.each do |plan|
     %tr
-      %td=plan.plan_name
-      %td=plan.numer
+      %td
+        -if plan.speciality
+          =plan.speciality.speciality_numer
+      %td
+        -if plan.speciality
+          =plan.speciality.direction_numer
       %td
         -if plan.speciality
           =plan.speciality.speciality_name
-          =plan.speciality.direction_name
       %td
-        - plan.study_years.each do |study_year|
-          =study_year.years
-          %br
+        -if plan.speciality
+          =plan.speciality.direction_name
+      %td=plan.plan_name
       %td
         =link_to "Просмотреть", plan_path(plan), :class => "btn btn-mini btn-success"
         =link_to "Редактировать", edit_plan_path(plan), :class => "btn btn-mini primary"

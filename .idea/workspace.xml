@@ -2,22 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6620a400-c899-4826-84bf-b757a3a8e15e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/files/spec_utf.txt" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/study_process_graphics/new.html.haml" afterPath="$PROJECT_DIR$/app/views/study_process_graphics/new_with_group.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Diplom.iml" afterPath="$PROJECT_DIR$/.idea/Diplom.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/study_periods/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/study_periods/_form.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/study_process_graphics/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/study_process_graphics/_form.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_leftbar.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/_leftbar.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/department.rb" afterPath="$PROJECT_DIR$/app/models/department.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/group.rb" afterPath="$PROJECT_DIR$/app/models/group.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/groups/index.html.haml" afterPath="$PROJECT_DIR$/app/views/groups/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/plans/index.html.haml" afterPath="$PROJECT_DIR$/app/views/plans/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/study_periods/index.html.haml" afterPath="$PROJECT_DIR$/app/views/study_periods/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/study_process_graphics/index.html.haml" afterPath="$PROJECT_DIR$/app/views/study_process_graphics/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/ru.yml" afterPath="$PROJECT_DIR$/config/locales/ru.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/plans/show.html.haml" afterPath="$PROJECT_DIR$/app/views/plans/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/study_periods/show.html.haml" afterPath="$PROJECT_DIR$/app/views/study_periods/show.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/study_period.rb" afterPath="$PROJECT_DIR$/app/models/study_period.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/study_periods_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/study_periods_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/study_process_graphic.rb" afterPath="$PROJECT_DIR$/app/models/study_process_graphic.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/study_process_graphics_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/study_process_graphics_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Diplom.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1392622410893" ignored="false" />
+    <file path="/Gemfile" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396877831876" ignored="false" />
     <file path="/20130904212530_sorcery_core.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378333847885" ignored="false" />
-    <file path="/users_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395317866758" ignored="false" />
-    <file path="/user.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395317785455" ignored="false" />
+    <file path="/users_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396272460308" ignored="false" />
+    <file path="/user.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271621119" ignored="false" />
     <file path="/role.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378335086787" ignored="false" />
     <file path="/20130905112010_change_users_roles.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378380110118" ignored="false" />
-    <file path="/routes.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395232548643" ignored="false" />
+    <file path="/routes.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396865555871" ignored="false" />
     <file path="/temp.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378381240380" ignored="false" />
     <file path="$PROJECT_DIR$/test/controllers/mains_controller_test.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378381240380" ignored="false" />
-    <file path="/application_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381154164132" ignored="false" />
+    <file path="/application_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396266279590" ignored="false" />
     <file path="/application.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389273182658" ignored="false" />
     <file path="/_topbar.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389341063794" ignored="false" />
     <file path="/application.css" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395316971863" ignored="false" />
@@ -26,12 +48,12 @@
     <file path="/20130905175650_add_pass_to_user.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378403848341" ignored="false" />
     <file path="/login.css" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381153961312" ignored="false" />
     <file path="$PROJECT_DIR$/test/controllers/users_controller_test.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378468618664" ignored="false" />
-    <file path="/index.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395319113522" ignored="false" />
-    <file path="/_form.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395319228476" ignored="false" />
-    <file path="/edit.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395316372176" ignored="false" />
-    <file path="/_leftbar.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395315491294" ignored="false" />
+    <file path="/index.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396879013699" ignored="false" />
+    <file path="/_form.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396878130028" ignored="false" />
+    <file path="/edit.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396878351808" ignored="false" />
+    <file path="/_leftbar.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396878735681" ignored="false" />
     <file path="/application.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378729011318" ignored="false" />
-    <file path="/ru.yml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395322995343" ignored="false" />
+    <file path="/ru.yml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396254419185" ignored="false" />
     <file path="/20130910095636_create_faculties.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378807061404" ignored="false" />
     <file path="/20130910100454_create_sub_faculties.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378807588408" ignored="false" />
     <file path="/20130910100733_create_groups.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378807753409" ignored="false" />
@@ -42,9 +64,9 @@
     <file path="/20130923083932_create_groups.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379925604128" ignored="false" />
     <file path="/20130923084457_create_faculties.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379925962647" ignored="false" />
     <file path="/20130923084623_create_departments.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379926052300" ignored="false" />
-    <file path="/group.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395218928960" ignored="false" />
+    <file path="/group.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396866935524" ignored="false" />
     <file path="/faculty.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381135687253" ignored="false" />
-    <file path="/department.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381135516989" ignored="false" />
+    <file path="/department.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396878947177" ignored="false" />
     <file path="/20130923083450_edit_subject.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379926762686" ignored="false" />
     <file path="/20130923090035_create_subjects.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379926862101" ignored="false" />
     <file path="/20130923091320_create_study_years.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379927621545" ignored="false" />
@@ -55,7 +77,7 @@
     <file path="/departments_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381153219730" ignored="false" />
     <file path="/20130923101049_create_qualifications.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379935402744" ignored="false" />
     <file path="/specialities_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381153090569" ignored="false" />
-    <file path="/show.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395321889815" ignored="false" />
+    <file path="/show.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396252632988" ignored="false" />
     <file path="/study_years_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381154234830" ignored="false" />
     <file path="/groups_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1383729517191" ignored="false" />
     <file path="/index.html.erb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380007051681" ignored="false" />
@@ -65,7 +87,7 @@
     <file path="/_change_year.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380018537805" ignored="false" />
     <file path="/education_form.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380014864360" ignored="false" />
     <file path="/20130924092926_rename_years_column.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380015039046" ignored="false" />
-    <file path="/Dummy.txt" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395300133209" ignored="false" />
+    <file path="/Dummy.txt" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396863419439" ignored="false" />
     <file path="/error.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381151516107" ignored="false" />
     <file path="/_flash_messages.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381152933372" ignored="false" />
     <file path="/20131010120559_create_plans.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381408834833" ignored="false" />
@@ -91,30 +113,30 @@
     <file path="/20140109081144_add_specialities.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389255184391" ignored="false" />
     <file path="/20140109081333_add_study_years.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389255236536" ignored="false" />
     <file path="/20140109081451_add_users.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389255379795" ignored="false" />
-    <file path="/seeds.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1392626280729" ignored="false" />
+    <file path="/seeds.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396554346558" ignored="false" />
     <file path="/20140109102729_add_subjects.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389263295900" ignored="false" />
     <file path="/20140319082550_create_study_periods.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395217805391" ignored="false" />
     <file path="/20140319082935_create_study_process_graphics.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395218548527" ignored="false" />
     <file path="/20140319084217_create_practices.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395218646635" ignored="false" />
-    <file path="/study_period.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395324942536" ignored="false" />
+    <file path="/study_period.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396256904842" ignored="false" />
     <file path="/20140319084636_add_period_id_to_subject.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395218848366" ignored="false" />
-    <file path="/study_process_graphic.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395320713238" ignored="false" />
+    <file path="/study_process_graphic.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396866962358" ignored="false" />
     <file path="/subject.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395219002870" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/controllers/users_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395317867165" ignored="false" />
+    <file path="$USER_HOME$/project/toplistapp/app/controllers/users_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396272493116" ignored="false" />
     <file path="$USER_HOME$/project/toplistapp/app/views/user/by_league.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395313257793" ignored="false" />
     <file path="/by_league.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395309403813" ignored="false" />
     <file path="$USER_HOME$/project/toplistapp/config/deploy.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395220546257" ignored="false" />
     <file path="/deploy.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395220544427" ignored="false" />
     <file path="$USER_HOME$/project/toplistapp/config/initializers/secret_token.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395221465570" ignored="false" />
     <file path="/secret_token.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395221455540" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/controllers/application_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395226821956" ignored="false" />
+    <file path="$USER_HOME$/project/toplistapp/app/controllers/application_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396266297254" ignored="false" />
     <file path="$USER_HOME$/project/toplistapp/app/views/user/for_main_skip_limit.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395242881917" ignored="false" />
     <file path="$USER_HOME$/project/toplistapp/app/views/user/only_published_guids.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395242889560" ignored="false" />
     <file path="$USER_HOME$/project/toplistapp/app/controllers/criterion_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395239000193" ignored="false" />
     <file path="$USER_HOME$/project/toplistapp/app/views/NSI/criteria/show.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395239013180" ignored="false" />
     <file path="/show.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395239013180" ignored="false" />
     <file path="/criterion_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395235928050" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/config/routes.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395234826339" ignored="false" />
+    <file path="$USER_HOME$/project/toplistapp/config/routes.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396272033840" ignored="false" />
     <file path="/20140319125040_study_periods_subjects.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395233489894" ignored="false" />
     <file path="$USER_HOME$/project/toplistapp/app/views/NSI/criteria/by_goal_by_user.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395238034972" ignored="false" />
     <file path="/by_goal_by_user.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395238034972" ignored="false" />
@@ -129,11 +151,34 @@
     <file path="$USER_HOME$/project/toplistapp/config/thin-rails.yml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395300287426" ignored="false" />
     <file path="/thin-rails.yml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395246752165" ignored="false" />
     <file path="/study_periods.js.coffee" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395248364509" ignored="false" />
-    <file path="/study_periods_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395320785379" ignored="false" />
+    <file path="/study_periods_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396864905209" ignored="false" />
     <file path="/a.dummy" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395249493180" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/models/user.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395317785456" ignored="false" />
+    <file path="$USER_HOME$/project/toplistapp/app/models/user.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271854968" ignored="false" />
     <file path="/20140320112423_add_study_year.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395314729332" ignored="false" />
-    <file path="/study_process_graphics_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395320598959" ignored="false" />
+    <file path="/study_process_graphics_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396866835035" ignored="false" />
+    <file path="$USER_HOME$/project/toplistapp/app/models/user_token.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396266257962" ignored="false" />
+    <file path="/user_token.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396266212187" ignored="false" />
+    <file path="$USER_HOME$/project/toplistapp/app/controllers/leagues_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396267829478" ignored="false" />
+    <file path="/leagues_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396267828278" ignored="false" />
+    <file path="$USER_HOME$/project/toplistapp/app/views/user/not_allowed.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271923878" ignored="false" />
+    <file path="$USER_HOME$/project/toplistapp/app/controllers/cities_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396269055634" ignored="false" />
+    <file path="/cities_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396269051723" ignored="false" />
+    <file path="$USER_HOME$/project/toplistapp/app/controllers/professions_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396269068851" ignored="false" />
+    <file path="$USER_HOME$/project/toplistapp/app/controllers/reports_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396269181644" ignored="false" />
+    <file path="/reports_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396269181215" ignored="false" />
+    <file path="$USER_HOME$/project/toplistapp/app/helpers/application_helper.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396270039605" ignored="false" />
+    <file path="/application_helper.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396270009184" ignored="false" />
+    <file path="$USER_HOME$/project/toplistapp/app/models/user_publish_report_comment.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271400657" ignored="false" />
+    <file path="/user_publish_report_comment.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271562137" ignored="false" />
+    <file path="$USER_HOME$/project/toplistapp/app/controllers/user_publish_report_comments_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271508754" ignored="false" />
+    <file path="$USER_HOME$/project/toplistapp/app/models/publish_report.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271813375" ignored="false" />
+    <file path="$USER_HOME$/project/toplistapp/app/controllers/publish_reports_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271854968" ignored="false" />
+    <file path="/publish_reports_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271701448" ignored="false" />
+    <file path="/not_allowed.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271923878" ignored="false" />
+    <file path="/20140403192734_add_some_fields.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396553316879" ignored="false" />
+    <file path="/20140407103032_add_groupid.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396866683929" ignored="false" />
+    <file path="/20140407135059_create_discipline_groups.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396878775393" ignored="false" />
+    <file path="/discipline_group.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396878926252" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,19 +203,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="edit.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/study_process_graphics/edit.html.haml">
+      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/groups/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="37" selection-start="84" selection-end="84" vertical-scroll-proportion="-1.25">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/discipline_groups/show.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="35" selection-start="118" selection-end="118" vertical-scroll-proportion="-4.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="discipline_group.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/discipline_group.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="24" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/discipline_groups/index.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="46" selection-start="763" selection-end="763" vertical-scroll-proportion="0.45556805">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/study_periods/_form.html.haml">
+        <entry file="file://$PROJECT_DIR$/app/views/discipline_groups/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="29" selection-start="637" selection-end="637" vertical-scroll-proportion="-7.5">
+            <state line="15" column="57" selection-start="437" selection-end="437" vertical-scroll-proportion="-9.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_leftbar.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_leftbar.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="57" selection-start="823" selection-end="823" vertical-scroll-proportion="-13.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="15" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -179,25 +269,16 @@
       <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="0" selection-start="4072" selection-end="4607" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="study_periods_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/study_periods_controller.rb">
+      <file leaf-file-name="20140407135059_create_discipline_groups.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20140407135059_create_discipline_groups.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="42" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="study_process_graphic.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/study_process_graphic.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="87" selection-start="912" selection-end="912" vertical-scroll-proportion="0.3372591">
+            <state line="11" column="55" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -222,22 +303,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/study_periods/show.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/study_periods/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/study_periods/_form.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_leftbar.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/study_process_graphics/edit.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/study_process_graphics/new.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/study_process_graphics/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/study_periods_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/study_process_graphics_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/study_process_graphics/_form.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/study_process_graphics/show.html.haml" />
-        <option value="$PROJECT_DIR$/config/locales/ru.yml" />
-        <option value="$PROJECT_DIR$/app/models/study_period.rb" />
-        <option value="$PROJECT_DIR$/app/models/study_process_graphic.rb" />
+        <option value="$PROJECT_DIR$/app/views/study_periods/index.html.haml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/lib/templates/haml/scaffold/_form.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/groups/index.html.haml" />
+        <option value="$PROJECT_DIR$/lib/templates/haml/scaffold/index.html.haml" />
+        <option value="$PROJECT_DIR$/lib/templates/haml/scaffold/edit.html.haml" />
+        <option value="$PROJECT_DIR$/lib/templates/haml/scaffold/new.html.haml" />
+        <option value="$PROJECT_DIR$/lib/templates/haml/scaffold/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_leftbar.html.haml" />
+        <option value="$PROJECT_DIR$/db/migrate/20140407135059_create_discipline_groups.rb" />
+        <option value="$PROJECT_DIR$/app/views/discipline_groups/_form.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/discipline_groups/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/models/discipline_group.rb" />
+        <option value="$PROJECT_DIR$/app/models/department.rb" />
+        <option value="$PROJECT_DIR$/app/views/discipline_groups/index.html.haml" />
       </list>
     </option>
   </component>
@@ -289,6 +370,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,11 +400,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,47 +414,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locales" />
+              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,29 +458,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="study_process_graphics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study_periods" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -477,6 +498,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discipline_groups" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -495,101 +538,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/project/toplistapp" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="" serverId="4e7aa88c-51a3-42de-9976-00b49621c46d">
     <servers>
@@ -1005,7 +966,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20784964" sideWeight="0.67083335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2299613" sideWeight="0.67083335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1106,7 +1067,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/views/plans/index.html.haml</url>
-          <line>38</line>
+          <line>42</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
@@ -1114,114 +1075,114 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/study_process_graphics/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/groups/edit.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="61" selection-start="810" selection-end="810" vertical-scroll-proportion="-13.75">
+        <state line="0" column="0" selection-start="0" selection-end="48" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/lib/templates/haml/scaffold/edit.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="141" selection-start="291" selection-end="291" vertical-scroll-proportion="0.26286966">
+        <state line="1" column="62" selection-start="61" selection-end="61" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/templates/haml/scaffold/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="62" selection-start="55" selection-end="55" vertical-scroll-proportion="0.01687289">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/groups/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="134" selection-start="388" selection-end="388" vertical-scroll-proportion="0.28683916">
+        <state line="31" column="62" selection-start="728" selection-end="728" vertical-scroll-proportion="-19.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/groups_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_leftbar.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="302" selection-end="314" vertical-scroll-proportion="0.14786418">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/study_process_graphics_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="257" selection-end="279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/study_process_graphics/edit.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="37" selection-start="84" selection-end="84" vertical-scroll-proportion="-1.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="331" column="64" selection-start="9107" selection-end="9107" vertical-scroll-proportion="0.18510406">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/study_process_graphics/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="43" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.48931384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/study_process_graphics/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="161" selection-start="599" selection-end="599" vertical-scroll-proportion="-0.12087912">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/speciality.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/study_periods/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="637" selection-end="637" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/study_period.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="93" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
+        <state line="22" column="57" selection-start="823" selection-end="823" vertical-scroll-proportion="-13.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="0" selection-start="4072" selection-end="4607" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/study_periods_controller.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140407135059_create_discipline_groups.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="42" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0">
+        <state line="11" column="55" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/subject.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/discipline_groups/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="132" selection-start="235" selection-end="235" vertical-scroll-proportion="0.08029979">
+        <state line="15" column="57" selection-start="437" selection-end="437" vertical-scroll-proportion="-9.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/study_process_graphic.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="87" selection-start="912" selection-end="912" vertical-scroll-proportion="0.3372591">
+        <state line="8" column="15" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/templates/haml/scaffold/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="85" selection-start="155" selection-end="155" vertical-scroll-proportion="0.10123734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/groups/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/groups/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/department.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="109" selection-start="308" selection-end="308" vertical-scroll-proportion="0.14786418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/discipline_group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="24" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/discipline_groups/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="35" selection-start="118" selection-end="118" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/discipline_groups/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="46" selection-start="763" selection-end="763" vertical-scroll-proportion="0.45556805">
           <folding />
         </state>
       </provider>

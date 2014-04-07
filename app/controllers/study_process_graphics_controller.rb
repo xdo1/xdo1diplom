@@ -1,6 +1,7 @@
 class StudyProcessGraphicsController < ApplicationController
   before_action :set_study_process_graphic, only: [:show, :edit, :update, :destroy]
   before_action :set_year
+  before_action :set_group, only: [:new_with_group, :edit_with_group]
 
   # GET /study_process_graphics
   # GET /study_process_graphics.json
@@ -16,12 +17,12 @@ class StudyProcessGraphicsController < ApplicationController
   end
 
   # GET /study_process_graphics/new
-  def new
+  def new_with_group
     @study_process_graphic = StudyProcessGraphic.new
   end
 
   # GET /study_process_graphics/1/edit
-  def edit
+  def edit_with_group
   end
 
   # POST /study_process_graphics
@@ -33,6 +34,7 @@ class StudyProcessGraphicsController < ApplicationController
 
     respond_to do |format|
       if @study_process_graphic.save
+        StudyPeriod.create!(group: Group.find(study_process_graphic_params[:group_id]), study_process_graphic: @study_process_graphic, study_year: @year)
         format.html { redirect_to study_year_study_process_graphics_path(current_user.current_year), notice: 'График учебного процесса успешно создан.' }
         format.json { render action: 'show', status: :created, location: @study_process_graphic }
       else
@@ -64,7 +66,7 @@ class StudyProcessGraphicsController < ApplicationController
   def destroy
     @study_process_graphic.destroy
     respond_to do |format|
-      format.html { redirect_to study_process_graphics_url }
+      format.html { redirect_to study_year_study_process_graphics_path(current_user.current_year) }
       format.json { head :no_content }
     end
   end
@@ -77,6 +79,12 @@ class StudyProcessGraphicsController < ApplicationController
 
     def set_year
       @year = StudyYear.find(params[:study_year_id])
+    end
+
+    def set_group
+      if params[:group_id]
+        @group = Group.find(params[:group_id])
+      end
     end
 
   # Never trust parameters from the scary internet, only allow the white list through.

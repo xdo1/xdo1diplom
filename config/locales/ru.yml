@@ -343,6 +343,11 @@ ru:
         speciality: Специальность
         education_form: Форма обучения
         education_base: База обучения
+        direcrion_name: Название направления
+        speciality_name: Название специальности
+        direcrion_numer: Номер направления
+        speciality_name: Название специальности
+        plan_name: Название
         filial: Является филиалом?
         profile: Профиль
         profile_id: Номер профиля

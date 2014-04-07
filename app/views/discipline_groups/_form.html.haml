@@ -1,0 +1,16 @@
+= form_for @discipline_group do |f|
+  -if @discipline_group.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@discipline_group.errors.count, "error")} Чтобы сохранить:"
+      %ul
+        - @discipline_group.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :name
+    = f.text_field :name
+  .field
+    = f.label :weeks_by_plan
+    = f.number_field :weeks_by_plan
+  .actions
+    = f.submit 'Сохранить'

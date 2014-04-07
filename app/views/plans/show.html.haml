@@ -1,30 +1,37 @@
 %h4
-  Просмотр учебного отрезка
+  Просмотр плана
 
 %table.table.table-bordered.table-hover
   %thread
   %tr
-    %td=StudyPeriod.human_attribute_name(:name)
-    %td=@study_period.name
+    %td=Plan.human_attribute_name(:numer)
+    %td=@plan.numer
   %tr
-    %td=StudyPeriod.human_attribute_name(:group)
-    %td
-    -if @study_period.group
-      =@study_period.group.name
+    %td=Plan.human_attribute_name(:plan_name)
+    %td=@plan.plan_name
   %tr
-    %td=StudyPeriod.human_attribute_name(:study_process_graphic)
-    %td
-    -if @study_period.study_process_graphic
-      =@study_period.study_process_graphic.name
+    %td=Plan.human_attribute_name(:education_form)
+    %td=@plan.education_form
   %tr
-    %td=StudyPeriod.human_attribute_name(:subjects)
+    %td=Plan.human_attribute_name(:education_base)
+    %td=@plan.education_base
+  %tr
+    %td=Plan.human_attribute_name(:profile_name)
+    %td=@plan.profile_name
+  %tr
+    %td=Plan.human_attribute_name(:speciality)
     %td
-      - @study_period.subjects.each do |subject|
-        =subject.name
-        %br
+    -if @plan.speciality
+      =@plan.speciality.speciality_numer
+  %tr
+    %td=Plan.human_attribute_name(:study_year)
+    %td
+    -if @plan.study_years
+      -@plan.study_years.each do |year|
+        year.years
 
-=link_to "Редактировать", edit_study_period_path(@study_period), :class => "btn"
-=link_to "Удалить", study_period_path(@study_period), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
-=link_to "Назад", study_periods_path, :class => "btn"
+=link_to "Редактировать", edit_plan_path(@plan), :class => "btn"
+=link_to "Удалить", plan_path(@plan), :class => "btn btn-danger", data:{method: :delete, confirm:"Вы уверены?"}
+=link_to "Назад", plans_path, :class => "btn"
 %br
 %br

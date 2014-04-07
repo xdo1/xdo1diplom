@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @discipline_group.name
+%p
+  %b Weeks by plan:
+  = @discipline_group.weeks_by_plan
+
+= link_to 'Редактировать', edit_discipline_group_path(@discipline_group)
+\|
+= link_to 'Назад', discipline_groups_path

@@ -7,7 +7,7 @@ class StudyPeriod < ActiveRecord::Base
 
   validates :name, length: { maximum: 300 }
   validates :group_id, :presence => true
-  validates :study_process_graphic_id, :presence => true
+  #validates :study_process_graphic_id, :presence => true
 
   attr_reader :subject_tokens
 

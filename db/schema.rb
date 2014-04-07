@@ -11,12 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140320112423) do
+ActiveRecord::Schema.define(version: 20140407135059) do
 
   create_table "departments", force: true do |t|
     t.string   "name"
     t.integer  "faculty_id"
     t.string   "numer"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "discipline_groups", force: true do |t|
+    t.string   "name"
+    t.integer  "weeks_by_plan"
+    t.integer  "departments_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -103,6 +111,7 @@ ActiveRecord::Schema.define(version: 20140320112423) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "qualification_numer"
   end
 
   create_table "roles", force: true do |t|
@@ -126,6 +135,7 @@ ActiveRecord::Schema.define(version: 20140320112423) do
     t.string   "speciality_name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "spec_id"
   end
 
   create_table "study_periods", force: true do |t|
@@ -164,6 +174,7 @@ ActiveRecord::Schema.define(version: 20140320112423) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "study_year_id"
+    t.integer  "group_id"
   end
 
   create_table "study_years", force: true do |t|

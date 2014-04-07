@@ -1,5 +1,9 @@
 = form_for [@year,@study_process_graphic] do |f|
   =error_messages_for @study_process_graphic
+  =f.hidden_field :group_id, :value =>  @group.id
+  %br
+  %br
+
   =f.label :name
   =f.text_field :name
 

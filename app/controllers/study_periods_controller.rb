@@ -1,6 +1,7 @@
 class StudyPeriodsController < ApplicationController
   before_action :set_study_period, only: [:show, :edit, :update, :destroy]
   before_action :set_year
+  before_action :set_group
   # GET /study_periods
   # GET /study_periods.json
   def index
@@ -32,7 +33,7 @@ class StudyPeriodsController < ApplicationController
 
     respond_to do |format|
       if @study_period.save
-        format.html { redirect_to study_year_study_periods_path(current_user.current_year), notice: 'Учебный отрезок успешно создан.' }
+        format.html { redirect_to new_study_year_study_process_graphic_path(current_user.current_year, @study_period), notice: 'Учебный отрезок успешно создан.' }
         format.json { render action: 'show', status: :created, location: @study_period }
       else
         format.html { render action: 'new' }
@@ -62,7 +63,7 @@ class StudyPeriodsController < ApplicationController
   def destroy
     @study_period.destroy
     respond_to do |format|
-      format.html { redirect_to study_periods_url }
+      format.html { redirect_to study_year_study_periods_path(current_user.current_year) }
       format.json { head :no_content }
     end
   end
@@ -75,6 +76,12 @@ class StudyPeriodsController < ApplicationController
 
     def set_year
       @year = StudyYear.find(params[:study_year_id])
+    end
+
+    def set_group
+      if params[:format]
+        @group = Group.find(params[:format])
+      end
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
