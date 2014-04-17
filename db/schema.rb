@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140407135059) do
+ActiveRecord::Schema.define(version: 20140417111758) do
 
   create_table "departments", force: true do |t|
     t.string   "name"
@@ -24,9 +24,28 @@ ActiveRecord::Schema.define(version: 20140407135059) do
   create_table "discipline_groups", force: true do |t|
     t.string   "name"
     t.integer  "weeks_by_plan"
-    t.integer  "departments_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "elective",                 default: false
+    t.integer  "hours_by_plan"
+    t.integer  "total_hours_in_semester"
+    t.integer  "number_z_e"
+    t.integer  "number_s_r"
+    t.integer  "number_a_r"
+    t.integer  "lek_hours_total"
+    t.integer  "lek_work_hours_per_week"
+    t.integer  "lek_study_hours_per_week"
+    t.integer  "lab_hours_total"
+    t.integer  "lab_work_hours_per_week"
+    t.integer  "lab_study_hours_per_week"
+    t.integer  "sem_hours_total"
+    t.integer  "sem_work_hours_per_week"
+    t.integer  "sem_study_hours_per_week"
+    t.boolean  "ends",                     default: false
+    t.string   "report_type"
+    t.string   "note"
+    t.integer  "department_id"
+    t.integer  "subject_id"
   end
 
   create_table "education_bases", force: true do |t|

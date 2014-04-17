@@ -16,11 +16,7 @@
         %li
           =link_to 'Редактирование учебных отрезков', study_year_study_periods_path(current_user.current_year)
         %li
-          =link_to 'Редактирование графиков учебных процессов', study_year_study_process_graphics_path(current_user.current_year)
-        %li
           =link_to 'Редактирование групп', study_year_groups_path(current_user.current_year)
-        %li
-          =link_to 'Дисциплины группы', discipline_groups_path
 
 
     -if current_user.current_role==3

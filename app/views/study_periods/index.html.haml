@@ -31,11 +31,6 @@
         -if study_period.study_process_graphic
           =study_period.study_process_graphic.name
       %td
-        -if study_period.subjects
-          -study_period.subjects.each do |subject|
-            =subject.short_name
-            %br
-      %td
         //=link_to "Создать график учебного процесса", new_study_year_study_process_graphic_path(current_user.current_year, study_period.id), :class => "btn btn-primary"
         =link_to "Просмотреть", study_year_study_period_path(current_user.current_year, study_period), :class => "btn btn-success"
         =link_to "Редактировать", edit_study_year_study_period_path(current_user.current_year, study_period, study_period.group), :class => "btn"

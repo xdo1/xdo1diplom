@@ -4,8 +4,6 @@
   %br
   //=f.label :study_process_graphic_id
   //=f.select :study_process_graphic_id, StudyProcessGraphic.all.collect {|p| [p.name, p.id] }, {include_blank: 'None'}
-  =f.label :subjects
-  =f.text_field :subject_tokens, data: {tokeninput: get_subject_list_subjects_path(format: :json), pre: @study_period.subjects.compact.to_json}
   .form-actions
     =f.submit "Сохранить",class: 'btn btn-primary'
     =link_to 'Назад', study_year_study_periods_path(current_user.current_year), :class => 'btn'
