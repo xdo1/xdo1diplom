@@ -25,8 +25,6 @@ class DisciplineGroups < Netzke::Basepack::Grid
         {name: :report_type, text: "Отчетность" },
         {name: :department__numer, text: "Кафедра" }
     ]
-    c.scope = {elective: [true, false]}
-    c.scope = {ends: [true, false]}
-    c.scope = {report_type: ['зач.', 'д.зач.', 'экз.', 'к.р.', 'к.п.', '']}
+    #c.scope = {number_z_e: current_user.id}
   end
 end

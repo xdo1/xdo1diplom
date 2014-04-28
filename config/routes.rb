@@ -1,6 +1,5 @@
 Diplom::Application.routes.draw do
   netzke
-  resources :discipline_groups
 
   resources :practices
 
@@ -13,7 +12,9 @@ Diplom::Application.routes.draw do
   resources :specialities
 
   resources :study_years do
-    resources :groups
+    resources :groups do
+      resources :discipline_groups
+    end
     resources :study_process_graphics
     get 'groups/:group_id/study_process_graphics/new_with_group', to: 'study_process_graphics#new_with_group', as: 'study_process_graphics_new_with_group'
     get 'groups/:group_id/study_process_graphics/edit_with_group', to: 'study_process_graphics#edit_with_group', as: 'study_process_graphics_edit_with_group'

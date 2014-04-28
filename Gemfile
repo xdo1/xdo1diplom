@@ -8,6 +8,7 @@ gem 'sqlite3'
 gem 'haml'
 gem 'haml-rails'
 gem 'sorcery'
+gem 'railroady'
 
 gem 'netzke-core'
 gem 'netzke-basepack'
