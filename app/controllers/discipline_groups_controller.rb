@@ -5,6 +5,7 @@ class DisciplineGroupsController < ApplicationController
   # GET /discipline_groups.json
   def index
     @discipline_groups = DisciplineGroup.all
+    @group = Group.find(params[:group_id])
   end
 
   # GET /discipline_groups/1
@@ -25,7 +26,7 @@ class DisciplineGroupsController < ApplicationController
   # POST /discipline_groups.json
   def create
     @discipline_group = DisciplineGroup.new(discipline_group_params)
-
+    @discipline_group.group_id = session[:group_id]
     respond_to do |format|
       if @discipline_group.save
         format.html { redirect_to @discipline_group, notice: 'Discipline group was successfully created.' }

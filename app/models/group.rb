@@ -6,7 +6,7 @@ class Group < ActiveRecord::Base
   has_one :study_period
   has_one :study_process_graphic
   #has_one :education_form
-  belongs_to :discipline_group
+  has_many :discipline_groups
   has_and_belongs_to_many :plans
 
   validates :name, :presence => true, length: { minimum: 2, maximum: 200 }

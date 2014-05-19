@@ -22,8 +22,9 @@ class DisciplineGroups < Netzke::Basepack::Grid
         {name: :sem_study_hours_per_week, text: "Всего сем. час. в нед." },
         {name: :ends, text: "Заканчивается" },
         {name: :report_type, text: "Отчетность" },
-        {name: :department__numer, text: "Кафедра" }
+        {name: :department__numer, text: "Кафедра" },
+        {name: :group__name, text: "Группа", default_value: session[:group_id], hidden: true}
     ]
-    #c.scope = {number_z_e: current_user.id}
+    c.scope = {group_id: session[:group_id]}
   end
 end

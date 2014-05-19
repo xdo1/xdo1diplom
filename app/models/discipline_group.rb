@@ -1,13 +1,11 @@
 class DisciplineGroup < ActiveRecord::Base
   belongs_to :department
-  has_one :group
+  belongs_to :group
   belongs_to :subject
   has_many :lessons
   validates :subject_id, presence: true
   validates :total_hours_in_semester, :presence => true, numericality: { only_integer: true, greater_than_or_equal_to: 1, less_than_or_equal_to: 1000 }
   after_save :create_lesson
-
-
 
   def create_lesson
     self.lessons.each do |les|
