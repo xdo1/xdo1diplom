@@ -2,182 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6620a400-c899-4826-84bf-b757a3a8e15e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/files/spec_utf.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Diplom.iml" afterPath="$PROJECT_DIR$/.idea/Diplom.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/groups/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/groups/_form.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/discipline_group.rb" afterPath="$PROJECT_DIR$/app/models/discipline_group.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/discipline_groups.rb" afterPath="$PROJECT_DIR$/app/components/discipline_groups.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/groups/index.html.haml" afterPath="$PROJECT_DIR$/app/views/groups/index.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/study_periods/show.html.haml" afterPath="$PROJECT_DIR$/app/views/study_periods/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/subject.rb" afterPath="$PROJECT_DIR$/app/models/subject.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Diplom.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396877831876" ignored="false" />
-    <file path="/20130904212530_sorcery_core.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378333847885" ignored="false" />
-    <file path="/users_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396272460308" ignored="false" />
-    <file path="/user.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271621119" ignored="false" />
-    <file path="/role.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378335086787" ignored="false" />
-    <file path="/20130905112010_change_users_roles.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378380110118" ignored="false" />
-    <file path="/routes.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397749456749" ignored="false" />
-    <file path="/temp.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378381240380" ignored="false" />
-    <file path="$PROJECT_DIR$/test/controllers/mains_controller_test.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378381240380" ignored="false" />
-    <file path="/application_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397739906835" ignored="false" />
-    <file path="/application.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397735965473" ignored="false" />
-    <file path="/_topbar.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389341063794" ignored="false" />
-    <file path="/application.css" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395316971863" ignored="false" />
-    <file path="/sessions_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381154172621" ignored="false" />
-    <file path="/new.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395316389865" ignored="false" />
-    <file path="/20130905175650_add_pass_to_user.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378403848341" ignored="false" />
-    <file path="/login.css" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381153961312" ignored="false" />
-    <file path="$PROJECT_DIR$/test/controllers/users_controller_test.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378468618664" ignored="false" />
-    <file path="/index.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397749526022" ignored="false" />
-    <file path="/_form.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396878130028" ignored="false" />
-    <file path="/edit.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396878351808" ignored="false" />
-    <file path="/_leftbar.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396878735681" ignored="false" />
-    <file path="/application.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378729011318" ignored="false" />
-    <file path="/ru.yml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396254419185" ignored="false" />
-    <file path="/20130910095636_create_faculties.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378807061404" ignored="false" />
-    <file path="/20130910100454_create_sub_faculties.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378807588408" ignored="false" />
-    <file path="/20130910100733_create_groups.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1378807753409" ignored="false" />
-    <file path="/20130923082906_add_education_form.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379925261723" ignored="false" />
-    <file path="/20130923083450_add_subject.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379925328058" ignored="false" />
-    <file path="/20130923083555_add_qualification.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379925368513" ignored="false" />
-    <file path="/20130923083646_add_education_base.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379925826189" ignored="false" />
-    <file path="/20130923083932_create_groups.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379925604128" ignored="false" />
-    <file path="/20130923084457_create_faculties.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379925962647" ignored="false" />
-    <file path="/20130923084623_create_departments.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379926052300" ignored="false" />
-    <file path="/group.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397737567109" ignored="false" />
-    <file path="/faculty.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381135687253" ignored="false" />
-    <file path="/department.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396878947177" ignored="false" />
-    <file path="/20130923083450_edit_subject.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379926762686" ignored="false" />
-    <file path="/20130923090035_create_subjects.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379926862101" ignored="false" />
-    <file path="/20130923091320_create_study_years.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379927621545" ignored="false" />
-    <file path="/20130923091448_create_specialities.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379927838030" ignored="false" />
-    <file path="/speciality.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1392625599928" ignored="false" />
-    <file path="/subjects_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395249011527" ignored="false" />
-    <file path="/faculties_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381153213158" ignored="false" />
-    <file path="/departments_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381153219730" ignored="false" />
-    <file path="/20130923101049_create_qualifications.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1379935402744" ignored="false" />
-    <file path="/specialities_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381153090569" ignored="false" />
-    <file path="/show.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396252632988" ignored="false" />
-    <file path="/study_years_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381154234830" ignored="false" />
-    <file path="/groups_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1383729517191" ignored="false" />
-    <file path="/index.html.erb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380007051681" ignored="false" />
-    <file path="/study_year.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395314763099" ignored="false" />
-    <file path="/20130924071518_add_current_year_to_user.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380006962214" ignored="false" />
-    <file path="/_change_year,html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380013186362" ignored="false" />
-    <file path="/_change_year.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380018537805" ignored="false" />
-    <file path="/education_form.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380014864360" ignored="false" />
-    <file path="/20130924092926_rename_years_column.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1380015039046" ignored="false" />
-    <file path="/Dummy.txt" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1398684212797" ignored="false" />
-    <file path="/error.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381151516107" ignored="false" />
-    <file path="/_flash_messages.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381152933372" ignored="false" />
-    <file path="/20131010120559_create_plans.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381408834833" ignored="false" />
-    <file path="/plan.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389272814398" ignored="false" />
-    <file path="/education_base.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381409050707" ignored="false" />
-    <file path="/plans_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395248994318" ignored="false" />
-    <file path="/20131010130006_rename_syp.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1381410055808" ignored="false" />
-    <file path="/20131106091519_change_numer_in_plans.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1383729351611" ignored="false" />
-    <file path="/groups.css.scss" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1383730082546" ignored="false" />
-    <file path="/qualification.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389253662286" ignored="false" />
-    <file path="/20140109075029_change_numers_to_string.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389253876548" ignored="false" />
-    <file path="/20140109075311_change_numer_to_string.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389254080344" ignored="false" />
-    <file path="/20140109075917_add_departments.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389254458330" ignored="false" />
-    <file path="/20140109080154_add_education_bases.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389254538823" ignored="false" />
-    <file path="/20140109080241_add_education_forms.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389254590100" ignored="false" />
-    <file path="/20140109080340_add_faculties.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389254651058" ignored="false" />
-    <file path="/20140109080432_add_groups.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389254738692" ignored="false" />
-    <file path="/20140109080624_add_groups_plans.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389254820741" ignored="false" />
-    <file path="/20140109080720_add_plans.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389272353864" ignored="false" />
-    <file path="/20140109080837_add_plans_study_years.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389254931147" ignored="false" />
-    <file path="/20140109080929_add_qualifications.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389254992153" ignored="false" />
-    <file path="/20140109081020_add_roles.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389255048669" ignored="false" />
-    <file path="/20140109081144_add_specialities.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389255184391" ignored="false" />
-    <file path="/20140109081333_add_study_years.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389255236536" ignored="false" />
-    <file path="/20140109081451_add_users.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389255379795" ignored="false" />
-    <file path="/seeds.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396554346558" ignored="false" />
-    <file path="/20140109102729_add_subjects.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1389263295900" ignored="false" />
-    <file path="/20140319082550_create_study_periods.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395217805391" ignored="false" />
-    <file path="/20140319082935_create_study_process_graphics.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395218548527" ignored="false" />
-    <file path="/20140319084217_create_practices.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395218646635" ignored="false" />
-    <file path="/study_period.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397732709148" ignored="false" />
-    <file path="/20140319084636_add_period_id_to_subject.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395218848366" ignored="false" />
-    <file path="/study_process_graphic.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396866962358" ignored="false" />
-    <file path="/subject.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397737779236" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/controllers/users_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396272493116" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/views/user/by_league.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395313257793" ignored="false" />
-    <file path="/by_league.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395309403813" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/config/deploy.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395220546257" ignored="false" />
-    <file path="/deploy.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395220544427" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/config/initializers/secret_token.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395221465570" ignored="false" />
-    <file path="/secret_token.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395221455540" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/controllers/application_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396266297254" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/views/user/for_main_skip_limit.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395242881917" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/views/user/only_published_guids.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395242889560" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/controllers/criterion_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395239000193" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/views/NSI/criteria/show.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395239013180" ignored="false" />
-    <file path="/show.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395239013180" ignored="false" />
-    <file path="/criterion_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395235928050" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/config/routes.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396272033840" ignored="false" />
-    <file path="/20140319125040_study_periods_subjects.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395233489894" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/views/NSI/criteria/by_goal_by_user.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395238034972" ignored="false" />
-    <file path="/by_goal_by_user.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395238034972" ignored="false" />
-    <file path="/for_main_skip_limit.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395236504373" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/config/application.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395241558783" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/config/initializers/session_store.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395241556424" ignored="false" />
-    <file path="/only_published_guids.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395240036262" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/Gemfile" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395241712601" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/views/user/index.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395242411055" ignored="false" />
-    <file path="/index.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395242411055" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/views/user/for_main.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395242907633" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/config/thin-rails.yml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395300287426" ignored="false" />
-    <file path="/thin-rails.yml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395246752165" ignored="false" />
-    <file path="/study_periods.js.coffee" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395248364509" ignored="false" />
-    <file path="/study_periods_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396864905209" ignored="false" />
-    <file path="/a.dummy" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395249493180" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/models/user.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271854968" ignored="false" />
-    <file path="/20140320112423_add_study_year.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1395314729332" ignored="false" />
-    <file path="/study_process_graphics_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396866835035" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/models/user_token.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396266257962" ignored="false" />
-    <file path="/user_token.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396266212187" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/controllers/leagues_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396267829478" ignored="false" />
-    <file path="/leagues_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396267828278" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/views/user/not_allowed.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271923878" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/controllers/cities_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396269055634" ignored="false" />
-    <file path="/cities_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396269051723" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/controllers/professions_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396269068851" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/controllers/reports_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396269181644" ignored="false" />
-    <file path="/reports_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396269181215" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/helpers/application_helper.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396270039605" ignored="false" />
-    <file path="/application_helper.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396270009184" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/models/user_publish_report_comment.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271400657" ignored="false" />
-    <file path="/user_publish_report_comment.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271562137" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/controllers/user_publish_report_comments_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271508754" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/models/publish_report.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271813375" ignored="false" />
-    <file path="$USER_HOME$/project/toplistapp/app/controllers/publish_reports_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271854968" ignored="false" />
-    <file path="/publish_reports_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271701448" ignored="false" />
-    <file path="/not_allowed.rabl" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396271923878" ignored="false" />
-    <file path="/20140403192734_add_some_fields.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396553316879" ignored="false" />
-    <file path="/20140407103032_add_groupid.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396866683929" ignored="false" />
-    <file path="/20140407135059_create_discipline_groups.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1396878775393" ignored="false" />
-    <file path="/discipline_group.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397750284753" ignored="false" />
-    <file path="$USER_HOME$/Shop/BathShop/app/views/main/about_us.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397039797268" ignored="false" />
-    <file path="$USER_HOME$/Shop/BathShop/app/views/main/contact_us.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397039655635" ignored="false" />
-    <file path="$USER_HOME$/Shop/BathShop/app/views/main/delivery_info.html.haml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397039704626" ignored="false" />
-    <file path="/20140417111758_add_field_to_discipline_group.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397737390067" ignored="false" />
-    <file path="/discipline_groups.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397750172514" ignored="false" />
-    <file path="$USER_HOME$/project/sac/sac/app/components/event_grid.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397737528064" ignored="false" />
-    <file path="$USER_HOME$/project/sac/sac/app/views/layouts/operator.html.slim" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397741080759" ignored="false" />
-    <file path="/operator.html.slim" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397741080759" ignored="false" />
-    <file path="$USER_HOME$/project/sac/sac/app/controllers/operator_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397739810976" ignored="false" />
-    <file path="/operator_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397739801000" ignored="false" />
-    <file path="$USER_HOME$/project/sac/sac/app/controllers/application_controller.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397739953067" ignored="false" />
-    <file path="$USER_HOME$/project/sac/sac/app/models/report.rb" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397740255312" ignored="false" />
-    <file path="$USER_HOME$/project/sac/sac/config/database.yml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397740472239" ignored="false" />
-    <file path="/database.yml" changelist="6620a400-c899-4826-84bf-b757a3a8e15e" time="1397740425480" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,28 +40,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="20140417111758_add_field_to_discipline_group.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20140417111758_add_field_to_discipline_group.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="43" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="discipline_group.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="discipline_group.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/discipline_group.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="149" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.5842932" vertical-offset="0" max-vertical-offset="955">
+              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="discipline_groups.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/discipline_groups.rb">
+      <file leaf-file-name="20140519110641_create_lessons.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20140519110641_create_lessons.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="39" selection-start="329" selection-end="353" vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20140519112155_rename_lesson_type.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20140519112155_rename_lesson_type.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subject.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/subject.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/lesson.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="discipline_groups_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/discipline_groups_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="485" max-vertical-offset="1440">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -232,25 +103,28 @@
       <file leaf-file-name="group.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/group.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="109" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="15" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1218" max-vertical-offset="2376">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3329682">
+            <state vertical-scroll-proportion="-48.833332" vertical-offset="227" max-vertical-offset="4338">
+              <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -259,16 +133,8 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="34" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/groups/index.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="90" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1962">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -299,24 +165,28 @@
         <option value="$PROJECT_DIR$/app/views/study_periods/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/discipline_groups/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/discipline_groups/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/db/migrate/20140417111758_add_field_to_discipline_group.rb" />
         <option value="$PROJECT_DIR$/app/models/group.rb" />
-        <option value="$PROJECT_DIR$/app/models/subject.rb" />
         <option value="$PROJECT_DIR$/app/views/study_periods/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/groups/index.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/components/discipline_groups.rb" />
-        <option value="$PROJECT_DIR$/app/models/discipline_group.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/groups/_form.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/components/discipline_groups.rb" />
+        <option value="$PROJECT_DIR$/app/models/subject.rb" />
+        <option value="$PROJECT_DIR$/db/schema.rb" />
+        <option value="$PROJECT_DIR$/app/models/lesson.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140519112155_rename_lesson_type.rb" />
+        <option value="$PROJECT_DIR$/app/models/discipline_group.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
+    <option name="x" value="65" />
     <option name="y" value="-4" />
-    <option name="width" value="1857" />
-    <option name="height" value="1085" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -348,7 +218,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -360,6 +230,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -374,7 +246,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
+              <option name="myItemId" value="xdo1diplom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -384,7 +256,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
+              <option name="myItemId" value="xdo1diplom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -398,7 +270,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
+              <option name="myItemId" value="xdo1diplom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -416,21 +288,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
+              <option name="myItemId" value="xdo1diplom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -448,95 +306,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study_periods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groups" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discipline_groups" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
+              <option name="myItemId" value="xdo1diplom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -554,7 +324,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
+              <option name="myItemId" value="xdo1diplom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -568,7 +338,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom" />
+              <option name="myItemId" value="xdo1diplom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -576,14 +346,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -591,21 +359,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$USER_HOME$/project/toplistapp" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-  </component>
-  <component name="PublishConfig" serverName="" serverId="4e7aa88c-51a3-42de-9976-00b49621c46d">
-    <servers>
-      <server id="4e7aa88c-51a3-42de-9976-00b49621c46d">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-    </servers>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -624,7 +381,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
@@ -643,13 +400,13 @@
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
@@ -675,7 +432,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
@@ -692,6 +449,8 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
@@ -705,7 +464,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
@@ -718,116 +477,9 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <method />
-    </configuration>
-    <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="Diplom" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="spec" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="Diplom" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Production: Diplom" type="RailsRunConfigurationType" factoryName="Rails">
-      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
-      <module name="Diplom" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Development: Diplom" type="RailsRunConfigurationType" factoryName="Rails">
-      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
-      <module name="Diplom" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
     <list size="4">
@@ -1002,14 +654,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40353787" sideWeight="0.67083335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17250673" sideWeight="0.67083335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1025,62 +678,21 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Added files" />
     <MESSAGE value="Validations" />
     <MESSAGE value="Search added" />
@@ -1096,6 +708,7 @@
     <MESSAGE value="Seeds&#10;" />
     <MESSAGE value="Title" />
     <MESSAGE value="Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1119,96 +732,401 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/groups/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="90" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/role.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/speciality.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/study_period.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/study_process_graphic.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/study_year.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/department.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/education_form.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/education_base.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/faculty.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/discipline_group.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="149" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/discipline_groups.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="329" selection-end="353" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/group.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="109" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="15" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1170">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3329682">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1458" max-vertical-offset="4176">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1434" max-vertical-offset="2376">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/groups/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1296">
+          <caret line="7" column="124" selection-start-line="7" selection-start-column="124" selection-end-line="7" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="612">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1926">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/groups/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="756">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/discipline_group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
+          <caret line="5" column="149" selection-start-line="5" selection-start-column="149" selection-end-line="5" selection-end-column="149" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/discipline_groups.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="648">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="648">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1170">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1458" max-vertical-offset="4176">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1434" max-vertical-offset="2376">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/groups/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1296">
+          <caret line="7" column="124" selection-start-line="7" selection-start-column="124" selection-end-line="7" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1926">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/groups/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="756">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140417111758_add_field_to_discipline_group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="558">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/discipline_group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="234">
+          <caret line="5" column="149" selection-start-line="5" selection-start-column="149" selection-end-line="5" selection-end-column="149" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/discipline_groups.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="648">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="648">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1170">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4176">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1926">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/groups/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="756">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/groups/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="756">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/role.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/speciality.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/study_period.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/study_process_graphic.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/study_year.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/department.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/education_form.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/education_base.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/faculty.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1170">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.1/gems/sorcery-0.8.2/lib/sorcery/controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="880" max-vertical-offset="3870">
+          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/groups/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.0" vertical-offset="342" max-vertical-offset="1296">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="612">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1962">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/data.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.591837" vertical-offset="12340" max-vertical-offset="13320">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/lessons/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="955">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/discipline_groups.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53265303" vertical-offset="0" max-vertical-offset="980">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/discipline_groups_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1434" max-vertical-offset="2376">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/subject.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/lesson.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140519110641_create_lessons.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="955">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140519112155_rename_lesson_type.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-48.833332" vertical-offset="227" max-vertical-offset="4338">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/discipline_group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5842932" vertical-offset="0" max-vertical-offset="955">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
           <folding />
         </state>
       </provider>

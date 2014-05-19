@@ -3,9 +3,9 @@
   =f.label :name
   =f.text_field :name
   =f.label :faculty
-  =f.select :faculty_id, Faculty.all.collect {|p| [p.short_name, p.id, { 'data-id' => p.id}] }, {include_blank: 'None'}
+  =f.select :faculty_id, Faculty.all.collect {|p| [p.short_name, p.id, { 'data-id' => p.id}] }, {include_blank: 'Нет'}
   =f.label :department
-  =f.select :department_id, Department.all.collect {|p| [p.name, p.id, { 'data-id' => p.faculty.id}] }, {include_blank: 'None'}, :disabled => 'disabled'
+  =f.select :department_id, Department.all.collect {|p| [p.name, p.id, { 'data-id' => p.faculty.id}] }, {include_blank: 'Нет'}, :disabled => 'disabled'
   =f.label :course
   =f.text_field :course
   =f.label :term
@@ -23,7 +23,13 @@
   =f.label :students
   =f.text_field :students
   =f.label :plans
-  =f.text_field :plan_tokens, data: {tokeninput: get_plan_list_plans_path(format: :json), pre: @group.plans.compact.to_json}
+  -@plans=Plan.includes(:study_years).where('study_years.id == ?', current_user.current_year).where('speciality_id == ?', @group.speciality_id)
+  -@plans.each do |plan|
+    =check_box_tag "group[plan_ids][]", plan.id, @group.plans.include?(plan)
+    =plan.plan_name
+    %br
+  //=f.label :plans
+  //=f.text_field :plan_tokens, data: {tokeninput: get_plan_list_plans_path(format: :json), pre: @group.plans.compact.to_json}
   .form-actions
     =f.submit "Сохранить",class: 'btn btn-primary'
     =link_to 'Назад', study_year_groups_path, :class => 'btn'

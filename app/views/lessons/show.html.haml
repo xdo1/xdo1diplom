@@ -1,0 +1,18 @@
+%p#notice= notice
+
+%p
+  %b Type:
+  = @lesson.type
+%p
+  %b Hours:
+  = @lesson.hours
+%p
+  %b Subject:
+  = @lesson.subject_id
+%p
+  %b Discipline group:
+  = @lesson.discipline_group_id
+
+= link_to 'Редактировать', edit_lesson_path(@lesson)
+\|
+= link_to 'Назад', lessons_path

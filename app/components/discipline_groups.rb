@@ -1,4 +1,3 @@
-
 class DisciplineGroups < Netzke::Basepack::Grid
   def configure(c)
     super

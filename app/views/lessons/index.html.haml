@@ -1,0 +1,33 @@
+%h1 Список lessons
+
+
+
+= link_to 'Создать Lesson', new_lesson_path, :class => "btn"
+%br
+%br
+
+%table.table.table-bordered.table-hover
+  %tr
+    %th Type
+    %th Hours
+    %th Subject
+    %th Discipline group
+    %th
+    %th
+    %th
+
+  - @lessons.each do |lesson|
+    %tr
+      %td= lesson.type
+      %td= lesson.hours
+      %td= lesson.subject_id
+      %td= lesson.discipline_group_id
+      %td= link_to 'Открыть', lesson, :class => "btn btn-success"
+      %td= link_to 'Редактировать', edit_lesson_path(lesson), :class => "btn"
+      %td= link_to 'Удалить', lesson, :confirm => 'Вы уверены?', :method => :delete, :class => "btn btn-danger"
+
+%br
+
+%br
+%div{ :style => 'width: 10%; margin: 0px auto;' }
+  = will_paginate(@lesson, :previous_label => '&#8592;', :next_label => '&#8594;')

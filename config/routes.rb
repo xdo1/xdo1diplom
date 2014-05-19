@@ -1,4 +1,6 @@
 Diplom::Application.routes.draw do
+  resources :lessons
+
   netzke
 
   resources :practices

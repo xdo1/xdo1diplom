@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  type: 
+  hours: 1
+  subject_id: 1
+  discipline_group_id: 1
+
+two:
+  type: 
+  hours: 1
+  subject_id: 1
+  discipline_group_id: 1
