@@ -15,6 +15,9 @@ Diplom::Application.routes.draw do
 
   resources :study_years do
     resources :groups do
+      member do
+        get :lessons_list
+      end
       resources :discipline_groups
     end
     resources :study_process_graphics

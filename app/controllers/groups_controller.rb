@@ -1,5 +1,5 @@
 class GroupsController < ApplicationController
-  before_action :set_group, only: [:show, :edit, :update, :destroy]
+  before_action :set_group, only: [:show, :edit, :update, :destroy, :lessons_list]
   before_filter :not_authenticated
   before_filter :for_segments_operator
 
@@ -9,6 +9,10 @@ class GroupsController < ApplicationController
     @year=StudyYear.find(params[:study_year_id])
     @search = @year.groups.includes(:faculty).includes(:department).includes(:plans).search(params[:q])
     @groups=@search.result(:distinct => true)
+  end
+
+  def lessons_list
+    @discipline_groups = @group.discipline_groups
   end
 
   # GET /groups/1

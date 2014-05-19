@@ -1,0 +1,14 @@
+%h4
+  ="Просмотр лессонов группы #{@group.name}"
+
+%table.table.table-bordered.table-hover
+  %thread
+  -@discipline_groups.each do |discipline_group|
+    %tr
+      %td=discipline_group.subject.name
+      %td
+        -discipline_group.lessons.each do |lesson|
+          ="#{lesson.lesson_type} : #{lesson.hours} час.  |"
+=link_to "Назад", study_year_groups_path(current_user.current_year), :class => "btn"
+%br
+%br

@@ -28,6 +28,7 @@
       %td
         -if group.study_period
           =link_to "Добавить дисциплины", study_year_group_discipline_groups_path(current_user.current_year, group.study_period), :class => "btn btn-primary"
+          =link_to "Просмотр лессонов", lessons_list_study_year_group_path(current_user.current_year, group), :class => "btn"
         -else
           =link_to "Создать график учебного процесса",  study_year_study_process_graphics_new_with_group_path(current_user.current_year, group.id), :class => "btn btn-primary"
         =link_to "Просмотреть", study_year_group_path(current_user.current_year, group), :class => "btn btn-success"
