@@ -32,7 +32,14 @@ Diplom::Application.routes.draw do
     end
   end
 
-  resources :departments
+  resources :departments do
+    collection do
+      get :statistic
+    end
+    member do
+      get :show_statistic
+    end
+  end
 
   resources :faculties
 

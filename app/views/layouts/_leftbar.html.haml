@@ -17,6 +17,8 @@
           =link_to 'Редактирование учебных отрезков', study_year_study_periods_path(current_user.current_year)
         %li
           =link_to 'Редактирование групп', study_year_groups_path(current_user.current_year)
+        %li
+          =link_to 'Статистика по кафедрам', statistic_departments_path
 
 
     -if current_user.current_role==3

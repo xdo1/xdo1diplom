@@ -1,0 +1,33 @@
+%h4
+  Статистика по кафедрам
+
+=search_form_for @search do |f|
+  %label Найти кафедру
+  =f.search_field :name_or_faculty_short_name_cont, :placeholder => "По названию..."
+  %br
+  =f.search_field :numer_eq, :placeholder => "По номеру..."
+  %br
+  =f.submit 'Найти', :class => "btn primary"
+%br
+
+
+=link_to 'Добавить кафедру', new_department_path, :class => "btn"
+%br
+%br
+
+%table.table.table-bordered.table-hover
+  %thread
+    %tr
+      %th=Department.human_attribute_name(:name)
+      %th=Department.human_attribute_name(:numer)
+      %th=Department.human_attribute_name(:faculty)
+      %th=Department.human_attribute_name(:statistic)
+  %tbody
+  - @departments.each do |department|
+    %tr
+      %td=department.name
+      %td=department.numer
+      %td=department.faculty.short_name
+
+      %td
+        =link_to "Все уроки закрепленные за кафедрой", show_statistic_department_path(department), :class => "btn"

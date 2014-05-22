@@ -1,13 +1,22 @@
 class DepartmentsController < ApplicationController
   before_action :set_department, only: [:show, :edit, :update, :destroy]
   before_filter :not_authenticated
-  before_filter :for_dictionaries_operator
+  before_filter :for_dictionaries_operator, except: [:statistic, :show_statistic]
 
   # GET /departments
   # GET /departments.json
   def index
     @search = Department.includes(:faculty).search(params[:q])
     @departments=@search.result(:distinct => true)
+  end
+
+  def statistic
+    @search = Department.includes(:faculty).search(params[:q])
+    @departments=@search.result(:distinct => true)
+  end
+
+  def show_statistic
+    @department = Department.includes(:discipline_groups).find(params[:id])
   end
 
   # GET /departments/1

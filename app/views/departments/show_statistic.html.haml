@@ -1,0 +1,14 @@
+%h4
+  ="Просмотр статистики кафедры #{@department.numer}"
+
+%table.table.table-bordered.table-hover
+  %thread
+  -@department.discipline_groups.each do |discipline_group|
+    %tr
+      %td=discipline_group.subject.name
+      %td
+        -discipline_group.lessons.each do |lesson|
+          ="#{lesson.lesson_type} : #{lesson.hours} час.  |"
+=link_to "Назад", statistic_departments_path, :class => "btn"
+%br
+%br
