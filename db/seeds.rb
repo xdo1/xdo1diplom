@@ -10,38 +10,6 @@ Faculty.create(full_name: 'Прикладной математики и техн
 Department.create(name: 'Информационных технологий', numer: 36, faculty: Faculty.first)
 puts "FACULTY AND DEPARTMENT SUCCESSFULLY CREATED"
 
-plans_file_xml = File.new('files/give_me_plans.xml')
-plans = Nokogiri::XML(plans_file_xml)
-plans.css('object').each do |plan|
-  speciality = Speciality.find_by_direction_numer(plan.css('dcode').inner_text)
-  unless speciality
-    if  plan.css('dcode').inner_text.at(-2..-1) == '00'
-    speciality =  Speciality.create(
-        :direction_numer => plan.css('dcode').inner_text,
-        :direction_name => plan.css('dname').inner_text,
-    )
-    puts "CREATED DIRECRION #{plan.css('dname').inner_text} "
-
-    else
-
-    speciality =  Speciality.create(
-        :speciality_numer => plan.css('dcode').inner_text,
-        :speciality_name => plan.css('dname').inner_text
-    )
-    puts "CREATED SPECIALITY #{plan.css('dname').inner_text} "
-    end
-  end
-
-  Plan.create(
-      :plan_name => plan.css('profile').inner_text,
-      :profile_name => plan.css('profile').inner_text.split(':').last,
-      :education_form => plan.css('study-type-name').inner_text,
-      :speciality_id => speciality.id,
-      :education_base => plan.css('basis').inner_text
-  )
-  puts "CREATED PLAN #{plan.css('profile').inner_text} "
-end
-
 specialities_file=File.new('files/spec.txt')
 while spec=specialities_file.gets
   unless spec.start_with?('--') or spec.start_with?(' idspec')

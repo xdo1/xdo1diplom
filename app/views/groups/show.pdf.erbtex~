@@ -1,0 +1,111 @@
+\documentclass[11pt,landscape, a3]{amsart} 
+  \usepackage{anysize,multirow,tabularx,color,rotating}  
+\usepackage[a3paper]{geometry}
+  \usepackage[utf8]{inputenc}  
+  \usepackage[russian]{babel}  
+  \papersize{297mm}{415mm} 
+ \marginsize{20mm}{2mm}{2mm}{2mm}  
+   \begin{document}  
+  \definecolor{braun}{rgb}{0.8,0.7,0.2} 
+  \newcommand{\red}{color{red}} 
+  \newcommand{\green}{color{green}} 
+   \newcommand{\blue}{color{blue}} 
+  \newcommand{\braun}{color{braun}} 
+  \newcommand{\white}{color{white}} 
+  \renewcommand{\arraystretch}{1} \thispagestyle{empty}
+\begin {minipage} {30cm} \begin{center} {\tt Прием:  2013} \\ { \large \bf МОСКОВСКИЙ ГОСУДАРСТВЕННЫЙ ИНДУСТРИАЛЬНЫЙ УНИВЕРСИТЕТ } 
+ \\ \vskip 0.1cm  {\bf  Направление 080100 \\  Курс: 1, Индекс групп 1211 2211  \hskip 0.5cm (дневное отделение)   \\   } \end{center} \end{minipage} \hskip 2cm \fbox {  \begin{minipage} {6cm}  \begin{center}  \item  \bf Утверждаю   \item   \bf проректор МГИУ   \item  \rule{3.5cm}{0.4pt}   \item  << \rule{1cm}{0.4pt} >> \rule{2.5cm}{0.4pt} {\em 20\rule{0.5cm}{0.4pt}г.}    
+	    \item  \item  \end{center}  \end{minipage} }  \\ \vskip 0.1cm 
+ \begin{center} 
+	\begin{tabular} {|>{\em \bf}cc||c|} \hline
+	\em \bf  & \em \bf Осень (17 недель) & \em \bf  Весна ( 17 недель) \\ \hline \hline
+	семестр  & 02.09.2013 --- 29.12.2013 & 10.02.2014 --- 08.06.2014 \\ 
+	зачеты   & 16.12.2013 --- 29.12.2013 & 26.05.2014 --- 08.06.2014 \\
+	экзамены & 30.12.2013   --- 26.01.2014 & 09.06.2014   --- 02.07.2014 \\
+	каникулы & 27.01.2014 --- 09.02.2014 & 03.07.2014 --- 31.08.2014 \\  
+	\hline
+	\end{tabular}
+     \phantom{aaaaaaaaaa} \end{center} 
+ 
+ \vspace{0.1cm}
+\begin{tabular}  {|m{5.1cm}|p{0.7cm}@{}|p{0.7cm}@{}|p{0.7cm}@{}|p{0.7cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|@{\hspace{1mm}}p{1.1cm}|@{\hspace{1mm}}p{0.6cm}@{}|p{0.7cm}@{}||m{5.1cm}|p{0.7cm}@{}|p{0.7cm}@{}|p{0.7cm}@{}|p{0.7cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|p{0.5cm}@{}|@{\hspace{1mm}}p{1.1cm}|@{\hspace{1mm}}p{0.6cm}@{}|p{0.7cm}@{}|} \hline 
+ &  &  \multicolumn{3}{c|} {  \bf На дан. сем. } & 
+  \multicolumn{3}{c|}   { \bf Лек. } & 
+  \multicolumn{3}{c|}   { \bf Лаб. } 
+  & \multicolumn{3}{c|} { \bf Сем. } & & & & 
+  &  &  &  \multicolumn{3}{c|} {  \bf На дан. сем. } & 
+  \multicolumn{3}{c|}   { \bf Лек. } & 
+  \multicolumn{3}{c|}   { \bf Лаб. } 
+  & \multicolumn{3}{c|} { \bf Сем. } & & & & 
+  \\ \cline{2-14} \cline{21-32} 
+  {\bf Наименование \hskip 2cm  дисциплины }  & \bf \begin{sideways} \parbox{2.2cm} {Всего по \vskip -1.5mm плану} \end{sideways} &   \begin{sideways} \parbox{2.2cm} {Всего} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {Кол--во \vskip -1.5mm часов на с.р.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {Кол--во \vskip -1.5mm ауд. часов} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {по плану} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {учебн.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {раб.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {по плану} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {учебн.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {раб.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {по плану} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {учебн.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {раб.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {Зак. дисц.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {Экз. или \vskip -1.5mm зач.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {К.р./К.п.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {Кaфедра} \end{sideways} &  {\bf Наименование \hskip 2cm  дисциплины }  & \bf \begin{sideways} \parbox{2.2cm} {Всего по \vskip -1.5mm плану} \end{sideways} &   \begin{sideways} \parbox{2.2cm} {Всего} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {Кол--во \vskip -1.5mm часов на с.р.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {Кол--во \vskip -1.5mm ауд. часов} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {по плану} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {учебн.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {раб.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {по плану} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {учебн.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {раб.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {по плану} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {учебн.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {раб.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {Зак. дисц.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {Экз. или \vskip -1.5mm зач.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {К.р./К.п.} \end{sideways} &  \begin{sideways} \parbox{2.2cm} {Кaфедра} \end{sideways} \\ \hline \hline 
+ % 1 
+ {\small \bf   }  {\em Иностранный язык} & 288 & 108 & 57 &  51 &  & &  &   & &  &  51 & 3 &   & $ - $ & $\mbox{\small }^ {\tiny x) }$ & \hspace{2mm}$-$  & 413   
+ % 2 
+ & {\small \bf }  {\em История} & 108 & 108 & 57 &  51 &  17 & 1 &  &   & &  &  34 & 2 &   & $ + $ & дзач.  & \hspace{2mm}$-$  & 411  \\ \hline
+ % 1 
+ {\small \bf *)  }  {\em Право} & 108 & 108 & 74 &  34 &  17 & 1 &  &   & &  &  17 & 1 &   & $ + $ & экз.  & \hspace{2mm}$-$  & 25   
+ % 2 
+ & {\small \bf   }  {\em Иностранный язык} & 288 & 72 & 38 &  34 &  & &  &   & &  &  34 & 2 &   & $ - $ & $\mbox{\small зач. }^ {\tiny x) }$ & \hspace{2mm}$-$  & 413  \\ \hline
+ % 1 
+ {\small \bf }  {\em Деловая этика} & 72 & 72 & 38 &  34 &  17 & 1 &  &   & &  &  17 & 1 &   & $ + $ & зач.  & \hspace{2mm}$-$  & 25   
+ % 2 
+ & {\small \bf }  {\em Русский язык и культура речи} & 72 & 72 & 38 &  34 &  17 & 1 &  &   & &  &  17 & 1 &   & $ + $ & зач.  & \hspace{2mm}$-$  & 61  \\ \hline
+ % 1 
+ {\small \bf xx)  }  {\em Регионалистика} & 108 & 108 & 57 &  51 &  17 & 1 &  &   & &  &  34 & 2 &   & $ + $ & дзач.  & \hspace{2mm}$-$  & 212   
+ % 2 
+ & {\small \bf *)  }  {\em Линейная алгебра} & 108 & 108 & 74 &  34 &  17 & 1 &  &   & &  &  17 & 1 &   & $ + $ & экз.  & \hspace{2mm}$-$  & 213  \\ \hline
+ % 1 
+ {\small \bf }  {\em Культурология} & 72 & 72 & 38 &  34 &  17 & 1 &  &   & &  &  17 & 1 &   & $ + $ & зач.  & \hspace{2mm}$-$  & 411   
+ % 2 
+ & {\small \bf *)  }  {\em Теория вероятностей и математическая статистика} & 180 & 180 & 112 &  68 &  34 & 2 &  &   & &  &  34 & 2 &   & $ + $ & экз.  & \hspace{2mm}$-$  & 213  \\ \hline
+ % 1 
+ {\small \bf }  {\em Психология} & 72 & 72 & 38 &  34 &  17 & 1 &  &   & &  &  17 & 1 &   & $ + $ & зач.  & \hspace{2mm}$-$  & 411   
+ % 2 
+ & {\small \bf xx)  }  {\em Экономическая безопасность} & 72 & 72 & 38 &  34 &  17 & 1 &  &   & &  &  17 & 1 &   & $ + $ & зач.  & \hspace{2mm}$-$  & 27  \\ \hline
+ % 1 
+ {\small \bf *)  }  {\em Математический анализ} & 288 & 288 & 186 &  102 &  51 & 3 &  &   & &  &  51 & 3 &   & $ + $ & экз.  & \hspace{2mm}$-$  & 213   
+ % 2 
+ & {\small \bf *)  }  {\em Информационные системы и базы данных} & 144 & 144 & 93 &  51 &  17 & 1 &  &   34 & 2 &   &  & &    & $ + $ & экз.  & \hspace{2mm}$-$  & 29  \\ \hline
+ % 1 
+ {\small \bf }  {\em Концепции современного естествознания} & 72 & 72 & 38 &  34 &  17 & 1 &  &   & &  &  17 & 1 &   & $ + $ & зач.  & \hspace{2mm}$-$  & 211   
+ % 2 
+ & {\small \bf *)  }  {\em Микроэкономика} & 144 & 144 & 93 &  51 &  17 & 1 &  &   & &  &  34 & 2 &   & $ + $ & экз.  & \hspace{2mm}$-$  & 212  \\ \hline
+ % 1 
+ {\small \bf }  {\em Безопасность жизнедеятельности} & 108 & 108 & 57 &  51 &  17 & 1 &  &   & &  &  34 & 2 &   & $ + $ & дзач.  & \hspace{2mm}$-$  & 116   
+ % 2 
+ & {\small \bf *)  xx)  }  {\em Предпринимательство} & 144 & 144 & 93 &  51 &  17 & 1 &  &   & &  &  34 & 2 &   & $ + $ & экз.  & \hspace{2mm}$-$  & 21  \\ \hline
+ % 1 
+ {\small \bf *)  xx)  }  {\em Управление человеческими ресурсами} & 108 & 108 & 74 &  34 &  17 & 1 &  &   & &  &  17 & 1 &   & $ + $ & экз.  & \hspace{2mm}$-$  & 25   
+ % 2 
+ &  {\small \bf   }  {\em Физическая культура} & 72 & 68 & 0 &  68 &  & &  &   & &  &  68 & 4 &   & $ - $ & $\mbox{\small зач. }^ {\tiny x) }$ & \hspace{2mm}$-$  & 314  \\ \hline
+ % 1 
+  {\small \bf   }  {\em Физическая культура} & 72 & 68 & 0 &  68 &  & &  &   & &  &  68 & 4 &   & $ - $ & $\mbox{\small зач. }^ {\tiny x) }$ & \hspace{2mm}$-$  & 314   
+ % 2 
+ &  \multicolumn{18}{|c||} {\bf факультатив }  \\ \hline
+ % 1 
+  & & & & & & & & & & & & & & & & &   
+ % 2 
+ & {\small \bf }  {\em Энергетика и экономика} & 108 & 108 & 57 &  51 &  34 & 2 &  &   & &  &  17 & 1 &   & $ + $ & зач.  & \hspace{2mm}$-$  & 211  \\ \hline
+ \hline \multicolumn{18}{|p{19cm}|} {  
+
+ 
+ \em \bf Всего часов (учебных):  27, Экзаменов: $ 3$, Зачетов: $ 4+1^{x)}$,  Диф. зачетов: $ 2$,  
+
+ { \small{Обозначения: }} {\small{  *) --- Включая 36 часов самостоятельной работы для подготовки к экзамену, } \small{  x) --- За сеткой расписания, } \small{  xx) --- дисциплины по выбору, } } 
+
+    } & \multicolumn{18}{|p{19cm}|} { 
+
+ 
+ \em \bf Всего часов (учебных):  24, Экзаменов: $ 5$, Зачетов: $ 2+2^{x)}$,  Диф. зачетов: $ 1$,  
+
+ { \small{Обозначения: }} {\small{  *) --- Включая 36 часов самостоятельной работы для подготовки к экзамену, } \small{  x) --- За сеткой расписания, } \small{  xx) --- дисциплины по выбору, } } 
+
+  } \\ \hline
+\end{tabular} 
+ 
+ 
+  \hfill  \begin{minipage} {12cm}  \begin{center}  \item  Нач. УМУ \hfill \rule{7.5cm}{0.4pt}   \item  Декан ф-та \hfill \rule{7.5cm}{0.4pt}   \item  Зав. профил. каф. \hfill \rule{7.5cm}{0.4pt}  \item \end{center} \end{minipage}
+
+ \vfill \hfill \tiny проект SEP, \LaTeX2e \hskip 1cm
+ \end{document}
